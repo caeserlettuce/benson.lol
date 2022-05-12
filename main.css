@@ -1,1 +1,163 @@
- 
+@font-face {
+    font-family: FUTURA;
+    src: url(assets/Futura_Bold.ttf);
+}
+
+body {
+    font-family: FUTURA;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+
+.header {
+    font-family: FUTURA;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    z-index: 100;
+}
+
+.footer {
+    font-family: FUTURA;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #3b3b3b;
+    width: 100vw;
+    z-index: 90;
+    color: white;
+    height: auto;
+    min-height: 3rem;
+}
+
+.footer-text {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 1.17em;
+}
+
+.footer-wrap {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding-left: 10px;
+    padding-top: 1rem;
+    padding-bottom: 5px;
+}
+
+.maintext {
+    margin: 0px;
+    padding: 5px;
+    padding-left:7px;
+    border: 0px;
+    z-index: 101;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.bg {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.sky {
+    background-image: url(assets/bg.png);
+    z-index: -100;
+}
+.cloud1 {
+    background-image: url(assets/clouds_l1.png);
+    z-index: -90;
+    animation: clouds1 6s 0s 2;     /* values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+
+.cloud2 {
+    background-image: url(assets/clouds_l2.png);
+    z-index: -80;
+    animation: clouds2 6s 0s 2;     /* values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+
+@keyframes clouds1 {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(50px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes clouds2 {
+    0% { transform: translateY(50px); }
+    50% { transform: translateY(0px); }
+    100% { transform: translateY(50px); }
+}
+
+.fg-benson {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: fixed;
+    top: calc(50vh - (15rem / 2));
+    left: calc(50vw - (15rem / 2));
+    width: 15rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    position: absolute;
+}
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #789feb;
+}
+
+/*haha i stole this code from the dogecoin website*/
+
+.disable {
+    /* nft websites can't figure this out when it took me a quick google search */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.big-bensontext {
+    color: white;
+    font-size: 3em;
+}
+.normal-bensontext {
+    color: white;
+    font-size: 2em;
+}
+
+.below-benson {
+    position: absolute;
+    top: calc(50vh - (15rem / 2) + 15rem);
+    /*top: 10px;*/
+}
