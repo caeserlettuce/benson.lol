@@ -18,10 +18,11 @@ body {
     border: 0px;
     background-color: rgba(255, 255, 255, 0.5);
     position: fixed;
+    height: calc(2em + 10px);
     top: 0px;
     left: 0px;
     width: 100vw;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .footer {
@@ -59,6 +60,17 @@ body {
     padding-left:7px;
     border: 0px;
     z-index: 101;
+}
+
+.header-text {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    z-index: 101;
+    font-size: 2em;
+    position: fixed;
+    top: 7px;
+    left: 7px;
 }
 
 a {
@@ -122,6 +134,7 @@ a {
     top: calc(50vh - (15rem / 2));
     left: calc(50vw - (15rem / 2));
     width: 15rem;
+    z-index: -90;
 }
 
 ::-webkit-scrollbar {
@@ -150,14 +163,92 @@ a {
 .big-bensontext {
     color: white;
     font-size: 3em;
+    z-index: 200;
 }
 .normal-bensontext {
     color: white;
     font-size: 2em;
+    z-index: 200;
 }
 
 .below-benson {
     position: absolute;
     top: calc(50vh - (15rem / 2) + 15rem);
     /*top: 10px;*/
+    z-index: 400;
+}
+
+.blocky {
+    width: 540px;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    text-shadow: 2px 2px 8px #3b3b3b20;
+}
+
+.blocky-title {
+    margin-top: 5px;
+    color: white;
+    font-size: 2em;
+}
+
+.blocky-text {
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.imagetm {
+    width: 500px;
+    /*padding-left: 20px;*/
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.sel-lang {
+    margin-top: 5px;
+    color: black;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+}
+
+.lang-flag {
+    width: 1.25em;
+}
+
+.slide {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: .4s ease;
+    clear:both;
+    height: 0px;
+    overflow: hidden;
+}
+
+li {
+    user-select: none;
+    cursor: pointer;
+}
+
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 100px;} 
+
+.stop-it-css-before-i-kill-you {
+    margin: 0px;
+}
+
+.lang-select {
+    right: 20px;
+    top: 5px;
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
