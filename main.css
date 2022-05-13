@@ -134,7 +134,7 @@ a {
     top: calc(50vh - (15rem / 2));
     left: calc(50vw - (15rem / 2));
     width: 15rem;
-    z-index: -90;
+    z-index: -60;
 }
 
 ::-webkit-scrollbar {
@@ -215,6 +215,8 @@ a {
     font-size: 1.25em;
     margin: 0;
     padding: 0;
+    user-select: none;
+    cursor: pointer
 }
 
 .lang-flag {
@@ -231,15 +233,11 @@ a {
     overflow: hidden;
 }
 
-li {
-    user-select: none;
-    cursor: pointer;
-}
 
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .slide {height: 100px;} 
+#touch:checked + .slide {height: 100px;} /*try to get it to fit everything automatically with height without having to set the height AND have it animated*/
 
 .stop-it-css-before-i-kill-you {
     margin: 0px;

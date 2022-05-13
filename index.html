@@ -18,8 +18,8 @@
     <br><br><br><br>
     <div class="main">
       <div style="width: 100vw; text-align: center; z-index: 400;">
-        <p class="big-bensontext">benson my beloved</p>
-        <p class="normal-bensontext">an assortment of photos of everyone's favourite duck, benson!</p>
+        <p class="big-bensontext" id="bmb1">benson my beloved</p>
+        <p class="normal-bensontext" id="bmb2">an assortment of photos of everyone's favourite duck, benson!</p>
       </div>
       <div class="below-benson">
         
@@ -48,8 +48,8 @@
         <!--footer-->
         <div class="footer" style="padding: 0px;">
           <p class="footer-wrap">
-            <span class="footer-text">©2022 benson.lol & dapug.lol</span>
-            <span class="footer-text" style="color: #adadad; padding-left: 10px;">designed in Ålesund, Norway.</span><!--it sounds cool and it's not wrong so shoosh-->
+            <span class="footer-text" id="f1">©2022 benson.lol & dapug.lol</span>
+            <span class="footer-text" style="color: #adadad; padding-left: 10px;" id="f2">designed in Ålesund, Norway.</span><!--it sounds cool and it's not wrong so shoosh-->
           </p>
         </div>
       </div>
@@ -69,7 +69,7 @@
 
       <div class="lang-select">
 
-        <label for="touch"><span class="sel-lang"><img src="flag/en.png" class="lang-flag"> EN</span></label>
+        <label for="touch" id="selected-lang"><span class="sel-lang"><img src="flag/en.png" class="lang-flag"> EN</span></label>
         <input type="checkbox" id="touch">
       
         <ul class="slide">
@@ -82,7 +82,7 @@
 
     </div>
 
-
+    <script src="lang.js"></script>
     <script src="benson.js"></script>
 
   </body>
