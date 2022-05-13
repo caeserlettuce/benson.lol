@@ -237,7 +237,7 @@ a {
 
 #touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .slide {height: 100px;} /*try to get it to fit everything automatically with height without having to set the height AND have it animated*/
+
 
 .stop-it-css-before-i-kill-you {
     margin: 0px;

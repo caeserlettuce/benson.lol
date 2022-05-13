@@ -6,7 +6,7 @@
     <meta name="description" content="Benson, the best duck">
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="assets/icon.png">
-    <title>Benson My Beloved</title>
+    <title id="t1">Benson My Beloved</title>
   </head>
   <body>
     <!--background-->
@@ -56,7 +56,7 @@
 
     
       
-
+      
 
 
     
@@ -72,7 +72,7 @@
         <label for="touch" id="selected-lang"><span class="sel-lang"><img src="flag/en.png" class="lang-flag"> EN</span></label>
         <input type="checkbox" id="touch">
       
-        <ul class="slide">
+        <ul class="slide" id="lang-list">
           <li><span class="sel-lang"><img src="flag/en.png" class="lang-flag"> EN</span></li> 
           <li><span class="sel-lang"><img src="flag/no.png" class="lang-flag"> NO</span></li>
         </ul>
@@ -82,8 +82,17 @@
 
     </div>
 
+    <div style="background-color: black; height: 1.25em; width: 100px; position: fixed; top: -9999px; left: -9999px;" id="lang-txt-size">e</div> <!-- dont mess with this at all-->
+
+    <style id="lang-heightness">
+      #touch:checked + .slide {height: 100px;}
+    </style>
+
+    <!--<script src="jquery.min.js"></script> i actually dont need jquery for this--> <!-- haha funny jquery-->
     <script src="lang.js"></script>
     <script src="benson.js"></script>
+
+    
 
   </body>
 </html>
