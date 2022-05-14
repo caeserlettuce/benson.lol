@@ -1,4 +1,3 @@
-var lang = "en";
 var lang_hei = document.getElementById("lang-txt-size").clientHeight;
 
 var ls_lang = localStorage.getItem("lang");
@@ -32,7 +31,15 @@ var lang_vis = {    // for language selector
     "sp": {
         "name": "SP",
         "flag": "flag/sp.png"
-    }
+    },
+    "de": {
+        "name": "DE",
+        "flag": "flag/de.png"
+    },
+    "jp": {
+        "name": "JP",
+        "flag": "flag/jp.png"
+    },
 }
 
 var lang_txt = {    // key is the element's id, value is its innerHTML
@@ -46,7 +53,7 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
     "no": {
         "t1": "Benson min elskede",
         "bmb1": "benson min elskede",
-        "bmb2": "et utvalg bilder av alles favorittand, benson!",
+        "bmb2": "et utvalg bilder av alles favorittfugl, benson!",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "designet i Ålesund, Norge."
     },
@@ -71,6 +78,20 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "diseñado en Ålesund, Noruega."
     },
+    "de": {
+        "t1": "Benson Mein Geliebter",
+        "bmb1": "benson mein geliebter",
+        "bmb2": "eine auswahl an fotos von jedermanns lieblingsente, benson!",
+        "f1": "©2022 benson.lol & dapug.lol",
+        "f2": "entworfen in Ålesund, Norwegen."
+    },
+    "jp": {
+        "t1": "ベンソン私の最愛の人",
+        "bmb1": "私の最愛のベンソン",
+        "bmb2": "みんなのお気に入りのアヒル、ベンソンの写真の品揃え！",
+        "f1": "©2022 benson.lol & dapug.lol",
+        "f2": "ノルウェーのオーレスンで設計されました。"
+    },
 }
 
 function len(json) {
@@ -89,6 +110,7 @@ function do_lang(language) {
         for (i in lang_txt[language]) {
             document.getElementById(`${i}`).innerHTML = `${lang_txt[language][i]}`;
         }
+        set_img(generate_html(cur_json));
         document.getElementById("selected-lang").innerHTML = `<span class="sel-lang"><img src="${lang_vis[language]["flag"]}" class="lang-flag"> ${lang_vis[language]["name"]}</span>`
         make_lang_list();
     } else {
@@ -117,7 +139,7 @@ function make_lang_list() {
 
     
 
-    var ll_height = lang_hei * (len(lang_vis) - 1);
+    var ll_height = lang_hei * (len(lang_vis) - 0.66);
 
     console.debug(`height: ${ll_height}`);
 

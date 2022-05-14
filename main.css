@@ -188,6 +188,7 @@ a {
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     text-shadow: 2px 2px 8px #3b3b3b20;
+    cursor: default;
 }
 
 .blocky-title {
@@ -205,7 +206,7 @@ a {
 .imagetm {
     width: 500px;
     /*padding-left: 20px;*/
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
@@ -233,11 +234,7 @@ a {
     overflow: hidden;
 }
 
-
-
 #touch {position: absolute; opacity: 0; height: 0px;}    
-
-
 
 .stop-it-css-before-i-kill-you {
     margin: 0px;
@@ -249,4 +246,29 @@ a {
     position: absolute;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tt {
+    position: relative;
+    display: inline-block;
+}
+  
+.tt .tth {
+    visibility: hidden;
+    width: fit-content;
+    background-color: #00000040;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 1rem;
+  
+    /* Position the tooltip */
+    position: absolute;
+    transform: translate( -15px, calc(-1 * 1.2rem));
+    z-index: 1;
+}
+
+.tt:hover .tth {
+    visibility: visible;
 }
