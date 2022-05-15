@@ -7,7 +7,7 @@ var prev_w = localStorage.getItem("pw");
 var prev_h = localStorage.getItem("ph");
 var max_tm = 0;
 var load_amount = 10;
-
+var query_more = true;
 
 localStorage.setItem("pw", windowWidth);
 localStorage.setItem("ph", windowHeight);
@@ -125,8 +125,37 @@ split_json = chunky(img_db, load_amount);
 
 // load_amount is the amount of photos itll load at a time
 
-
 apd_img(generate_html(split_json[0]));
 cur_json = [...split_json[0]];
+var scroll_height = 0;
+
+var body = document.body
+var html = document.documentElement;
+
+
 
 // load_next() will load the next row of images
+
+var scroll_buffer = 100;
+
+$(window).scroll(function() {   
+
+    var scroll_top = $(window).scrollTop();
+    var window_height = $(window).height();
+    var document_height = $(document).height();
+
+    console.log(`scrolltop: ${scroll_top}\nwindow height: ${window_height}\ndocument height: ${document_height}\nscroll + window: ${scroll_top + window_height}\npoop: ${document_height - (scroll_top + window_height)}`);
+    if(document_height - (scroll_top + window_height) < scroll_buffer) {
+        console.debug("a!!!!!!!!");
+        if (query_more == true) {
+            query_more = false;
+            load_next();
+            setTimeout(() => {
+                query_more = true;
+                console.log("ab");
+            }, 4000);
+        }
+
+
+    }
+});

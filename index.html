@@ -52,20 +52,22 @@
         <!--add stuff here for main site n stuff TM-->
         
         <!--footer-->
-        <div class="footer" style="padding: 0px;">
+
+
+        <img src="assets/technopug.png" class="technopug disable" id="technopug">
+
+
+        <div class="footer" style="padding: 0px;" id="footer">
           <p class="footer-wrap">
             <span class="footer-text" id="f1">©2022 benson.lol & dapug.lol</span>
             <span class="footer-text" style="color: #adadad; padding-left: 10px;" id="f2">designed in Ålesund, Norway.</span><!--it sounds cool and it's not wrong so shoosh-->
           </p>
+          
         </div>
+
       </div>
     </div>
 
-    <div class="finn-badge">
-
-
-      
-    </div>
 
 
 
@@ -91,18 +93,46 @@
 
     </div>
 
+
+    <div class="finn-badge">
+      <span><img src="assets/benson-official.png" class="finn-img disable" id="finn"> <span class="finn finn-toptext" id="finn-top">GET YOUR OWN BENSON HERE!</span><span class="finn finn-midtext disable" id="finn-mid" onclick="finn_redir()">get a benson</span><span class="finn finn-bottomtext" id="finn-bot">benson.lol is not affiliated with finntheduck.com</span></span>
+
+    </div>
+
     <div style="background-color: black; height: 1.25em; width: 100px; position: fixed; top: -9999px; left: -9999px;" id="lang-txt-size">e</div> <!-- dont mess with this at all-->
 
     <style id="lang-heightness">
       #touch:checked + .slide {height: 100px;}
     </style>
+    <!--auto positioning-->
+    <style id="finn-size">
+      .finn-badge {
+        width: 450px; /*default width: 450px */
+        right: -340px; /*default amount: -340px */
+      }
+    </style>
+    <style id="finn-transition">
+      .finn-badge {
+        transition: 1.5s;
+      }
+    </style>
+    <style id="technopug-pos">
+      .technopug {
+        bottom: 40px;
+      }
+    </style>
+    <span id="ft-s" class="finn finn-toptext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
+    <span id="fm-s" class="finn finn-midtext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
+    <span id="fb-s" class="finn finn-bottext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
 
     <!--<script src="jquery.min.js"></script> i actually dont need jquery for this--> <!-- haha funny jquery-->
+    <script src="jquery.min.js"></script>
     <script src="setup.js"></script>
-    <script src="benson.js"></script>
     <script src="db.js"></script>
     <script src="display.js"></script>
+    <script src="benson.js"></script>
     <script src="lang.js"></script>
+
     
 
   </body>

@@ -25,6 +25,13 @@ body {
     z-index: 1000;
 }
 
+.technopug {
+    position: absolute;
+    left: -25px;
+    width: 200px;
+    z-index: 10;
+}
+
 .footer {
     font-family: FUTURA;
     margin: 0px;
@@ -32,7 +39,7 @@ body {
     border: 0px;
     background-color: #3b3b3b;
     width: 100vw;
-    z-index: 90;
+    z-index: 100;
     color: white;
     height: auto;
     min-height: 3rem;
@@ -43,6 +50,7 @@ body {
     padding: 0px;
     border: 0px;
     font-size: 1.17em;
+    cursor: default;
 }
 
 .footer-wrap {
@@ -52,6 +60,7 @@ body {
     padding-left: 10px;
     padding-top: 1rem;
     padding-bottom: 5px;
+    z-index: 50;
 }
 
 .maintext {
@@ -164,11 +173,13 @@ a {
     color: white;
     font-size: 3em;
     z-index: 200;
+    cursor: default;
 }
 .normal-bensontext {
     color: white;
     font-size: 2em;
     z-index: 200;
+    cursor: default;
 }
 
 .below-benson {
@@ -189,6 +200,7 @@ a {
     text-align: center;
     text-shadow: 2px 2px 8px #3b3b3b20;
     cursor: default;
+    z-index: -10;
 }
 
 .blocky-title {
@@ -271,4 +283,64 @@ a {
 
 .tt:hover .tth {
     visibility: visible;
+}
+
+.finn-badge {
+    position: fixed;
+    height: 125px;
+    width: 450x;
+    right: -340px;
+    background-color: #ff8c00;      /* MAKE WITH AUTOMATIC BECAUSE SOME LANGUAGES DONT FIT WITHIN THE BADGE TM!!*/
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    z-index: 2000;
+    bottom: 125px;
+}
+
+.finn-badge:hover {
+    right: 0px;
+}
+
+.finn-img {
+    padding-top: 12.5px;
+    padding-left: 4px;
+    width: 100px;
+}
+
+.finn {
+    color: white;
+    position: absolute;
+}
+
+.finn-toptext {
+    top: 15px;
+    font-size: 1.25em;
+    margin-left: 10px;
+    cursor: default;
+}
+
+.finn-midtext {
+    top: calc(20px + 1.25em + 2px);
+    margin-left: 10px;
+    font-size: 1.05em;
+    color: rgb(246, 246, 246);
+    background-color: #ffb951;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.finn-midtext:hover {
+    background-color: #ffc774;
+
+}
+
+.finn-bottomtext {
+    top: calc(20px + 1.25em + 10px + 1.05em + 17px);
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 1.05em;
+    color: rgb(221, 220, 220);
+    cursor: default;
 }
