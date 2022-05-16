@@ -16,7 +16,13 @@ import pyperclip
 
 trans = Translator()
 
-
+def checkKey(dict, key):
+    
+    if key in dict:
+        return True
+    else:
+        return False
+  
 
 
 def obama(image_in):
@@ -28,12 +34,16 @@ def obama(image_in):
         
     exif = image._getexif()
 
-    if exif[orientation] == 3:
-        image=image.rotate(180, expand=True)
-    elif exif[orientation] == 6:
-        image=image.rotate(270, expand=True)
-    elif exif[orientation] == 8:
-        image=image.rotate(90, expand=True)
+  
+
+    if (checkKey(exif, orientation) == True):
+
+        if exif[orientation] == 3:
+            image=image.rotate(180, expand=True)
+        elif exif[orientation] == 6:
+            image=image.rotate(270, expand=True)
+        elif exif[orientation] == 8:
+            image=image.rotate(90, expand=True)
 
     # next 3 lines strip exif
     data = list(image.getdata())
@@ -48,7 +58,10 @@ def obama(image_in):
 
     out_name = image_in.replace("in/", "").replace(".png", "").replace(".PNG", "").replace(".jpg", "").replace(".JPG", "")
     print("saving image...")
-    image_without_exif.save("out/" + out_name + '.png', exif=exiftm)
+
+    final_image = image_without_exif.resize((604, 604))
+    final_image.save("out/" + out_name + '.png', exif=exiftm)
+    #image_without_exif.save("out/" + out_name + '.png', exif=exiftm)
 
 final_img_json = ""
 
@@ -60,7 +73,7 @@ languages = [   # all languages for the thing
     "de",
     "jp"
 ]
-    
+
 for filename in os.listdir("in"):
     if filename.endswith(".png") or filename.endswith(".PNG") or filename.endswith(".jpg") or filename.endswith(".JPG"): 
         # print(os.path.join(directory, filename))
