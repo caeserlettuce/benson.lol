@@ -1,6 +1,9 @@
 
 from PIL import Image, ExifTags
 import os
+from PIL.ExifTags import TAGS, GPSTAGS
+import exiftool
+
 from googletrans import Translator
 import pyperclip
 
@@ -34,7 +37,9 @@ def obama(image_in):
         
     exif = image._getexif()
 
-  
+    # figure out why pil exif thing isnt getting the location data for some reason, but it's there, the default dolphin details thing has the location data
+
+
 
     if (checkKey(exif, orientation) == True):
 
@@ -44,6 +49,11 @@ def obama(image_in):
             image=image.rotate(270, expand=True)
         elif exif[orientation] == 8:
             image=image.rotate(90, expand=True)
+
+    #data = gpsphoto.getGPSData(os.getcwd() + image_in)
+
+    #print(data)
+
 
     # next 3 lines strip exif
     data = list(image.getdata())
@@ -71,7 +81,8 @@ languages = [   # all languages for the thing
     "it",
     "sp",
     "de",
-    "jp"
+    "jp",
+    "pi"
 ]
 
 for filename in os.listdir("in"):
@@ -81,9 +92,27 @@ for filename in os.listdir("in"):
         desc = input("gimme description for image!!!")
         date = input("when was the photo taken!!!!!!!!!")
         loca = input("WHERE was the photo taken!!!!!!!!!!!!!!!!!")
+        getl = input("do you want it to save the actual geolocation?????? (y/n)")
+
+        lati = 0
+        long = 0
+
+        if (getl == "y"):
+            print("ok lmao getting the thing")
+            dad_exif = exiftool.WalkDir("in/" + filename)
+            #print(dad_exif)
+            if (checkKey(dad_exif["in/" + filename][0], "GPSLatitude") == True):
+                lati = dad_exif["in/" + filename][0]["GPSLatitude"].replace(" N", "").replace(" S", "").replace(" E", "").replace(" W", "")
+            if (checkKey(dad_exif["in/" + filename][0], "GPSLongitude") == True):
+                long = dad_exif["in/" + filename][0]["GPSLongitude"].replace(" N", "").replace(" S", "").replace(" E", "").replace(" W", "")
+
+            print(lati)
+            print(long)
+
+
         #date = "hello"
         print("ok thank you")
-
+    
         #obama(os.path.join("in", filename))
 
         img_name = filename.replace("in/", "").replace(".PNG", ".png").replace(".jpg", ".png").replace(".JPG", ".png")
@@ -100,12 +129,14 @@ for filename in os.listdir("in"):
                 off = "es"
             elif off == "jp":
                 off = "ja"
+            elif off == "pi":
+                off = "en"
             if lang_num < len(languages) - 1:
                 final_img_json = final_img_json + '        "' + egg + '": "' + trans.translate(desc, dest=off).text + '",\n'
             else:
                 final_img_json = final_img_json + '        "' + egg + '": "' + trans.translate(desc, dest=off).text + '"\n'
 
-            lang_num = lang_num + 1
+        lang_num = lang_num + 1
         
         
         final_img_json = final_img_json + '    },\n    "location": {\n'
@@ -118,6 +149,8 @@ for filename in os.listdir("in"):
                 offs = "es"
             elif offs == "jp":
                 offs = "ja"
+            elif offs == "pi":
+                offs = "en"
             if lang_num < len(languages) - 1:
                 final_img_json = final_img_json + '        "' + eggs + '": "' + trans.translate(loca, dest=offs).text + '",\n'
             else:
@@ -125,7 +158,7 @@ for filename in os.listdir("in"):
 
             lang_num = lang_num + 1
 
-        final_img_json = final_img_json + '    },\n},\n'
+        final_img_json = final_img_json + '    },\n    "ltlo": [' + str(lati)  + ', ' + str(long) + ']\n},\n'
 
 for filename in os.listdir("in"):
     if filename.endswith(".png") or filename.endswith(".PNG") or filename.endswith(".jpg") or filename.endswith(".JPG"): 

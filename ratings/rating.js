@@ -1,48 +1,5 @@
 
 
-var ratings = [
-    {
-        "text": "it's cute!",
-        "person": "mother",
-        "rating": 5
-    },
-    {
-        "text": "HE SPIN IN THE BACKGROUND",
-        "person": "bluey bean",
-        "rating": 4
-    },
-    {
-        "text": "im gonna break it",
-        "person": "18_gallons",
-        "rating": 4
-    },
-    {
-        "text": "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-        "person": "Chell",
-        "rating": 5
-    },
-    {
-        "text": "im gonna voiceover all of this site in every language available",
-        "person": "doe's world",
-        "rating": 5
-    },
-    {
-        "text": "[future jesse insert russian that translates to 'BENSON IS MY LIFE, I WOULDN'T TRADE HIM FOR ANYTHING']",
-        "person": "[text that translated to russian: 'SVENSON']",
-        "rating": 6.5
-    },
-    {
-        "text": "my brother looks fabulous",
-        "person": "finn",
-        "rating": 5
-    },
-
-
-
-
-
-]
-
 /*
     {
         "text": "",

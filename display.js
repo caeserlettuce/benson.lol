@@ -12,26 +12,7 @@ var query_more = true;
 localStorage.setItem("pw", windowWidth);
 localStorage.setItem("ph", windowHeight);
 
-var hv_txt = {
-    "lc": {
-        "en": "location",
-        "no": "plassering",
-        "fr": "emplacement",
-        "it": "posizione",
-        "sp": "localización",
-        "de": "lage",
-        "jp": "位置"
-    },
-    "dt": {
-        "en": "date taken",
-        "no": "dato tatt",
-        "fr": "date prise",
-        "it": "data presa",
-        "sp": "fecha que se tendrá",
-        "de": "aufnahmedatum",
-        "jp": "取得されたデータ"
-    }
-}
+
 
 function generate_html(json) {
     var f_html = "";

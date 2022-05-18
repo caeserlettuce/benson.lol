@@ -3,10 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="keywords" content="benson my beloved duck light tubbo">
-    <meta name="description" content="Benson, the best duck">
+    <meta name="og:description" content="everybody's favourite duck, benson!">
+    <meta property="og:image" content="assets/icon.png">
+    <meta property="og:title" content="benson.lol">
+    <meta name="twitter:description" content="everybody's favourite duck, benson!">
+    <meta property="twitter:image" content="assets/icon.png">
+    <meta property="twitter:title" content="benson.lol">
+
     <link rel="stylesheet" href="main.css">
     <link rel="icon" href="assets/icon.png">
-    <title id="t1">Benson My Beloved</title>
+    
+    <title id="t1">Benson Ratings</title>
   </head>
   <body>
     <!--background-->
@@ -24,7 +31,7 @@
       <div class="below-benson">
    
         <p class="rat-text">
-          <p class="normal-bensontext rat-big rat-text">OVERALL:</p>
+          <p class="normal-bensontext rat-big rat-text" id="big-rat">OVERALL:</p>
           <p class="normal-bensontext rat-text" id="star-rat"></p>
           <br><br><br>
         </p>
@@ -138,6 +145,7 @@
     <script src="jquery.min.js"></script>
     <script src="setup.js"></script>
     <script src="benson.js"></script>
+    <script src="../db.js"></script>
     <script src="lang.js"></script>
     <script src="rating.js"></script>
 

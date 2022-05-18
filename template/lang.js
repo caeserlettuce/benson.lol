@@ -11,36 +11,6 @@ if (ls_lang) {
 // localstorage stuff complete
 
 
-var lang_vis = {    // for language selector
-    "en": {
-        "name": "EN",
-        "flag": "flag/en.png"
-    },
-    "no": {
-        "name": "NO",
-        "flag": "flag/no.png"
-    },
-    "fr": {
-        "name": "FR",
-        "flag": "flag/fr.png"
-    },
-    "it": {
-        "name": "IT",
-        "flag": "flag/it.png"
-    },
-    "sp": {
-        "name": "SP",
-        "flag": "flag/sp.png"
-    },
-    "de": {
-        "name": "DE",
-        "flag": "flag/de.png"
-    },
-    "jp": {
-        "name": "JP",
-        "flag": "flag/jp.png"
-    },
-}
 
 var lang_txt = {    // key is the element's id, value is its innerHTML
     "en": {

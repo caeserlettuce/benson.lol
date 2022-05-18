@@ -1,0 +1,357 @@
+@font-face {
+    font-family: FUTURA;
+    src: url(assets/Futura_Bold.ttf);
+}
+
+body {
+    font-family: FUTURA;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    overflow-x: hidden;
+}
+
+.header {
+    font-family: FUTURA;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    height: calc(2em + 10px);
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    z-index: 1000;
+}
+
+.technopug {
+    position: absolute;
+    left: -25px;
+    width: 200px;
+    z-index: 10;
+}
+
+.footer {
+    font-family: FUTURA;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #3b3b3b;
+    width: 100vw;
+    z-index: 100;
+    color: white;
+    height: auto;
+    min-height: 3rem;
+}
+
+.footer-text {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 1.17em;
+    cursor: default;
+}
+
+.footer-wrap {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding-left: 10px;
+    padding-top: 1rem;
+    padding-bottom: 5px;
+    z-index: 50;
+}
+
+.maintext {
+    margin: 0px;
+    padding: 5px;
+    padding-left:7px;
+    border: 0px;
+    z-index: 101;
+}
+
+.header-text {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    z-index: 101;
+    font-size: 2em;
+    position: fixed;
+    top: 7px;
+    left: 7px;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.bg {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.sky {
+    background-image: url(assets/bg.png);
+    z-index: -100;
+}
+.cloud1 {
+    background-image: url(assets/clouds_l1.png);
+    z-index: -90;
+    animation: clouds1 6s 0s 2;     /* values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+
+.cloud2 {
+    background-image: url(assets/clouds_l2.png);
+    z-index: -80;
+    animation: clouds2 6s 0s 2;     /* values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+
+@keyframes clouds1 {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(50px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes clouds2 {
+    0% { transform: translateY(50px); }
+    50% { transform: translateY(0px); }
+    100% { transform: translateY(50px); }
+}
+
+.fg-benson {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: fixed;
+    top: calc(50vh - (15rem / 2));
+    left: calc(50vw - (15rem / 2));
+    width: 15rem;
+    z-index: -60;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    position: absolute;
+}
+::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #789feb;
+}
+
+/*haha i stole this code from the dogecoin website*/
+
+.disable {
+    /* nft websites can't figure this out when it took me a quick google search */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.big-bensontext {
+    color: white;
+    font-size: 3em;
+    z-index: 200;
+    cursor: default;
+}
+.normal-bensontext {
+    color: white;
+    font-size: 2em;
+    z-index: 200;
+    cursor: default;
+}
+
+.below-benson {
+    position: absolute;
+    top: calc(50vh - (15rem / 2) + 15rem);
+    /*top: 10px;*/
+    z-index: 400;
+}
+
+.blocky {
+    width: 540px;
+    display: inline-block;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    text-shadow: 2px 2px 8px #3b3b3b20;
+    cursor: default;
+    z-index: -10;
+}
+
+.blocky-title {
+    margin-top: 5px;
+    color: white;
+    font-size: 2em;
+}
+
+.blocky-text {
+    margin-top: 5px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.imagetm {
+    width: 500px;
+    /*padding-left: 20px;*/
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.sel-lang {
+    margin-top: 5px;
+    color: black;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    cursor: pointer
+}
+
+.lang-flag {
+    width: 1.25em;
+}
+
+.slide {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    transition: .4s ease;
+    clear:both;
+    height: 0px;
+    overflow: hidden;
+}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+.stop-it-css-before-i-kill-you {
+    margin: 0px;
+}
+
+.lang-select {
+    right: 20px;
+    top: 5px;
+    position: absolute;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tt {
+    position: relative;
+    display: inline-block;
+}
+  
+.tt .tth {
+    visibility: hidden;
+    width: fit-content;
+    background-color: #00000040;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 1rem;
+  
+    /* Position the tooltip */
+    position: absolute;
+    transform: translate( -15px, calc(-1 * 1.2rem));
+    z-index: 1;
+}
+
+.tt:hover .tth {
+    visibility: visible;
+}
+
+.finn-badge {
+    position: fixed;
+    height: 125px;
+    width: 450x;
+    right: -340px;
+    background-color: #ff8c00;      /* MAKE WITH AUTOMATIC BECAUSE SOME LANGUAGES DONT FIT WITHIN THE BADGE TM!!*/
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    z-index: 2000;
+    bottom: 125px;
+}
+
+.finn-badge:hover {
+    right: 0px;
+}
+
+.finn-img {
+    padding-top: 12.5px;
+    padding-left: 4px;
+    width: 100px;
+}
+
+.finn {
+    color: white;
+    position: absolute;
+}
+
+.finn-toptext {
+    top: 15px;
+    font-size: 1.25em;
+    margin-left: 10px;
+    cursor: default;
+}
+
+.finn-midtext {
+    top: calc(20px + 1.25em + 2px);
+    margin-left: 10px;
+    font-size: 1.05em;
+    color: rgb(246, 246, 246);
+    background-color: #ffb951;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.finn-midtext:hover {
+    background-color: #ffc774;
+
+}
+
+.finn-bottomtext {
+    top: calc(20px + 1.25em + 10px + 1.05em + 17px);
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 1.05em;
+    color: rgb(221, 220, 220);
+    cursor: default;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 90vh;
+    /* The height is 400 pixels */
+    width: 90vw;
+    margin-left: calc(50vw - (90vw / 2));
+    /*top: calc(25vw + (15rem / 2));*/
+
+    /* The width is the width of the web page */
+}
