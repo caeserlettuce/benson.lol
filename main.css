@@ -344,3 +344,17 @@ a {
     color: rgb(221, 220, 220);
     cursor: default;
 }
+
+.lang-disc {
+    color: #fdfdfd;
+    font-size: 1.5em;
+}
+
+.map-icon {
+    height: 2.1em;
+    float: right;
+    position: absolute;
+    padding-right: 20px;
+    padding-top: 2.5px;
+    cursor: pointer;
+}

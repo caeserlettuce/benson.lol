@@ -119,7 +119,7 @@ for filename in os.listdir("in"):
         
         # final_img_json = final_img_json + 
 
-        final_img_json = final_img_json + '{\n    "img": "img/' + img_name + '",\n    "date": "' + date + '",\n    "text": {\n'
+        final_img_json = final_img_json + '{\n    "img": "../img/' + img_name + '",\n    "date": "' + date + '",\n    "text": {\n'
         final_img_json = final_img_json + '        "en": "' + desc + '",\n'
         lang_num = 0
         for egg in languages:

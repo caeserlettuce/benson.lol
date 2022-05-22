@@ -27,6 +27,7 @@
       <div style="width: 100vw; text-align: center; z-index: 400;">
         <p class="big-bensontext" id="bmb1">benson my beloved</p>
         <p class="normal-bensontext" id="bmb2">an assortment of photos of everyone's favourite duck, benson!</p>
+        <p class="lang-disc" id="langdisc">*translations may not be accurate</p>
       </div>
       <div class="below-benson">
    
@@ -65,9 +66,10 @@
 
 
         <div class="footer" style="padding: 0px;" id="footer">
-          <p class="footer-wrap">
+          <p class="footer-wrap" id="footer-wrap">
             <span class="footer-text" id="f1">©2022 benson.lol & dapug.lol</span>
-            <span class="footer-text" style="color: #adadad; padding-left: 10px;" id="f2">designed in Ålesund, Norway.</span><!--it sounds cool and it's not wrong so shoosh-->
+            <span class="footer-text" style="color: #adadad; padding-left: 10px;" id="f2" title="it sounds cool and is not wrong so shoosh">designed in Ålesund, Norway.</span>
+            <span class="footer-text" style="text-align: right; padding-right: 29px;"> contact me on discord @pugface#2222, email: benson@benson.lol</span>
           </p>
           
         </div>
@@ -85,7 +87,11 @@
       
       <a href="https://benson.lol" class="header-text">BENSON</a>
 
-      <div class="lang-select">
+      
+      <img src="assets/trifold_map.png" class="map-icon" title="where has benson been?" id="trifold" onclick="redir_map()">
+
+
+      <div class="lang-select" id="langsel">
 
         <label for="touch" id="selected-lang"><span class="sel-lang"><img src="../flag/en.png" class="lang-flag"> EN</span></label>
         <input type="checkbox" id="touch">

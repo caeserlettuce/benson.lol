@@ -12,6 +12,23 @@ var query_more = true;
 localStorage.setItem("pw", windowWidth);
 localStorage.setItem("ph", windowHeight);
 
+function reverse_array(array) {
+    var arr_len = array.length - 1;
+    var out_arr = new Array();
+    for (i in array) {
+        out_arr.push(array[arr_len - i]);
+    }
+    return out_arr
+}
+
+// display types:
+
+// ascending/descending for all of these
+
+// order added
+// date photos were taken
+// alphabetical order of description
+// alphabetical order of location
 
 
 function generate_html(json) {
@@ -101,7 +118,7 @@ if (max_tm * 4 > 100) {
 }
 //load_amount = 1;
 
-split_json = chunky(img_db, load_amount);
+split_json = chunky(reverse_array(img_db), load_amount);
 
 
 // load_amount is the amount of photos itll load at a time
@@ -134,6 +151,11 @@ $(window).scroll(function() {
             setTimeout(() => {
                 query_more = true;
                 console.log("ab");
+                
+
+                if ($(document).height() - ($(window).scrollTop() + $(window).height()) < scroll_buffer) {
+                    load_next();
+                }
             }, 4000);
         }
 

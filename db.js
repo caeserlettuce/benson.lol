@@ -467,7 +467,7 @@ var img_db = [
     },
     {
         "img": "../img/b_rock.png",
-        "date": "05.10.2022",
+        "date": "10.05.2022",
         "text": {
             "en": "benson, the archaeologist",
             "no": "benson, arkeologen",
@@ -490,7 +490,7 @@ var img_db = [
     },
     {
         "img": "../img/b_gate.png",
-        "date": "05.10.2022",
+        "date": "10.05.2022",
         "text": {
             "en": "benson in the entrance gate",
             "no": "benson i inngangsporten",
@@ -535,7 +535,7 @@ var img_db = [
         "ltlo": [62.97530109055154, 7.786863174092644]
     },
     {
-        "img": "img/b_nightstand.png",
+        "img": "../img/b_nightstand.png",
         "date": "14.05.2022",
         "text": {
             "en": "benson being a great lil nightlight",
@@ -560,7 +560,7 @@ var img_db = [
         "ltlo": [62.40396894566766, 6.582386557306165]
     },
     {
-        "img": "img/b_turret1.png",
+        "img": "../img/b_turret1.png",
         "date": "10.05.2022",
         "text": {
             "en": "benson is locked and loaded",
@@ -585,7 +585,7 @@ var img_db = [
         "ltlo": [63.100490151010874, 7.897076156103559]
     },
     {
-        "img": "img/b_turret3.png",
+        "img": "../img/b_turret3.png",
         "date": "10.05.2022",
         "text": {
             "en": "benson looking longingly into the ocean from his turret",
@@ -610,7 +610,7 @@ var img_db = [
         "ltlo": [63.10044150246214, 7.897105123897647]
     },
     {
-        "img": "img/b_kristiansund1.png",
+        "img": "../img/b_kristiansund1.png",
         "date": "10.05.2022",
         "text": {
             "en": "benson in front of a marina",
@@ -635,7 +635,7 @@ var img_db = [
         "ltlo": [63.110958, 7.733211]
     },
     {
-        "img": "img/b_mountain1.png",
+        "img": "../img/b_mountain1.png",
         "date": "11.05.2022",
         "text": {
             "en": "benson on a mountain",
@@ -660,7 +660,7 @@ var img_db = [
         "ltlo": [62.74834041394015, 7.127437026726649]
     },
     {
-        "img": "img/b_shore.png",
+        "img": "../img/b_shore.png",
         "date": "11.05.2022",
         "text": {
             "en": "benson by the sea",
@@ -685,7 +685,7 @@ var img_db = [
         "ltlo": [62.623153, 7.086450]
     },
     {
-        "img": "img/b_oldhouse_door.png",
+        "img": "../img/b_oldhouse_door.png",
         "date": "12.05.2022",
         "text": {
             "en": "benson is home",
@@ -710,7 +710,7 @@ var img_db = [
         "ltlo": [62.468033, 6.237756]
     },
     {
-        "img": "img/b_barrel.png",
+        "img": "../img/b_barrel.png",
         "date": "12.05.2022",
         "text": {
             "en": "benson on da barrel",
@@ -735,7 +735,7 @@ var img_db = [
         "ltlo": [62.468075, 6.238628]
     },
     {
-        "img": "img/b_lil_bench.png",
+        "img": "../img/b_lil_bench.png",
         "date": "12.05.2022",
         "text": {
             "en": "benson on a benson-sized bench",
@@ -760,7 +760,7 @@ var img_db = [
         "ltlo": [62.467478, 6.233753]
     },
     {
-        "img": "img/b_telefon.png",
+        "img": "../img/b_telefon.png",
         "date": "12.05.2022",
         "text": {
             "en": "benson has a rose for you <3",
@@ -785,7 +785,7 @@ var img_db = [
         "ltlo": [62.473227553812706, 6.156559824850604]
     },
     {
-        "img": "img/b_ålesund.png",
+        "img": "../img/b_ålesund.png",
         "date": "13.05.2022",
         "text": {
             "en": "benson in the car",
@@ -810,7 +810,7 @@ var img_db = [
         "ltlo": [62.473303, 6.151189]
     },
     {
-        "img": "img/b_bacon.png",
+        "img": "../img/b_bacon.png",
         "date": "13.05.2022",
         "text": {
             "en": "benson in the freezer aisle",
@@ -835,7 +835,7 @@ var img_db = [
         "ltlo": [62.391850, 6.583339]
     },
     {
-        "img": "img/b_sykkylven_boardwalk.png",
+        "img": "../img/b_sykkylven_boardwalk.png",
         "date": "14.05.2022",
         "text": {
             "en": "benson on the boardwalk",
@@ -860,7 +860,7 @@ var img_db = [
         "ltlo": [62.392822, 6.578183]
     },
     {
-        "img": "img/b_mountain2.png",
+        "img": "../img/b_mountain2.png",
         "date": "15.05.2022",
         "text": {
             "en": "benson in front of more mountains",
@@ -885,7 +885,7 @@ var img_db = [
         "ltlo": [62.293258, 6.886656]
     },
     {
-        "img": "img/b_fjord_grass.png",
+        "img": "../img/b_fjord_grass.png",
         "date": "13.05.2022",
         "text": {
             "en": "benson with some snow capped mountains",
@@ -910,7 +910,7 @@ var img_db = [
         "ltlo": [62.188136, 6.923864]
     },
     {
-        "img": "img/b_fjord_waterfall.png",
+        "img": "../img/b_fjord_waterfall.png",
         "date": "15.05.2022",
         "text": {
             "en": "benson staring at a beautiful waterfall",
@@ -935,7 +935,7 @@ var img_db = [
         "ltlo": [62.104458, 7.102975]
     },
     {
-        "img": "img/b_fjord_bench.png",
+        "img": "../img/b_fjord_bench.png",
         "date": "15.05.2022",
         "text": {
             "en": "benson sitting on a bench",
@@ -960,7 +960,7 @@ var img_db = [
         "ltlo": [62.091081, 7.222056]
     },
     {
-        "img": "img/b_fjord_geiranger.png",
+        "img": "../img/b_fjord_geiranger.png",
         "date": "15.05.2022",
         "text": {
             "en": "benson on a cliff",
@@ -985,7 +985,7 @@ var img_db = [
         "ltlo": [62.091350, 7.222064]
     },
     {
-        "img": "img/b_roadwork.png",
+        "img": "../img/b_roadwork.png",
         "date": "15.05.2022",
         "text": {
             "en": "road work ahead? well yeah, i sure hope it does",
@@ -1010,7 +1010,7 @@ var img_db = [
         "ltlo": [62.499917, 6.889047]
     },
     {
-        "img": "img/b_royal_palace.png",
+        "img": "../img/b_royal_palace.png",
         "date": "17.05.2022",
         "text": {
             "en": "benson with the king and queen of norway",
@@ -1035,7 +1035,7 @@ var img_db = [
         "ltlo": [59.916722, 10.728389]
     },
     {
-        "img": "img/b_fountain.png",
+        "img": "../img/b_fountain.png",
         "date": "17.05.2022",
         "text": {
             "en": "benson in an empty fountain",
@@ -1058,6 +1058,1031 @@ var img_db = [
             "pi": "Oslo, Norway"
         },
         "ltlo": [59.915661, 10.739292]
+    },
+    {
+        "img": "../img/b_park.png",
+        "date": "17.05.2022",
+        "text": {
+            "en": "benson in the park",
+            "no": "benson i parken",
+            "fr": "benson dans le parc",
+            "it": "benson nel parco",
+            "sp": "benson en el parque",
+            "de": "benson im park",
+            "jp": "公園のベンソン",
+            "pi": "benson in the park",
+        },
+        "location": {
+            "en": "Slottsparken, Oslo, Norway",
+            "no": "Slottsparken, Oslo, Norway",
+            "fr": "Slottsparken, Oslo, Norvège",
+            "it": "Slottsparken, Oslo, Norvegia",
+            "sp": "Slottsparken, Oslo, Noruega",
+            "de": "Slottsparken, Oslo, Norwegen",
+            "jp": "Slottsparken、オスロ、ノルウェー",
+            "pi": "Slottsparken, Oslo, Norway"
+        },
+        "ltlo": [59.916594, 10.732047]
+    },
+    {
+        "img": "../img/b_park_sun.png",
+        "date": "17.05.2022",
+        "text": {
+            "en": "benson in the sun",
+            "no": "benson i solen",
+            "fr": "benson au soleil",
+            "it": "benson al sole",
+            "sp": "benson en el sol",
+            "de": "benson in der sonne",
+            "jp": "太陽の下でベンソン",
+            "pi": "benson in the sun",
+        },
+        "location": {
+            "en": "Slottsparken, Oslo, Norway",
+            "no": "Slottsparken, Oslo, Norway",
+            "fr": "Slottsparken, Oslo, Norvège",
+            "it": "Slottsparken, Oslo, Norvegia",
+            "sp": "Slottsparken, Oslo, Noruega",
+            "de": "Slottsparken, Oslo, Norwegen",
+            "jp": "Slottsparken、オスロ、ノルウェー",
+            "pi": "Slottsparken, Oslo, Norway"
+        },
+        "ltlo": [59.916781, 10.731531]
+    },
+    {
+        "img": "../img/b_shoes.png",
+        "date": "18.05.2022",
+        "text": {
+            "en": "benson is going shoe shopping",
+            "no": "benson skal handle sko",
+            "fr": "benson va acheter des chaussures",
+            "it": "Benson sta andando a fare la spesa",
+            "sp": "benson va a comprar zapatos",
+            "de": "Benson geht Schuhe einkaufen",
+            "jp": "ベンソンは靴の買い物に行きます",
+            "pi": "benson is going shoe shopping",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.91463463470055, 10.740621062825157]
+    },
+    {
+        "img": "../img/b_blanket.png",
+        "date": "18.05.2022",
+        "text": {
+            "en": "benson is cozy",
+            "no": "benson er koselig",
+            "fr": "benson est confortable",
+            "it": "Benson è accogliente",
+            "sp": "benson es acogedor",
+            "de": "Benson ist gemütlich",
+            "jp": "ベンソンは居心地が良い",
+            "pi": "benson is cozy",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.914638562590646, 10.740610851233862]
+    },
+    {
+        "img": "../img/b_stave_church.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "benson in front of one of the last stave churches in norway",
+            "no": "benson foran en av de siste stavkirkene i norge",
+            "fr": "benson devant l'une des dernières églises en bois debout de norvège",
+            "it": "benson davanti a una delle ultime chiese a doghe in Norvegia",
+            "sp": "benson frente a una de las últimas iglesias de madera de noruega",
+            "de": "benson vor einer der letzten stabkirchen norwegens",
+            "jp": "ノルウェーで最後のスターヴ教会の前にあるベンソン",
+            "pi": "benson in front of one of the last stave churches in norway",
+        },
+        "location": {
+            "en": "Bygdøy, Oslo, Norway",
+            "no": "Bygdøy, Oslo, Norway",
+            "fr": "Bygdøy, Oslo, Norvège",
+            "it": "Bygdøy, Oslo, Norvegia",
+            "sp": "Bygdøy, Oslo, Noruega",
+            "de": "Bygdoy, Oslo, Norwegen",
+            "jp": "ビグドイ、オスロ、ノルウェー",
+            "pi": "Bygdøy, Oslo, Norway"
+        },
+        "ltlo": [59.908122, 10.682969]
+    },
+    {
+        "img": "../img/b_moai.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "benson in a museum cave",
+            "no": "benson i en museumshule",
+            "fr": "benson dans une grotte de musée",
+            "it": "benson in una grotta del museo",
+            "sp": "benson en una cueva del museo",
+            "de": "Benson in einer Museumshöhle",
+            "jp": "博物館の洞窟のベンソン",
+            "pi": "benson in a museum cave",
+        },
+        "location": {
+            "en": "Bygdøy, Oslo, Norway",
+            "no": "Bygdøy, Oslo, Norway",
+            "fr": "Bygdøy, Oslo, Norvège",
+            "it": "Bygdøy, Oslo, Norvegia",
+            "sp": "Bygdøy, Oslo, Noruega",
+            "de": "Bygdoy, Oslo, Norwegen",
+            "jp": "ビグドイ、オスロ、ノルウェー",
+            "pi": "Bygdøy, Oslo, Norway"
+        },
+        "ltlo": [59.903239, 10.698164]
+    },
+    {
+        "img": "../img/b_window.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "benson in a windowsill",
+            "no": "benson i en vinduskarm",
+            "fr": "benson dans un rebord de fenêtre",
+            "it": "benson sul davanzale",
+            "sp": "Benson en el alféizar de una ventana",
+            "de": "Benson auf einer Fensterbank",
+            "jp": "窓辺のベンソン",
+            "pi": "benson in a windowsill",
+        },
+        "location": {
+            "en": "Bygdøy, Oslo, Norway",
+            "no": "Bygdøy, Oslo, Norway",
+            "fr": "Bygdøy, Oslo, Norvège",
+            "it": "Bygdøy, Oslo, Norvegia",
+            "sp": "Bygdøy, Oslo, Noruega",
+            "de": "Bygdoy, Oslo, Norwegen",
+            "jp": "ビグドイ、オスロ、ノルウェー",
+            "pi": "Bygdøy, Oslo, Norway"
+        },
+        "ltlo": [59.903244, 10.698186]
+    },
+    {
+        "img": "../img/b_sewing.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "benson is sewing",
+            "no": "benson syr",
+            "fr": "benson coud",
+            "it": "Benson sta cucendo",
+            "sp": "benson esta cosiendo",
+            "de": "Benson näht",
+            "jp": "ベンソンは縫っています",
+            "pi": "benson is sewing",
+        },
+        "location": {
+            "en": "Bygdøy, Oslo, Norway",
+            "no": "Bygdøy, Oslo, Norway",
+            "fr": "Bygdøy, Oslo, Norvège",
+            "it": "Bygdøy, Oslo, Norvegia",
+            "sp": "Bygdøy, Oslo, Noruega",
+            "de": "Bygdoy, Oslo, Norwegen",
+            "jp": "ビグドイ、オスロ、ノルウェー",
+            "pi": "Bygdøy, Oslo, Norway"
+        },
+        "ltlo": [59.903336, 10.699439]
+    },
+    {
+        "img": "../img/b_cart.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "benson is going shopping",
+            "no": "benson skal handle",
+            "fr": "benson fait du shopping",
+            "it": "Benson sta andando a fare la spesa",
+            "sp": "benson va de compras",
+            "de": "Benson geht einkaufen",
+            "jp": "ベンソンは買い物に行きます",
+            "pi": "benson is going shopping",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.911922, 10.748244]
+    },
+    {
+        "img": "../img/b_oslo_church.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "benson in front of a church",
+            "no": "benson foran en kirke",
+            "fr": "benson devant une église",
+            "it": "benson davanti a una chiesa",
+            "sp": "benson frente a una iglesia",
+            "de": "Benson vor einer Kirche",
+            "jp": "教会の前のベンソン",
+            "pi": "benson in front of a church",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.912853, 10.746875]
+    },
+    {
+        "img": "../img/b_leek.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "benson found a leek",
+            "no": "benson fant en purre",
+            "fr": "benson a trouvé un poireau",
+            "it": "Benson ha trovato un porro",
+            "sp": "benson encontró un puerro",
+            "de": "Benson hat einen Lauch gefunden",
+            "jp": "ベンソンはネギを見つけました",
+            "pi": "benson found a leek",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.913167, 10.746622]
+    },
+    {
+        "img": "../img/b_tokyo_store.png",
+        "date": "19.05.2022",
+        "text": {
+            "en": "they met benson!!!",
+            "no": "de møtte benson!!!",
+            "fr": "ils ont rencontré benson !!!",
+            "it": "hanno incontrato benson!!!",
+            "sp": "conocieron a benson!!!",
+            "de": "sie trafen benson!!!",
+            "jp": "彼らはベンソンに会いました!!!",
+            "pi": "they met benson!!!",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.911675, 10.747859]
+    },
+    {
+        "img": "../img/b_bed.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson has created a galaxy",
+            "no": "benson har skapt en galakse",
+            "fr": "Benson a créé une galaxie",
+            "it": "benson ha creato una galassia",
+            "sp": "benson ha creado una galaxia",
+            "de": "Benson hat eine Galaxie erschaffen",
+            "jp": "ベンソンは銀河を作りました",
+            "pi": "benson has created a galaxy",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.917983, 10.733197]
+    },
+    {
+        "img": "../img/b_coins.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "feed me my coins mr freemannnnnnnnn",
+            "no": "mate meg mine mynter herr freemannnnnnnn",
+            "fr": "nourris moi mes pièces monsieur freemannnnnnnnn",
+            "it": "dammi le mie monete signor freemannnnnnnnn",
+            "sp": "dame de comer mis monedas señor freemannnnnnnnn",
+            "de": "füttere mich mit meinen Münzen, Herr Freemannnnnnnnn",
+            "jp": "私のコインを送ってくださいmrfreemannnnnnnnn",
+            "pi": "feed me my coins mr freemannnnnnnnn",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.916528, 10.735067]
+    },
+    {
+        "img": "../img/b_mainroad_oslo.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson is very kind",
+            "no": "benson er veldig snill",
+            "fr": "Benson est très gentil",
+            "it": "Benson è molto gentile",
+            "sp": "benson es muy amable",
+            "de": "Benson ist sehr nett",
+            "jp": "ベンソンはとても親切です",
+            "pi": "benson is very kind",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.914906, 10.735053]
+    },
+    {
+        "img": "../img/b_oslo_lay.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson is laying down (it just doesnt look like it)",
+            "no": "benson legger seg (det ser bare ikke ut som det)",
+            "fr": "benson se couche (ça n'en a pas l'air)",
+            "it": "Benson si sta sdraiando (semplicemente non sembra)",
+            "sp": "Benson está acostado (simplemente no lo parece)",
+            "de": "Benson legt sich hin (es sieht nur nicht so aus)",
+            "jp": "ベンソンは横たわっています（それはちょうどそれのようには見えません）",
+            "pi": "benson is laying down (it just doesnt look like it)",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.915022, 10.735569]
+    },
+    {
+        "img": "../img/b_bush.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson in a bush",
+            "no": "benson i en busk",
+            "fr": "benson dans un buisson",
+            "it": "benson in un cespuglio",
+            "sp": "benson en un arbusto",
+            "de": "Benson in einem Busch",
+            "jp": "茂みの中のベンソン",
+            "pi": "benson in a bush",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.914939, 10.734839]
+    },
+    {
+        "img": "../img/b_flowers.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson loves flowers",
+            "no": "benson elsker blomster",
+            "fr": "benson aime les fleurs",
+            "it": "benson ama i fiori",
+            "sp": "benson ama las flores",
+            "de": "Benson liebt Blumen",
+            "jp": "ベンソンは花が大好き",
+            "pi": "benson loves flowers",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.914917, 10.735672]
+    },
+    {
+        "img": "../img/b_roses.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson found roses",
+            "no": "benson fant roser",
+            "fr": "Benson a trouvé des roses",
+            "it": "Benson ha trovato delle rose",
+            "sp": "benson encontró rosas",
+            "de": "Benson hat Rosen gefunden",
+            "jp": "ベンソンはバラを見つけました",
+            "pi": "benson found roses",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.913672, 10.735894]
+    },
+    {
+        "img": "../img/b_street.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson is by the street",
+            "no": "benson er ved gaten",
+            "fr": "benson est dans la rue",
+            "it": "benson è per strada",
+            "sp": "benson está en la calle",
+            "de": "Benson ist an der Straße",
+            "jp": "ベンソンは通りのそばにあります",
+            "pi": "benson is by the street",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.913739, 10.735953]
+    },
+    {
+        "img": "../img/b_oslo_marina.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson",
+            "no": "Benson",
+            "fr": "Benson",
+            "it": "Benson",
+            "sp": "benson",
+            "de": "Benson",
+            "jp": "ベンソン",
+            "pi": "Benson",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.910328, 10.735078]
+    },
+    {
+        "img": "../img/b_torch.png",
+        "date": "20.05.2022",
+        "text": {
+            "en": "benson is now the torch",
+            "no": "benson er nå fakkelen",
+            "fr": "benson est maintenant le flambeau",
+            "it": "Benson è ora la torcia",
+            "sp": "benson es ahora la antorcha",
+            "de": "Benson ist jetzt die Fackel",
+            "jp": "ベンソンは今やトーチです",
+            "pi": "benson is now the torch",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.907506, 10.736403]
+    },
+    {
+        "img": "../img/b_beckham.png",
+        "date": "11.02.2022",
+        "text": {
+            "en": "beckham holds benson",
+            "no": "beckham holder benson",
+            "fr": "Beckham tient Benson",
+            "it": "beckham tiene benson",
+            "sp": "beckham tiene benson",
+            "de": "beckham hält benson",
+            "jp": "ベッカムはベンソンを保持します",
+            "pi": "beckham holds benson",
+        },
+        "location": {
+            "en": "USA",
+            "no": "USA",
+            "fr": "États-Unis",
+            "it": "Stati Uniti",
+            "sp": "Estados Unidos",
+            "de": "USA",
+            "jp": "アメリカ合衆国",
+            "pi": "USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_munch.png",
+        "date": "21.05.2022",
+        "text": {
+            "en": "benson is in the window!!",
+            "no": "benson er i vinduet!!",
+            "fr": "benson est dans la fenêtre !!",
+            "it": "benson è alla finestra!!",
+            "sp": "benson esta en la ventana!!",
+            "de": "benson ist im fenster!!",
+            "jp": "ベンソンは窓の中にいます！",
+            "pi": "benson is in the window!!",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_oslo_park.png",
+        "date": "21.05.2022",
+        "text": {
+            "en": "benson is at the park",
+            "no": "benson er i parken",
+            "fr": "benson est au parc",
+            "it": "Benson è al parco",
+            "sp": "benson esta en el parque",
+            "de": "Benson ist im Park",
+            "jp": "ベンソンは公園にいます",
+            "pi": "benson is at the park",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.907689, 10.753731]
+    },
+    {
+        "img": "../img/b_grate.png",
+        "date": "21.05.2022",
+        "text": {
+            "en": "benson is feeling grate",
+            "no": "benson føler seg glad",
+            "fr": "benson se sent râpé",
+            "it": "benson si sente grato",
+            "sp": "benson se siente agradecido",
+            "de": "benson freut sich",
+            "jp": "ベンソンはすりおろしている",
+            "pi": "benson is feeling grate",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.919078, 10.732972]
+    },
+    {
+        "img": "../img/b_xavier_bag.png",
+        "date": "11.02.2022",
+        "text": {
+            "en": "benson loves axolotls",
+            "no": "benson elsker axolotler",
+            "fr": "benson aime les axolotls",
+            "it": "Benson adora gli axolotl",
+            "sp": "Benson ama a los ajolotes",
+            "de": "Benson liebt Axolotl",
+            "jp": "ベンソンはアホロートルが大好きです",
+            "pi": "benson loves axolotls",
+        },
+        "location": {
+            "en": "USA",
+            "no": "USA",
+            "fr": "États-Unis",
+            "it": "Stati Uniti",
+            "sp": "Estados Unidos",
+            "de": "USA",
+            "jp": "アメリカ合衆国",
+            "pi": "USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_heldup.png",
+        "date": "11.02.2022",
+        "text": {
+            "en": "benson is god",
+            "no": "benson er gud",
+            "fr": "benson est dieu",
+            "it": "benson è dio",
+            "sp": "benson es dios",
+            "de": "Benson ist Gott",
+            "jp": "ベンソンは神です",
+            "pi": "benson is god",
+        },
+        "location": {
+            "en": "USA",
+            "no": "USA",
+            "fr": "États-Unis",
+            "it": "Stati Uniti",
+            "sp": "Estados Unidos",
+            "de": "USA",
+            "jp": "アメリカ合衆国",
+            "pi": "USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_convcenter.png",
+        "date": "05.12.2021",
+        "text": {
+            "en": "benson is at the convention center",
+            "no": "benson er på konferansesenteret",
+            "fr": "benson est au palais des congrès",
+            "it": "benson è al centro congressi",
+            "sp": "benson está en el centro de convenciones",
+            "de": "Benson ist im Kongresszentrum",
+            "jp": "ベンソンはコンベンションセンターにいます",
+            "pi": "benson is at the convention center",
+        },
+        "location": {
+            "en": "Seattle, Washington",
+            "no": "Seattle, Washington",
+            "fr": "Seattle, Washington",
+            "it": "Seattle, Washington",
+            "sp": "Seattle, Washington",
+            "de": "Seattle, Washington",
+            "jp": "ワシントン州シアトル",
+            "pi": "Seattle, Washington"
+        },
+        "ltlo": [47.611029842952, -122.33165985759916]
+    },
+    {
+        "img": "../img/b_ikea.png",
+        "date": "18.02.2022",
+        "text": {
+            "en": "benson is in ikea",
+            "no": "benson er i ikea",
+            "fr": "benson est chez ikea",
+            "it": "benson is in ikea",
+            "sp": "benson está en ikea",
+            "de": "benson ist bei ikea",
+            "jp": "ベンソンはイケアにいます",
+            "pi": "benson is in ikea",
+        },
+        "location": {
+            "en": "USA",
+            "no": "USA",
+            "fr": "États-Unis",
+            "it": "Stati Uniti",
+            "sp": "Estados Unidos",
+            "de": "USA",
+            "jp": "アメリカ合衆国",
+            "pi": "USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_ferry.png",
+        "date": "23.07.2021",
+        "text": {
+            "en": "benson is looking good",
+            "no": "benson ser bra ut",
+            "fr": "benson a l'air bien",
+            "it": "Benson sta bene",
+            "sp": "benson se ve bien",
+            "de": "Benson sieht gut aus",
+            "jp": "ベンソンは格好良い",
+            "pi": "benson is looking good",
+        },
+        "location": {
+            "en": "Seattle, Washington",
+            "no": "Seattle, Washington",
+            "fr": "Seattle, Washington",
+            "it": "Seattle, Washington",
+            "sp": "Seattle, Washington",
+            "de": "Seattle, Washington",
+            "jp": "ワシントン州シアトル",
+            "pi": "Seattle, Washington"
+        },
+        "ltlo": [47.60463558488405, -122.3951981018473]
+    },
+    {
+        "img": "../img/b_fireplace.png",
+        "date": "12.05.2022",
+        "text": {
+            "en": "benson is the fire",
+            "no": "benson er ilden",
+            "fr": "benson est le feu",
+            "it": "benson è il fuoco",
+            "sp": "benson es el fuego",
+            "de": "Benson ist das Feuer",
+            "jp": "ベンソンは火です",
+            "pi": "benson is the fire",
+        },
+        "location": {
+            "en": "Gåseid, Norway",
+            "no": "Gåseid, Norway",
+            "fr": "Gaseid, Norvège",
+            "it": "Gåseid, Norvegia",
+            "sp": "Gåseid, Noruega",
+            "de": "Gaseid, Norwegen",
+            "jp": "Gåseid、ノルウェー",
+            "pi": "Gåseid, Norway"
+        },
+        "ltlo": [62.46810737711126, 6.236436673198563]
+    },
+    {
+        "img": "../img/b_tv.png",
+        "date": "18.03.2022",
+        "text": {
+            "en": "benson broke it",
+            "no": "benson brøt den",
+            "fr": "Benson l'a cassé",
+            "it": "Benson l'ha rotto",
+            "sp": "benson lo rompió",
+            "de": "Benson hat es kaputt gemacht",
+            "jp": "ベンソンはそれを壊した",
+            "pi": "benson broke it",
+        },
+        "location": {
+            "en": "USA",
+            "no": "USA",
+            "fr": "États-Unis",
+            "it": "Stati Uniti",
+            "sp": "Estados Unidos",
+            "de": "USA",
+            "jp": "アメリカ合衆国",
+            "pi": "USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_scream.png",
+        "date": "21.05.2022",
+        "text": {
+            "en": "benson is screaming",
+            "no": "Benson skriker",
+            "fr": "benson crie",
+            "it": "Benson sta urlando",
+            "sp": "benson esta gritando",
+            "de": "Benson schreit",
+            "jp": "ベンソンは叫んでいます",
+            "pi": "benson is screaming",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.905722062753696, 10.755382399133437]
+    },
+    {
+        "img": "../img/b_path2.png",
+        "date": "22.05.2022",
+        "text": {
+            "en": "benson along a cool path",
+            "no": "benson langs en kul sti",
+            "fr": "benson le long d'un chemin cool",
+            "it": "benson lungo un bel sentiero",
+            "sp": "benson por un camino genial",
+            "de": "benson auf einem coolen weg",
+            "jp": "クールな道に沿ったベンソン",
+            "pi": "benson along a cool path",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.920011, 10.747603]
+    },
+    {
+        "img": "../img/b_path1.png",
+        "date": "22.05.2022",
+        "text": {
+            "en": "benson loves these paths",
+            "no": "benson elsker disse stiene",
+            "fr": "benson aime ces chemins",
+            "it": "benson ama questi percorsi",
+            "sp": "benson ama estos caminos",
+            "de": "Benson liebt diese Pfade",
+            "jp": "ベンソンはこれらの道が大好きです",
+            "pi": "benson loves these paths",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.920067, 10.747236]
+    },
+    {
+        "img": "../img/b_afartments.png",
+        "date": "22.05.2022",
+        "text": {
+            "en": "benson in front of apartment buildings",
+            "no": "benson foran leilighetsbygg",
+            "fr": "benson devant des immeubles d'habitation",
+            "it": "benson di fronte a condomini",
+            "sp": "benson frente a edificios de apartamentos",
+            "de": "Benson vor Mehrfamilienhäusern",
+            "jp": "アパートの前のベンソン",
+            "pi": "benson in front of apartment buildings",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.920161, 10.748550]
+    },
+    {
+        "img": "../img/b_tube.png",
+        "date": "22.05.2022",
+        "text": {
+            "en": "benson loves the tube",
+            "no": "benson elsker røret",
+            "fr": "benson aime le tube",
+            "it": "benson adora il tubo",
+            "sp": "benson ama el tubo",
+            "de": "Benson liebt die Röhre",
+            "jp": "ベンソンはチューブが大好きです",
+            "pi": "benson loves the tube",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_tube2.png",
+        "date": "22.05.2022",
+        "text": {
+            "en": "benson has gotten off a train",
+            "no": "benson har gått av toget",
+            "fr": "benson est descendu d'un train",
+            "it": "Benson è sceso da un treno",
+            "sp": "benson se ha bajado de un tren",
+            "de": "Benson ist aus einem Zug gestiegen",
+            "jp": "ベンソンは電車を降りた",
+            "pi": "benson has gotten off a train",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_bus_window.png",
+        "date": "22.05.2022",
+        "text": {
+            "en": "benson rides a bus",
+            "no": "benson kjører buss",
+            "fr": "benson monte dans un bus",
+            "it": "Benson va su un autobus",
+            "sp": "Benson viaja en autobús",
+            "de": "Benson fährt mit dem Bus",
+            "jp": "ベンソンはバスに乗る",
+            "pi": "benson rides a bus",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.907214, 10.687578]
+    },
+    {
+        "img": "../img/b_parktm.png",
+        "date": "22.05.2022",
+        "text": {
+            "en": "benson is in the grass in a park and he loves it",
+            "no": "benson er i gresset i en park og han elsker det",
+            "fr": "benson est dans l'herbe dans un parc et il adore ça",
+            "it": "benson è nell'erba in un parco e lo adora",
+            "sp": "benson está en el césped de un parque y le encanta",
+            "de": "benson ist im gras in einem park und er liebt es",
+            "jp": "ベンソンは公園の芝生にいて、それが大好きです",
+            "pi": "benson is in the grass in a park and he loves it",
+        },
+        "location": {
+            "en": "Oslo, Norway",
+            "no": "Oslo, Norway",
+            "fr": "Oslo, Norvège",
+            "it": "Oslo, Norvegia",
+            "sp": "Oslo, Noruega",
+            "de": "Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ",
+            "pi": "Oslo, Norway"
+        },
+        "ltlo": [59.924994, 10.706894]
     },
     
     
@@ -1085,7 +2110,8 @@ empty image entry
             "it": "",
             "sp": "",
             "de": "",
-            "jp": ""
+            "jp": "",
+            "pi": ""
         },
         "location": {
             "en": "",
@@ -1094,7 +2120,8 @@ empty image entry
             "it": "",
             "sp": "",
             "de": "",
-            "jp": ""
+            "jp": "",
+            "pi": ""
         },
         "ltlo": [0, 0]
     },

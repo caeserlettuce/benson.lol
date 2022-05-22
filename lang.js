@@ -21,7 +21,8 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f2": "designed in Ålesund, Norway.",
         "finn-top": "GET YOUR OWN BENSON HERE!",
         "finn-mid": "get a benson",
-        "finn-bot": "benson.lol is not affiliated with<br>finntheduck.com"
+        "finn-bot": "benson.lol is not affiliated with<br>finntheduck.com",
+        "langdisc": ""
     },
     "no": {
         "t1": "Benson min elskede",
@@ -31,7 +32,8 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f2": "designet i Ålesund, Norge.",
         "finn-top": "FÅ DIN EGEN BENSON HER!",
         "finn-mid": "få en benson",
-        "finn-bot": "benson.lol er ikke tilknyttet<br>finntheduck.com"
+        "finn-bot": "benson.lol er ikke tilknyttet<br>finntheduck.com",
+        "langdisc": "*oversettelser er kanskje ikke nøyaktige"
     },
     "fr": {
         "t1": "Benson mon bien-aimé",
@@ -41,7 +43,8 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f2": "conçu à Ålesund, en Norvège.",
         "finn-top": "OBTENEZ VOTRE PROPRE BENSON ICI !",
         "finn-mid": "obtenir un benson",
-        "finn-bot": "benson.lol n'est pas affilié à<br>finntheduck.com"
+        "finn-bot": "benson.lol n'est pas affilié à<br>finntheduck.com",
+        "langdisc": "*La traduction peut ne pas être exacte"
     },
     "it": {
         "t1": "Benson mio amato",
@@ -51,7 +54,8 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f2": "progettato ad Ålesund, Norvegia.",
         "finn-top": "PRENDI IL TUO BENSON QUI!",
         "finn-mid": "prendi un benson",
-        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com"
+        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com",
+        "langdisc": "*La traduzione potrebbe non essere accurata"
     },
     "sp": {
         "t1": "Benson mi amado",
@@ -61,7 +65,8 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f2": "diseñado en Ålesund, Noruega.",
         "finn-top": "PRENDI IL TUO BENSON QUI!",
         "finn-mid": "prendi un benson",
-        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com"
+        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com",
+        "langdisc": "*La traducción puede no ser exacta."
     },
     "de": {
         "t1": "Benson Mein Geliebter",
@@ -71,7 +76,8 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f2": "entworfen in Ålesund, Norwegen.",
         "finn-top": "HOL DIR HIER DEINEN EIGENEN BENSON!",
         "finn-mid": "nimm einen Benson",
-        "finn-bot": "benson.lol ist nicht mit finntheduck.com<br>verbunden"
+        "finn-bot": "benson.lol ist nicht mit finntheduck.com<br>verbunden",
+        "langdisc": "*Die Übersetzung ist möglicherweise nicht korrekt"
     },
     "jp": {
         "t1": "ベンソン私の最愛の人",
@@ -81,8 +87,20 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "f2": "ノルウェーのオーレスンで設計されました。",
         "finn-top": "ここであなた自身のベンソンを手に入れよう！",
         "finn-mid": "ベンソンを取得",
-        "finn-bot": "benson.lolはfinntheduck.comと提携していません"
+        "finn-bot": "benson.lolはfinntheduck.comと提携していません",
+        "langdisc": "*翻訳は正確でない可能性があります"
     },
+}
+
+var bnsn_map = {
+    "en": "where has benson been?",
+    "no": "hvor har benson vært?",
+    "fr": "Où est passé Benson ?",
+    "it": "dov'è stato Benson?",
+    "sp": "¿Dónde ha estado Benson?",
+    "de": "Wo war Benson?",
+    "jp": "ベンソンはどこにいましたか？",
+    "pi": "where within the seven seas has benson gone?"
 }
 
 function len(json) {
@@ -145,6 +163,8 @@ function do_lang(language) {
         var footer_height = document.getElementById("footer").clientHeight;
 
         document.getElementById("technopug-pos").innerHTML = `.technopug { bottom: ${footer_height}px; }`;
+
+        document.getElementById("trifold").title = `${bnsn_map[lang]}`;
 
 
         //document.getElementById("finn-transition").innerHTML = ".finn-badge { transition: 1.5s; }";

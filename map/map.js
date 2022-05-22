@@ -31,31 +31,39 @@ function initMap() {
             cords = [0, 0];
         }
 
-        if (Array.isArray(cords) == false) {
+        if (cords[0] == 0 || cords[1] == 0) {
 
-            if (pre_coords[cords]) {
-                cords = pre_coords[cords];
+            console.debug("literally nothing lmao");
+
+        } else {
+
+
+            if (Array.isArray(cords) == false) {
+
+                if (pre_coords[cords]) {
+                    cords = pre_coords[cords];
+                }
             }
-        }
 
 
 
-        eval(`marker_${i} = new google.maps.Marker({
-            position: {"lat": ${cords[0]}, "lng": ${cords[1]}},
-            map: map,
-            title: "${img_db[i]["text"][lang]}"
-        });`);
-        
-        console.log(i)
-
-        eval(`marker_${i}.addListener("click", () => {
-            location.href = "../view?bogo=${i}";
-        });`);
+            eval(`marker_${i} = new google.maps.Marker({
+                position: {"lat": ${cords[0]}, "lng": ${cords[1]}},
+                map: map,
+                title: "${img_db[i]["text"][lang]}"
+            });`);
             
+            console.log(i)
 
-        markers.push(new_marker);
+            eval(`marker_${i}.addListener("click", () => {
+                location.href = "../view?bogo=${i}";
+            });`);
+                
+
+            markers.push(new_marker);
 
 
+            }
     } 
     
     /*
