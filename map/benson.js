@@ -50,7 +50,8 @@ function cheese() {
     1920*128
     
     */
-
+    var lang_wid = document.getElementById("langsel").clientWidth;
+    document.getElementById("mode-sel").style.right = `${lang_wid + 10}px`;
 
 }
 cheese();

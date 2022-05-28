@@ -44,6 +44,10 @@ function cheese() {
         }
     }
 
+    
+    var lang_wid = document.getElementById("langsel").clientWidth;
+    document.getElementById("mode-sel").style.right = `${lang_wid + 10}px`;
+
 }
 cheese();
 window.onscroll = obama;

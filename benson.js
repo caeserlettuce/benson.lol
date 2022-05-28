@@ -3,6 +3,7 @@ var scrolltm = 0;
 var benson = document.getElementById("benson");
 var finn = document.getElementById("finn");
 var technopug = document.getElementById("technopug");
+var trifolg = document.getElementById("trifold");
 var footer_tm = document.getElementById("footer");
 var footer_wrap = document.getElementById("footer-wrap");
 var benson_rot = 0;
@@ -11,6 +12,7 @@ benson.addEventListener('contextmenu', event => event.preventDefault());    // d
 benson.onmousedown = function() { return false; };
 finn.onmousedown = function() { return false; };
 technopug.onmousedown = function() { return false; };
+trifolg.onmousedown = function() { return false; };
 var popa;
 // nft websites cant even figure it out when it took me a simple google search
 function obama() {
@@ -36,8 +38,10 @@ function cheese() {
 
     document.getElementById("technopug-pos").innerHTML = `.technopug { bottom: ${footer_height}px; }`;
 
-
-
+    var lang_wid = document.getElementById("langsel").clientWidth;
+    document.getElementById("trifold").style.right = `${lang_wid + 10}px`;
+    var yayahaha = parseInt(`${document.getElementById("trifold").style.right}`.replace("px", ""))
+    document.getElementById("mode-sel").style.right = `${yayahaha + document.getElementById("trifold").clientWidth}px`;
 }
 function redir_map() {
     location.href = "./map";

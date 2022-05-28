@@ -135,6 +135,81 @@ a {
     100% { transform: translateY(50px); }
 }
 
+.nightsky {
+    background-image: url(../assets/dark_back.png);
+    z-index: -100;
+}
+
+.stars1 {
+    background-image: url(../assets/dark_stars1.png);
+    z-index: -90;
+    opacity: 0;
+    animation: star1 6s 0s 2;      /*values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+.stars2 {
+    background-image: url(../assets/dark_stars2.png);
+    z-index: -90;
+    opacity: 0;
+    animation: star2 6s 1s 2;     /*values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+.stars3 {
+    background-image: url(../assets/dark_stars3.png);
+    z-index: -90;
+    opacity: 0;
+    animation: star3 6s 4s 2;      /*values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+.shootingstar1 {
+    background-image: url(../assets/transparent.png);
+    z-index: -90;
+    animation: shootstar1 10s 0s 2;     /* values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+.shootingstar2 {
+    background-image: url(../assets/dark_shoot2_1.png);
+    z-index: -90;
+    animation: shootstar2 10s 6s 2;     /* values: duration, start time, something else */
+    animation-iteration-count: infinite;
+}
+
+@keyframes star1 {
+    0% { opacity: 0.0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+@keyframes star2 {
+    0% { opacity: 0.0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+@keyframes star3 {
+    0% { opacity: 0.0; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+
+@keyframes shootstar1 {
+    0% { background-image: url(../assets/dark_shoot1_1.png); }
+    02.5% { background-image: url(../assets/dark_shoot1_2.png); }
+    05.0% { background-image: url(../assets/dark_shoot1_3.png); }
+    07.5% { background-image: url(../assets/dark_shoot1_4.png); }
+    10% { background-image: url(../assets/transparent.png); }
+    100% { background-image: url(../assets/transparent.png); }
+}
+
+@keyframes shootstar2 {
+    0% { background-image: url(../assets/dark_shoot2_1.png); }
+    02.5% { background-image: url(../assets/dark_shoot2_2.png); }
+    05.0% { background-image: url(../assets/dark_shoot2_3.png); }
+    07.5% { background-image: url(../assets/dark_shoot2_4.png); }
+    10% { background-image: url(../assets/transparent.png); }
+    100% { background-image: url(../assets/transparent.png); }
+}
+
+
+
 .fg-benson {
     margin: 0px;
     padding: 0px;
@@ -196,6 +271,7 @@ a {
     margin: 10px;
     margin-top: 15px;
     border: 0px;
+    color: white;
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     text-shadow: 2px 2px 8px #3b3b3b20;
@@ -205,13 +281,11 @@ a {
 
 .blocky-title {
     margin-top: 5px;
-    color: white;
     font-size: 2em;
 }
 
 .blocky-text {
     margin-top: 5px;
-    color: white;
     font-size: 1.5em;
 }
 
@@ -343,4 +417,29 @@ a {
     font-size: 1.05em;
     color: rgb(221, 220, 220);
     cursor: default;
+}
+
+.map-icon {
+    height: 2.1em;
+    float: right;
+    position: absolute;
+    padding-right: 20px;
+    padding-top: 2.5px;
+    cursor: pointer;
+}
+
+.modesel {
+    height: 2.1em;
+    width: 2.1em;
+    float: right;
+    position: absolute;
+    padding-right: 10px;
+    padding-top: 2.5px;
+    cursor: pointer;
+}
+
+
+.lang-disc {
+    color: #fdfdfd;
+    font-size: 1.5em;
 }

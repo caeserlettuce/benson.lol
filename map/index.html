@@ -17,9 +17,11 @@
   </head>
   <body onload="initMap()">
     <!--background-->
-    <div class="bg sky"></div>
-    <div class="bg cloud1"></div>
-    <div class="bg cloud2"></div>
+    <div id="backy" style="margin: 0px; padding: 0px; border: 0px; background-color: transparent;">
+      <div class="bg sky"></div>
+      <div class="bg cloud1"></div>
+      <div class="bg cloud2"></div>
+    </div>
     <img src="assets/benson.png" class="fg-benson disable" id="benson">
     <!--foreground-->
     <br><br><br><br>
@@ -28,6 +30,7 @@
       <div style="width: 100vw; text-align: center; z-index: 400;" id="texttm">
         <p class="big-bensontext" id="bmb1">benson all around the world</p>
         <p class="normal-bensontext" id="bmb2">where has benson been?</p>
+        <p class="lang-disc" id="langdisc">*translations may not be accurate</p>
       </div>
       <div class="below-benson">
    
@@ -41,7 +44,7 @@
           <p class="footer-wrap">
             <span class="footer-text" id="f1">©2022 benson.lol & dapug.lol</span>
             <span class="footer-text" style="color: #adadad; padding-left: 10px;" id="f2" title="it sounds cool and is not wrong so shoosh">designed in Ålesund, Norway.</span>
-            <span class="footer-text" style="float: right; padding-right: 29px;"> contact me on discord @pugface#2222, email: benson@benson.lol</span>
+            <span class="footer-text" style="float: right; padding-right: 29px;" id="f3"> contact me on discord @pugface#2222, email: benson@benson.lol</span>
           </p>
           
         </div>
@@ -59,7 +62,11 @@
       
       <a href="https://benson.lol" class="header-text">BENSON</a>
 
-      <div class="lang-select">
+      <svg id="mode-sel" class="modesel disable" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" onclick="toggle_mode()">
+
+      </svg>
+
+      <div class="lang-select" id="langsel">
 
         <label for="touch" id="selected-lang"><span class="sel-lang"><img src="../flag/en.png" class="lang-flag"> EN</span></label>
         <input type="checkbox" id="touch">
@@ -102,6 +109,8 @@
         bottom: 40px;
       }
     </style>
+    <style id="darkmode-switch"> 
+    </style>
     <span id="ft-s" class="finn finn-toptext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
     <span id="fm-s" class="finn finn-midtext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
     <span id="fb-s" class="finn finn-bottext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
@@ -112,6 +121,7 @@
     <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALYXpUfvZlaWRW43_1ZuFtNGqG2QnymWg" defer></script>-->
     <script src="../db.js"></script>
     <script src="setup.js"></script>
+    <script src="darkmode.js"></script>
     <script src="benson.js"></script>
     <script src="map.js"></script>
     <script src="lang.js"></script>

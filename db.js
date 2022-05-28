@@ -26,7 +26,11 @@ var lang_vis = {    // for language selector
     "jp": {
         "name": "JP",
         "flag": "../flag/jp.png"
-    },
+    },/*
+    "pi": {
+        "name": "PI",
+        "flag": "../flag/pi.png"
+    },*/
 }
 
 var hv_txt = {
@@ -37,7 +41,8 @@ var hv_txt = {
         "it": "posizione",
         "sp": "localización",
         "de": "lage",
-        "jp": "位置"
+        "jp": "位置",
+        "pi": "where ye photo taken"
     },
     "dt": {
         "en": "date taken",
@@ -46,7 +51,8 @@ var hv_txt = {
         "it": "data presa",
         "sp": "fecha que se tendrá",
         "de": "aufnahmedatum",
-        "jp": "取得されたデータ"
+        "jp": "取得されたデータ",
+        "pi": "when ye photo taken"
     }
 }
 
@@ -61,7 +67,8 @@ var img_db = [
             "it": "Benson in macchina",
             "sp": "benson en un auto",
             "de": "Benson in einem Auto",
-            "jp": "車の中でベンソン"
+            "jp": "車の中でベンソン",
+            "pi": "benson in a landlubber ship"
         },
         "location": {
             "en": "Norway",
@@ -70,7 +77,8 @@ var img_db = [
             "it": "Norvegia",
             "sp": "Noruega",
             "de": "Norwegen",
-            "jp": "ノルウェー"
+            "jp": "ノルウェー",
+            "pi": "cold land"
         },
         "ltlo": [63.110934, 7.801553]
     },
@@ -84,7 +92,8 @@ var img_db = [
             "it": "benson nell'erba",
             "sp": "benson en la hierba",
             "de": "Benson im Gras",
-            "jp": "草の中のベンソン"
+            "jp": "草の中のベンソン",
+            "pi": "benson in da grass"
         },
         "location": {
             "en": "Norway",
@@ -93,7 +102,8 @@ var img_db = [
             "it": "Norvegia",
             "sp": "Noruega",
             "de": "Norwegen",
-            "jp": "ノルウェー"
+            "jp": "ノルウェー",
+            "pi": "cold land"
         },
         "ltlo": [63.109461, 7.801954]
     },
@@ -107,7 +117,8 @@ var img_db = [
             "it": "benson su una passerella con le montagne",
             "sp": "benson en un paseo marítimo con las montañas",
             "de": "Benson auf einer Promenade mit den Bergen",
-            "jp": "山のある遊歩道にいるベンソン"
+            "jp": "山のある遊歩道にいるベンソン",
+            "pi": "benson is on ye docks with the mountains"
         },
         "location": {
             "en": "Molde, Norway",
@@ -116,7 +127,9 @@ var img_db = [
             "it": "Molde, Norvegia",
             "sp": "Molda, Noruega",
             "de": "Molde, Norwegen",
-            "jp": "モルデ、ノルウェー"
+            "jp": "モルデ、ノルウェー",
+            "pi": "Molde, cold land",
+        "pi": ""
         },
         "ltlo": [62.736947, 7.159602]
     },
@@ -130,7 +143,8 @@ var img_db = [
             "it": "benson diffonde positività",
             "sp": "benson difundiendo positividad",
             "de": "Benson verbreitet Positivität",
-            "jp": "ベンソンは積極性を広める"
+            "jp": "ベンソンは積極性を広める",
+            "pi": "benson shall make everybody happy"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -139,7 +153,8 @@ var img_db = [
             "it": "Forte di Kvalvik, Norvegia",
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
-            "jp": "Kvalvik Fort、ノルウェー"
+            "jp": "Kvalvik Fort、ノルウェー",
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.09875190006276, 7.894109428616464]
     },
@@ -153,7 +168,8 @@ var img_db = [
             "it": "Benson è pronto per la guerra",
             "sp": "benson esta listo para la guerra",
             "de": "Benson ist bereit für den Krieg",
-            "jp": "ベンソンは戦争の準備ができています"
+            "jp": "ベンソンは戦争の準備ができています",
+            "pi": "benson is ready to fight"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -162,7 +178,8 @@ var img_db = [
             "it": "Forte di Kvalvik, Norvegia",
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
-            "jp": "Kvalvik Fort、ノルウェー"
+            "jp": "Kvalvik Fort、ノルウェー",
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.100515233138644, 7.897152625079914]
     },
@@ -176,7 +193,8 @@ var img_db = [
             "it": "benson utilizzando i mezzi pubblici",
             "sp": "benson usando transporte publico",
             "de": "Benson mit öffentlichen Verkehrsmitteln",
-            "jp": "公共交通機関を利用するベンソン"
+            "jp": "公共交通機関を利用するベンソン",
+            "pi": "benson be using landlubber transport"
         },
         "location": {
             "en": "Molde, Norway",
@@ -185,7 +203,8 @@ var img_db = [
             "it": "Molde, Norvegia",
             "sp": "Molda, Noruega",
             "de": "Molde, Norwegen",
-            "jp": "モルデ、ノルウェー"
+            "jp": "モルデ、ノルウェー",
+            "pi": "Molde, cold land"
         },
         "ltlo": [62.73290613684786, 7.058839636246417]
     },
@@ -199,7 +218,8 @@ var img_db = [
             "it": "Benson ti pugnalerà se subisce un torto",
             "sp": "benson te apuñalará si es agraviado",
             "de": "Benson wird dich erstechen, wenn ihm Unrecht getan wird",
-            "jp": "ベンソンは彼が間違っているならあなたを刺します"
+            "jp": "ベンソンは彼が間違っているならあなたを刺します",
+            "pi": ""
         },
         "location": {
             "en": "Molde, Norway",
@@ -208,7 +228,8 @@ var img_db = [
             "it": "Molde, Norvegia",
             "sp": "Molda, Noruega",
             "de": "Molde, Norwegen",
-            "jp": "モルデ、ノルウェー"
+            "jp": "モルデ、ノルウェー",
+            "pi": ""
         },
         "ltlo": [62.73796626818948, 7.183782434170825]
     },
@@ -222,7 +243,8 @@ var img_db = [
             "it": "benson chillin con il suo amico",
             "sp": "benson relajándose con su amigo",
             "de": "benson chillin mit seinem freund",
-            "jp": "ベンソン・チリンと彼の友人"
+            "jp": "ベンソン・チリンと彼の友人",
+            "pi": "benson found ye matey"
         },
         "location": {
             "en": "Molde, Norway",
@@ -231,7 +253,8 @@ var img_db = [
             "it": "Molde, Norvegia",
             "sp": "Molda, Noruega",
             "de": "Molde, Norwegen",
-            "jp": "モルデ、ノルウェー"
+            "jp": "モルデ、ノルウェー",
+            "pi": "Molde, cold land"
         },
         "ltlo": [62.737823309031704, 7.18353683719408]
     },
@@ -245,7 +268,8 @@ var img_db = [
             "it": "benson è un elettrodomestico da cucina",
             "sp": "benson es un aparato de cocina",
             "de": "Benson ist ein Küchengerät",
-            "jp": "ベンソンはキッチン家電です"
+            "jp": "ベンソンはキッチン家電です",
+            "pi": "benson shall cook your dinner"
         },
         "location": {
             "en": "Molde, Norway",
@@ -254,7 +278,8 @@ var img_db = [
             "it": "Molde, Norvegia",
             "sp": "Molda, Noruega",
             "de": "Molde, Norwegen",
-            "jp": "モルデ、ノルウェー"
+            "jp": "モルデ、ノルウェー",
+            "pi": "Molde, cold land"
         },
         "ltlo": [62.737952689907, 7.1840305236388655]
     },
@@ -268,7 +293,8 @@ var img_db = [
             "it": "benson accanto a un ponte funky",
             "sp": "benson al lado de un puente funky",
             "de": "benson neben einer funky brücke",
-            "jp": "ファンキーな橋の隣のベンソン"
+            "jp": "ファンキーな橋の隣のベンソン",
+            "pi": "benson found a landlubber crossing"
         },
         "location": {
             "en": "Atlanterhavsveien, Norway",
@@ -277,7 +303,8 @@ var img_db = [
             "it": "Atlanterhavsveien, Norvegia",
             "sp": "Atlanterhavsveien, Noruega",
             "de": "Atlanterhavsveien, Norwegen",
-            "jp": "Atlanterhavsveien、ノルウェー"
+            "jp": "Atlanterhavsveien、ノルウェー",
+            "pi": "Atlanterhavsveien, cold land"
         },
         "ltlo": [63.01682241297868, 7.347759809006998]
     },
@@ -291,7 +318,8 @@ var img_db = [
             "it": "benson con edifici colorati",
             "sp": "benson con edificios coloridos",
             "de": "benson mit bunten gebäuden",
-            "jp": "カラフルな建物のベンソン"
+            "jp": "カラフルな建物のベンソン",
+            "pi": "benson found the colour houses"
         },
         "location": {
             "en": "Kristiansund, Norway",
@@ -300,7 +328,8 @@ var img_db = [
             "it": "Kristiansund, Norvegia",
             "sp": "Kristiansund, Noruega",
             "de": "Kristiansund, Norwegen",
-            "jp": "クリスティアンスン、ノルウェー"
+            "jp": "クリスティアンスン、ノルウェー",
+            "pi": "Kristiansund, cold land"
         },
         "ltlo": [63.11548436710128, 7.7305793325871175]
     },
@@ -314,7 +343,8 @@ var img_db = [
             "it": "benson vroomin",
             "sp": "benson vroomin",
             "de": "benson vroomin",
-            "jp": "ベンソン・ヴルーミン"
+            "jp": "ベンソン・ヴルーミン",
+            "pi": "benson be going t'least 50 knots"
         },
         "location": {
             "en": "Frei, Norway",
@@ -323,7 +353,8 @@ var img_db = [
             "it": "Frei, Norvegia",
             "sp": "Frei, Noruega",
             "de": "Frei, Norway",
-            "jp": "フライ、ノルウェー"
+            "jp": "フライ、ノルウェー",
+            "pi": "Frei, cold land"
         },
         "ltlo": [63.11026679753326, 7.800798398988505]
     },
@@ -337,7 +368,8 @@ var img_db = [
             "it": "benson con un bel ponte",
             "sp": "benson con un puente genial",
             "de": "Benson mit einer coolen Brücke",
-            "jp": "クールな橋のあるベンソン"
+            "jp": "クールな橋のあるベンソン",
+            "pi": "benson found another landlubber crossing"
         },
         "location": {
             "en": "Bergsøya, Norway",
@@ -346,7 +378,8 @@ var img_db = [
             "it": "Bergsøya, Norvegia",
             "sp": "Bergsoya, Noruega",
             "de": "Bergsøya, Norwegen",
-            "jp": "Bergsøya、ノルウェー"
+            "jp": "Bergsøya、ノルウェー",
+            "pi": "bergsøya, cold land"
         },
         "ltlo": [62.975473029363705, 7.786925827655459]
     },
@@ -360,7 +393,8 @@ var img_db = [
             "it": "benson seguendo i suoi sogni",
             "sp": "benson siguiendo sus sueños",
             "de": "Benson folgt seinen Träumen",
-            "jp": "彼の夢を追うベンソン"
+            "jp": "彼の夢を追うベンソン",
+            "pi": "benson found his dreams"
         },
         "location": {
             "en": "Molde, Norway",
@@ -369,7 +403,8 @@ var img_db = [
             "it": "Molde, Norvegia",
             "sp": "Molda, Noruega",
             "de": "Molde, Norwegen",
-            "jp": "モルデ、ノルウェー"
+            "jp": "モルデ、ノルウェー",
+            "pi": "Molde, cold land"
         },
         "ltlo": [62.73775061067626, 7.183856378974504]
     },
@@ -383,7 +418,8 @@ var img_db = [
             "it": "benson davanti a una vecchia casa",
             "sp": "benson frente a una casa antigua",
             "de": "Benson vor einem alten Haus",
-            "jp": "古い家の前のベンソン"
+            "jp": "古い家の前のベンソン",
+            "pi": "benson found an abandoned house"
         },
         "location": {
             "en": "Farstad, Norway",
@@ -392,7 +428,8 @@ var img_db = [
             "it": "Farstad, Norvegia",
             "sp": "Farstad, Noruega",
             "de": "Farstad, Norwegen",
-            "jp": "Farstad、ノルウェー"
+            "jp": "Farstad、ノルウェー",
+            "pi": "Farstad, cold land"
         },
         "ltlo": [62.98852058457185, 7.209570076810794]
     },
@@ -406,7 +443,8 @@ var img_db = [
             "it": "Benson sta volando alto nell'aria",
             "sp": "benson está volando alto en el aire",
             "de": "benson fliegt hoch in die luft",
-            "jp": "ベンソンは空高く飛んでいます"
+            "jp": "ベンソンは空高く飛んでいます",
+            "pi": "benson found the skies"
         },
         "location": {
             "en": "Alberta, Canada (on an airplane)",
@@ -415,7 +453,8 @@ var img_db = [
             "it": "Alberta, Canada (in aereo)",
             "sp": "Alberta, Canadá (en un avión)",
             "de": "Alberta, Kanada (im Flugzeug)",
-            "jp": "カナダ、アルバータ州（飛行機内）"
+            "jp": "カナダ、アルバータ州（飛行機内）",
+            "pi": "Alberta, nice people land (in a metal bird)"
         },
         "ltlo": [53.55112098612576, -111.16703246313018]
     },
@@ -429,7 +468,8 @@ var img_db = [
             "it": "Benson è evaso di prigione",
             "sp": "benson escapó de la prisión",
             "de": "benson brach aus dem gefängnis aus",
-            "jp": "ベンソンは刑務所から脱出した"
+            "jp": "ベンソンは刑務所から脱出した",
+            "pi": "benson broke out of jail"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -438,7 +478,8 @@ var img_db = [
             "it": "Forte di Kvalvik, Norvegia",
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
-            "jp": "Kvalvik Fort、ノルウェー"
+            "jp": "Kvalvik Fort、ノルウェー",
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10033334068353, 7.897240631421126]
     },
@@ -452,7 +493,8 @@ var img_db = [
             "it": "Benson è ora munizioni",
             "sp": "benson es munición ahora",
             "de": "Benson ist jetzt Munition",
-            "jp": "ベンソンは今弾薬です"
+            "jp": "ベンソンは今弾薬です",
+            "pi": "benson is ye cannonball"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -461,7 +503,8 @@ var img_db = [
             "it": "Forte di Kvalvik, Norvegia",
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
-            "jp": "Kvalvik Fort、ノルウェー"
+            "jp": "Kvalvik Fort、ノルウェー",
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10036631713199, 7.897204983969396]
     },
@@ -475,7 +518,8 @@ var img_db = [
             "it": "benson, l'archeologo",
             "sp": "benson, el arqueólogo",
             "de": "Benson, der Archäologe",
-            "jp": "考古学者、ベンソン"
+            "jp": "考古学者、ベンソン",
+            "pi": "benson is now a rock person"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -484,7 +528,8 @@ var img_db = [
             "it": "Forte di Kvalvik, Norvegia",
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
-            "jp": "Kvalvik Fort、ノルウェー"
+            "jp": "Kvalvik Fort、ノルウェー",
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10030458921284, 7.896393217011947]
     },
@@ -498,7 +543,8 @@ var img_db = [
             "it": "benson nel cancello d'ingresso",
             "sp": "benson en la puerta de entrada",
             "de": "Benson im Eingangstor",
-            "jp": "入り口のベンソン"
+            "jp": "入り口のベンソン",
+            "pi": "benson shall enter"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -507,7 +553,8 @@ var img_db = [
             "it": "Forte di Kvalvik, Norvegia",
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
-            "jp": "Kvalvik Fort、ノルウェー"
+            "jp": "Kvalvik Fort、ノルウェー",
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.09674620978456, 7.891155891553488]
     },
@@ -521,7 +568,8 @@ var img_db = [
             "it": "benson in macchina",
             "sp": "benson en el coche",
             "de": "Benson auf dem Auto",
-            "jp": "車のベンソン"
+            "jp": "車のベンソン",
+            "pi": "benson is on a land ship"
         },
         "location": {
             "en": "Bergsøya, Norway",
@@ -530,7 +578,8 @@ var img_db = [
             "it": "Bergsøya, Norvegia",
             "sp": "Bergsoya, Noruega",
             "de": "Bergsøya, Norwegen",
-            "jp": "Bergsøya、ノルウェー"
+            "jp": "Bergsøya、ノルウェー",
+            "pi": "Bergsøya, cold land"
         },
         "ltlo": [62.97530109055154, 7.786863174092644]
     },
@@ -545,7 +594,7 @@ var img_db = [
             "sp": "benson siendo una gran pequeña luz nocturna",
             "de": "Benson ist ein tolles kleines Nachtlicht",
             "jp": "ベンソンは素晴らしい常夜灯です",
-            "pi": "benson being a great lil nightlight",
+            "pi": "benson is the best light for nighttime",
         },
         "location": {
             "en": "Sykkylven, Norway",
@@ -555,7 +604,7 @@ var img_db = [
             "sp": "Sykkylven, Noruega",
             "de": "Sykkylven, Norwegen",
             "jp": "Sykkylven、ノルウェー",
-            "pi": "Sykkylven, Norway"
+            "pi": "Sykkylven, cold land"
         },
         "ltlo": [62.40396894566766, 6.582386557306165]
     },
@@ -570,7 +619,7 @@ var img_db = [
             "sp": "benson está bloqueado y cargado",
             "de": "Benson ist gesperrt und geladen",
             "jp": "ベンソンはロックされてロードされています",
-            "pi": "benson is locked and loaded",
+            "pi": "benson is ready for fire",
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -580,7 +629,7 @@ var img_db = [
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
             "jp": "Kvalvik Fort、ノルウェー",
-            "pi": "Kvalvik Fort, Norway"
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.100490151010874, 7.897076156103559]
     },
@@ -595,7 +644,7 @@ var img_db = [
             "sp": "benson mirando con anhelo el océano desde su torreta",
             "de": "Benson blickt von seinem Turm sehnsüchtig ins Meer",
             "jp": "砲塔から海を切望して見つめるベンソン",
-            "pi": "benson looking longingly into the ocean from his turret",
+            "pi": "benson is protecting ye booty from enemies",
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -605,7 +654,7 @@ var img_db = [
             "sp": "Fuerte de Kvalvik, Noruega",
             "de": "Festung Kvalvik, Norwegen",
             "jp": "Kvalvik Fort、ノルウェー",
-            "pi": "Kvalvik Fort, Norway"
+            "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10044150246214, 7.897105123897647]
     },
@@ -620,7 +669,7 @@ var img_db = [
             "sp": "benson frente a un puerto deportivo",
             "de": "Benson vor einem Jachthafen",
             "jp": "マリーナの前のベンソン",
-            "pi": "benson in front of a marina",
+            "pi": "benson is waiting for us pirates",
         },
         "location": {
             "en": "Kristiansund, Norway",
@@ -630,7 +679,7 @@ var img_db = [
             "sp": "Kristiansund, Noruega",
             "de": "Kristiansund, Norwegen",
             "jp": "クリスティアンスン、ノルウェー",
-            "pi": "Kristiansund, Norway"
+            "pi": "Kristiansund, cold land"
         },
         "ltlo": [63.110958, 7.733211]
     },
@@ -645,7 +694,7 @@ var img_db = [
             "sp": "benson en una montaña",
             "de": "Benson auf einem Berg",
             "jp": "山のベンソン",
-            "pi": "benson on a mountain",
+            "pi": "benson on da mountain",
         },
         "location": {
             "en": "Molde, Norway",
@@ -655,7 +704,7 @@ var img_db = [
             "sp": "Molde, Noruega",
             "de": "Molde, Norwegen",
             "jp": "モルデ、ノルウェー",
-            "pi": "Molde, Norway"
+            "pi": "Molde, cold land"
         },
         "ltlo": [62.74834041394015, 7.127437026726649]
     },
@@ -670,7 +719,7 @@ var img_db = [
             "sp": "benson por el mar",
             "de": "benson am meer",
             "jp": "海沿いのベンソン",
-            "pi": "benson by the sea",
+            "pi": "benson by the seven seas",
         },
         "location": {
             "en": "Helland, Norway",
@@ -680,7 +729,7 @@ var img_db = [
             "sp": "Helland, Noruega",
             "de": "Helland, Norwegen",
             "jp": "ノルウェー、ヘランド",
-            "pi": "Helland, Norway"
+            "pi": "Helland, cold land"
         },
         "ltlo": [62.623153, 7.086450]
     },
@@ -695,7 +744,7 @@ var img_db = [
             "sp": "benson esta en casa",
             "de": "Benson ist zu Hause",
             "jp": "ベンソンは家です",
-            "pi": "benson is home",
+            "pi": "benson is at his home",
         },
         "location": {
             "en": "Borgund, Norway",
@@ -705,7 +754,7 @@ var img_db = [
             "sp": "Borgund, Noruega",
             "de": "Borgund, Norwegen",
             "jp": "ノルウェー、ボルガンド",
-            "pi": "Borgund, Norway"
+            "pi": "Borgund, cold land"
         },
         "ltlo": [62.468033, 6.237756]
     },
@@ -720,7 +769,7 @@ var img_db = [
             "sp": "Benson en el barril",
             "de": "Benson auf dem Fass",
             "jp": "ダバレルのベンソン",
-            "pi": "benson on da barrel",
+            "pi": "benson on da rum barrels",
         },
         "location": {
             "en": "Borgund, Norway",
@@ -730,7 +779,7 @@ var img_db = [
             "sp": "Borgund, Noruega",
             "de": "Borgund, Norwegen",
             "jp": "ノルウェー、ボルガンド",
-            "pi": "Borgund, Norway"
+            "pi": "Borgund, cold land"
         },
         "ltlo": [62.468075, 6.238628]
     },
@@ -745,7 +794,7 @@ var img_db = [
             "sp": "benson en un banco del tamaño de benson",
             "de": "Benson auf einer Benson-großen Bank",
             "jp": "ベンソンサイズのベンチにベンソン",
-            "pi": "benson on a benson-sized bench",
+            "pi": "benson found his seat",
         },
         "location": {
             "en": "Borgund, Norway",
@@ -755,7 +804,7 @@ var img_db = [
             "sp": "Borgund, Noruega",
             "de": "Borgund, Norwegen",
             "jp": "ノルウェー、ボルガンド",
-            "pi": "Borgund, Norway"
+            "pi": "Borgund, cold land"
         },
         "ltlo": [62.467478, 6.233753]
     },
@@ -770,7 +819,7 @@ var img_db = [
             "sp": "benson tiene una rosa para ti <3",
             "de": "Benson hat eine Rose für dich <3",
             "jp": "ベンソンはあなたのためにバラを持っています<3",
-            "pi": "benson has a rose for you <3",
+            "pi": "benson has the rose",
         },
         "location": {
             "en": "Ålesund, Norway",
@@ -780,7 +829,7 @@ var img_db = [
             "sp": "Ålesund, Noruega",
             "de": "Ålesund, Norwegen",
             "jp": "オーレスン、ノルウェー",
-            "pi": "Ålesund, Norway"
+            "pi": "Ålesund, cold land"
         },
         "ltlo": [62.473227553812706, 6.156559824850604]
     },
@@ -795,7 +844,7 @@ var img_db = [
             "sp": "benson en el coche",
             "de": "benson im auto",
             "jp": "車の中でベンソン",
-            "pi": "benson in the car",
+            "pi": "benson is in the land machine",
         },
         "location": {
             "en": "Ålesund, Norway",
@@ -805,7 +854,7 @@ var img_db = [
             "sp": "Ålesund, Noruega",
             "de": "Ålesund, Norwegen",
             "jp": "オーレスン、ノルウェー",
-            "pi": "Ålesund, Norway"
+            "pi": "Ålesund, cold land"
         },
         "ltlo": [62.473303, 6.151189]
     },
@@ -820,7 +869,7 @@ var img_db = [
             "sp": "benson en el pasillo del congelador",
             "de": "Benson im Gefriergang",
             "jp": "冷凍庫の通路にいるベンソン",
-            "pi": "benson in the freezer aisle",
+            "pi": "benson in the cold box",
         },
         "location": {
             "en": "Sykkylven, Norway",
@@ -830,7 +879,7 @@ var img_db = [
             "sp": "Sykkylven, Noruega",
             "de": "Sykkylven, Norwegen",
             "jp": "Sykkylven、ノルウェー",
-            "pi": "Sykkylven, Norway"
+            "pi": "Sykkylven, cold land"
         },
         "ltlo": [62.391850, 6.583339]
     },
@@ -845,7 +894,7 @@ var img_db = [
             "sp": "benson en el paseo marítimo",
             "de": "Benson auf der Promenade",
             "jp": "遊歩道のベンソン",
-            "pi": "benson on the boardwalk",
+            "pi": "benson is waiting for the pirates to pick him up",
         },
         "location": {
             "en": "Sykkylven, Norway",
@@ -855,7 +904,7 @@ var img_db = [
             "sp": "Sykkylven, Noruega",
             "de": "Sykkylven, Norwegen",
             "jp": "Sykkylven、ノルウェー",
-            "pi": "Sykkylven, Norway"
+            "pi": "Sykkylven, cold land"
         },
         "ltlo": [62.392822, 6.578183]
     },
@@ -870,7 +919,7 @@ var img_db = [
             "sp": "benson frente a mas montañas",
             "de": "Benson vor mehr Bergen",
             "jp": "より多くの山の前でベンソン",
-            "pi": "benson in front of more mountains",
+            "pi": "benson with more mountains",
         },
         "location": {
             "en": "Norway",
@@ -880,7 +929,7 @@ var img_db = [
             "sp": "Noruega",
             "de": "Norwegen",
             "jp": "ノルウェー",
-            "pi": "Norway"
+            "pi": "cold land"
         },
         "ltlo": [62.293258, 6.886656]
     },
@@ -895,7 +944,7 @@ var img_db = [
             "sp": "benson con algunas montañas nevadas",
             "de": "Benson mit einigen schneebedeckten Bergen",
             "jp": "雪をかぶった山々のあるベンソン",
-            "pi": "benson with some snow capped mountains",
+            "pi": "benson with some white mountains",
         },
         "location": {
             "en": "Norway",
@@ -905,7 +954,7 @@ var img_db = [
             "sp": "Noruega",
             "de": "Norwegen",
             "jp": "ノルウェー",
-            "pi": "Norway"
+            "pi": "cold land"
         },
         "ltlo": [62.188136, 6.923864]
     },
@@ -920,7 +969,7 @@ var img_db = [
             "sp": "benson mirando una hermosa cascada",
             "de": "benson starrt auf einen wunderschönen wasserfall",
             "jp": "美しい滝を見つめるベンソン",
-            "pi": "benson staring at a beautiful waterfall",
+            "pi": "benson staring at a waterfall",
         },
         "location": {
             "en": "Geirangerfjord, Norway",
@@ -930,7 +979,7 @@ var img_db = [
             "sp": "Fiordo de Geiranger, Noruega",
             "de": "Geirangerfjord, Norwegen",
             "jp": "ガイランゲルフィヨルド、ノルウェー",
-            "pi": "Geirangerfjord, Norway"
+            "pi": "Geirangerfjord, cold land"
         },
         "ltlo": [62.104458, 7.102975]
     },
@@ -955,7 +1004,7 @@ var img_db = [
             "sp": "Geiranger, Noruega",
             "de": "Geiranger, Norwegen",
             "jp": "ガイランゲル、ノルウェー",
-            "pi": "Geiranger, Norway"
+            "pi": "Geiranger, cold land"
         },
         "ltlo": [62.091081, 7.222056]
     },
@@ -970,7 +1019,7 @@ var img_db = [
             "sp": "benson en un acantilado",
             "de": "Benson auf einer Klippe",
             "jp": "崖の上のベンソン",
-            "pi": "benson on a cliff",
+            "pi": "benson on da cliff",
         },
         "location": {
             "en": "Geiranger, Norway",
@@ -980,7 +1029,7 @@ var img_db = [
             "sp": "Geiranger, Noruega",
             "de": "Geiranger, Norwegen",
             "jp": "ガイランゲル、ノルウェー",
-            "pi": "Geiranger, Norway"
+            "pi": "Geiranger, cold land"
         },
         "ltlo": [62.091350, 7.222064]
     },
@@ -995,7 +1044,7 @@ var img_db = [
             "sp": "¿trabajos en la vía más adelante? bueno, sí, espero que sí",
             "de": "Straßenarbeit voran? Nun ja, ich hoffe es wirklich",
             "jp": "道路工事先？ええ、私はそれがすることを願っています",
-            "pi": "road work ahead? well yeah, i sure hope it does",
+            "pi": "ye have road work ahead? ahoy! i sure hope it does",
         },
         "location": {
             "en": "Norway",
@@ -1005,7 +1054,7 @@ var img_db = [
             "sp": "Noruega",
             "de": "Norwegen",
             "jp": "ノルウェー",
-            "pi": "Norway"
+            "pi": "cold land"
         },
         "ltlo": [62.499917, 6.889047]
     },
@@ -1020,7 +1069,7 @@ var img_db = [
             "sp": "benson con el rey y la reina de noruega",
             "de": "benson mit dem könig und der königin von norwegen",
             "jp": "ノルウェーの王と女王とのベンソン",
-            "pi": "benson with the king and queen of norway",
+            "pi": "benson with ye royalty of cold land",
         },
         "location": {
             "en": "Det kongelige slott, Norway",
@@ -1030,7 +1079,7 @@ var img_db = [
             "sp": "El Palacio Real, Noruega",
             "de": "Der königliche Palast, Norwegen",
             "jp": "ノルウェー王宮",
-            "pi": "The Royal Palace, Norway"
+            "pi": "The Royal Palace, cold land"
         },
         "ltlo": [59.916722, 10.728389]
     },
@@ -1045,7 +1094,7 @@ var img_db = [
             "sp": "benson en una fuente vacia",
             "de": "Benson in einem leeren Brunnen",
             "jp": "空の噴水にいるベンソン",
-            "pi": "benson in an empty fountain",
+            "pi": "benson in the empty fountain",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1055,7 +1104,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.915661, 10.739292]
     },
@@ -1070,7 +1119,7 @@ var img_db = [
             "sp": "benson en el parque",
             "de": "benson im park",
             "jp": "公園のベンソン",
-            "pi": "benson in the park",
+            "pi": "benson in da grass field",
         },
         "location": {
             "en": "Slottsparken, Oslo, Norway",
@@ -1080,7 +1129,7 @@ var img_db = [
             "sp": "Slottsparken, Oslo, Noruega",
             "de": "Slottsparken, Oslo, Norwegen",
             "jp": "Slottsparken、オスロ、ノルウェー",
-            "pi": "Slottsparken, Oslo, Norway"
+            "pi": "Slottsparken, Oslo, cold land"
         },
         "ltlo": [59.916594, 10.732047]
     },
@@ -1095,7 +1144,7 @@ var img_db = [
             "sp": "benson en el sol",
             "de": "benson in der sonne",
             "jp": "太陽の下でベンソン",
-            "pi": "benson in the sun",
+            "pi": "benson is in the sun",
         },
         "location": {
             "en": "Slottsparken, Oslo, Norway",
@@ -1105,7 +1154,7 @@ var img_db = [
             "sp": "Slottsparken, Oslo, Noruega",
             "de": "Slottsparken, Oslo, Norwegen",
             "jp": "Slottsparken、オスロ、ノルウェー",
-            "pi": "Slottsparken, Oslo, Norway"
+            "pi": "Slottsparken, Oslo, cold land"
         },
         "ltlo": [59.916781, 10.731531]
     },
@@ -1120,7 +1169,7 @@ var img_db = [
             "sp": "benson va a comprar zapatos",
             "de": "Benson geht Schuhe einkaufen",
             "jp": "ベンソンは靴の買い物に行きます",
-            "pi": "benson is going shoe shopping",
+            "pi": "benson is buying himself some of ye new shoes",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1130,7 +1179,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.91463463470055, 10.740621062825157]
     },
@@ -1145,7 +1194,7 @@ var img_db = [
             "sp": "benson es acogedor",
             "de": "Benson ist gemütlich",
             "jp": "ベンソンは居心地が良い",
-            "pi": "benson is cozy",
+            "pi": "benson is verrrrry comfortable",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1155,7 +1204,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.914638562590646, 10.740610851233862]
     },
@@ -1170,7 +1219,7 @@ var img_db = [
             "sp": "benson frente a una de las últimas iglesias de madera de noruega",
             "de": "benson vor einer der letzten stabkirchen norwegens",
             "jp": "ノルウェーで最後のスターヴ教会の前にあるベンソン",
-            "pi": "benson in front of one of the last stave churches in norway",
+            "pi": "benson in front of one of ye last stave churches in all of the cold land",
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1180,7 +1229,7 @@ var img_db = [
             "sp": "Bygdøy, Oslo, Noruega",
             "de": "Bygdoy, Oslo, Norwegen",
             "jp": "ビグドイ、オスロ、ノルウェー",
-            "pi": "Bygdøy, Oslo, Norway"
+            "pi": "Bygdøy, Oslo, cold land"
         },
         "ltlo": [59.908122, 10.682969]
     },
@@ -1195,7 +1244,7 @@ var img_db = [
             "sp": "benson en una cueva del museo",
             "de": "Benson in einer Museumshöhle",
             "jp": "博物館の洞窟のベンソン",
-            "pi": "benson in a museum cave",
+            "pi": "benson in a museum's version of davey jones' lockarrr",
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1205,9 +1254,9 @@ var img_db = [
             "sp": "Bygdøy, Oslo, Noruega",
             "de": "Bygdoy, Oslo, Norwegen",
             "jp": "ビグドイ、オスロ、ノルウェー",
-            "pi": "Bygdøy, Oslo, Norway"
+            "pi": "Bygdøy, Oslo, cold land"
         },
-        "ltlo": [59.903239, 10.698164]
+        "ltlo": [59.9035439483444, 10.698020773721245]
     },
     {
         "img": "../img/b_window.png",
@@ -1220,7 +1269,7 @@ var img_db = [
             "sp": "Benson en el alféizar de una ventana",
             "de": "Benson auf einer Fensterbank",
             "jp": "窓辺のベンソン",
-            "pi": "benson in a windowsill",
+            "pi": "benson in a window",
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1230,9 +1279,9 @@ var img_db = [
             "sp": "Bygdøy, Oslo, Noruega",
             "de": "Bygdoy, Oslo, Norwegen",
             "jp": "ビグドイ、オスロ、ノルウェー",
-            "pi": "Bygdøy, Oslo, Norway"
+            "pi": "Bygdøy, Oslo, cold land"
         },
-        "ltlo": [59.903244, 10.698186]
+        "ltlo": [59.9033155398052, 10.698028690214068]
     },
     {
         "img": "../img/b_sewing.png",
@@ -1245,7 +1294,7 @@ var img_db = [
             "sp": "benson esta cosiendo",
             "de": "Benson näht",
             "jp": "ベンソンは縫っています",
-            "pi": "benson is sewing",
+            "pi": "benson is sewing some new clothes",
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1255,7 +1304,7 @@ var img_db = [
             "sp": "Bygdøy, Oslo, Noruega",
             "de": "Bygdoy, Oslo, Norwegen",
             "jp": "ビグドイ、オスロ、ノルウェー",
-            "pi": "Bygdøy, Oslo, Norway"
+            "pi": "Bygdøy, Oslo, cold land"
         },
         "ltlo": [59.903336, 10.699439]
     },
@@ -1270,7 +1319,7 @@ var img_db = [
             "sp": "benson va de compras",
             "de": "Benson geht einkaufen",
             "jp": "ベンソンは買い物に行きます",
-            "pi": "benson is going shopping",
+            "pi": "benson is shopping",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1280,7 +1329,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.911922, 10.748244]
     },
@@ -1305,7 +1354,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.912853, 10.746875]
     },
@@ -1330,7 +1379,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.913167, 10.746622]
     },
@@ -1355,7 +1404,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.911675, 10.747859]
     },
@@ -1370,7 +1419,7 @@ var img_db = [
             "sp": "benson ha creado una galaxia",
             "de": "Benson hat eine Galaxie erschaffen",
             "jp": "ベンソンは銀河を作りました",
-            "pi": "benson has created a galaxy",
+            "pi": "benson has created a brrrrand new galaxy",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1380,7 +1429,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.917983, 10.733197]
     },
@@ -1395,7 +1444,7 @@ var img_db = [
             "sp": "dame de comer mis monedas señor freemannnnnnnnn",
             "de": "füttere mich mit meinen Münzen, Herr Freemannnnnnnnn",
             "jp": "私のコインを送ってくださいmrfreemannnnnnnnn",
-            "pi": "feed me my coins mr freemannnnnnnnn",
+            "pi": "feed me my coins mr frrrrrrrreemannnn!!!",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1405,7 +1454,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.916528, 10.735067]
     },
@@ -1420,7 +1469,7 @@ var img_db = [
             "sp": "benson es muy amable",
             "de": "Benson ist sehr nett",
             "jp": "ベンソンはとても親切です",
-            "pi": "benson is very kind",
+            "pi": "benson is very kind to all",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1430,7 +1479,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.914906, 10.735053]
     },
@@ -1445,7 +1494,7 @@ var img_db = [
             "sp": "Benson está acostado (simplemente no lo parece)",
             "de": "Benson legt sich hin (es sieht nur nicht so aus)",
             "jp": "ベンソンは横たわっています（それはちょうどそれのようには見えません）",
-            "pi": "benson is laying down (it just doesnt look like it)",
+            "pi": "benson is resting",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1455,7 +1504,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.915022, 10.735569]
     },
@@ -1480,7 +1529,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.914939, 10.734839]
     },
@@ -1495,7 +1544,7 @@ var img_db = [
             "sp": "benson ama las flores",
             "de": "Benson liebt Blumen",
             "jp": "ベンソンは花が大好き",
-            "pi": "benson loves flowers",
+            "pi": "benson loves the flowerrrrs",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1505,7 +1554,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.914917, 10.735672]
     },
@@ -1530,7 +1579,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.913672, 10.735894]
     },
@@ -1545,7 +1594,7 @@ var img_db = [
             "sp": "benson está en la calle",
             "de": "Benson ist an der Straße",
             "jp": "ベンソンは通りのそばにあります",
-            "pi": "benson is by the street",
+            "pi": "benson is by the main street",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1555,7 +1604,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.913739, 10.735953]
     },
@@ -1580,7 +1629,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.910328, 10.735078]
     },
@@ -1595,7 +1644,7 @@ var img_db = [
             "sp": "benson es ahora la antorcha",
             "de": "Benson ist jetzt die Fackel",
             "jp": "ベンソンは今やトーチです",
-            "pi": "benson is now the torch",
+            "pi": "benson is now the torrrch",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1605,7 +1654,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.907506, 10.736403]
     },
@@ -1620,7 +1669,7 @@ var img_db = [
             "sp": "beckham tiene benson",
             "de": "beckham hält benson",
             "jp": "ベッカムはベンソンを保持します",
-            "pi": "beckham holds benson",
+            "pi": "beckham holds ye benson",
         },
         "location": {
             "en": "USA",
@@ -1630,7 +1679,7 @@ var img_db = [
             "sp": "Estados Unidos",
             "de": "USA",
             "jp": "アメリカ合衆国",
-            "pi": "USA"
+            "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
     },
@@ -1645,7 +1694,7 @@ var img_db = [
             "sp": "benson esta en la ventana!!",
             "de": "benson ist im fenster!!",
             "jp": "ベンソンは窓の中にいます！",
-            "pi": "benson is in the window!!",
+            "pi": "benson is in da window!!",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1655,7 +1704,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [0, 0]
     },
@@ -1670,7 +1719,7 @@ var img_db = [
             "sp": "benson esta en el parque",
             "de": "Benson ist im Park",
             "jp": "ベンソンは公園にいます",
-            "pi": "benson is at the park",
+            "pi": "benson is at the parrrrk",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1680,7 +1729,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.907689, 10.753731]
     },
@@ -1695,7 +1744,7 @@ var img_db = [
             "sp": "benson se siente agradecido",
             "de": "benson freut sich",
             "jp": "ベンソンはすりおろしている",
-            "pi": "benson is feeling grate",
+            "pi": "benson is feeling just grrrrrate!!",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1705,7 +1754,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.919078, 10.732972]
     },
@@ -1720,7 +1769,7 @@ var img_db = [
             "sp": "Benson ama a los ajolotes",
             "de": "Benson liebt Axolotl",
             "jp": "ベンソンはアホロートルが大好きです",
-            "pi": "benson loves axolotls",
+            "pi": "benson loves the axolotls",
         },
         "location": {
             "en": "USA",
@@ -1730,7 +1779,7 @@ var img_db = [
             "sp": "Estados Unidos",
             "de": "USA",
             "jp": "アメリカ合衆国",
-            "pi": "USA"
+            "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
     },
@@ -1745,7 +1794,7 @@ var img_db = [
             "sp": "benson es dios",
             "de": "Benson ist Gott",
             "jp": "ベンソンは神です",
-            "pi": "benson is god",
+            "pi": "benson is our god",
         },
         "location": {
             "en": "USA",
@@ -1755,7 +1804,7 @@ var img_db = [
             "sp": "Estados Unidos",
             "de": "USA",
             "jp": "アメリカ合衆国",
-            "pi": "USA"
+            "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
     },
@@ -1770,7 +1819,7 @@ var img_db = [
             "sp": "benson está en el centro de convenciones",
             "de": "Benson ist im Kongresszentrum",
             "jp": "ベンソンはコンベンションセンターにいます",
-            "pi": "benson is at the convention center",
+            "pi": "benson is at the center for meetings",
         },
         "location": {
             "en": "Seattle, Washington",
@@ -1780,7 +1829,7 @@ var img_db = [
             "sp": "Seattle, Washington",
             "de": "Seattle, Washington",
             "jp": "ワシントン州シアトル",
-            "pi": "Seattle, Washington"
+            "pi": "Seattle, washing state"
         },
         "ltlo": [47.611029842952, -122.33165985759916]
     },
@@ -1795,7 +1844,7 @@ var img_db = [
             "sp": "benson está en ikea",
             "de": "benson ist bei ikea",
             "jp": "ベンソンはイケアにいます",
-            "pi": "benson is in ikea",
+            "pi": "benson is in the swedish furniture store",
         },
         "location": {
             "en": "USA",
@@ -1805,7 +1854,7 @@ var img_db = [
             "sp": "Estados Unidos",
             "de": "USA",
             "jp": "アメリカ合衆国",
-            "pi": "USA"
+            "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
     },
@@ -1820,7 +1869,7 @@ var img_db = [
             "sp": "benson se ve bien",
             "de": "Benson sieht gut aus",
             "jp": "ベンソンは格好良い",
-            "pi": "benson is looking good",
+            "pi": "benson is looking very nice",
         },
         "location": {
             "en": "Seattle, Washington",
@@ -1830,7 +1879,7 @@ var img_db = [
             "sp": "Seattle, Washington",
             "de": "Seattle, Washington",
             "jp": "ワシントン州シアトル",
-            "pi": "Seattle, Washington"
+            "pi": "Seattle, washing state"
         },
         "ltlo": [47.60463558488405, -122.3951981018473]
     },
@@ -1855,7 +1904,7 @@ var img_db = [
             "sp": "Gåseid, Noruega",
             "de": "Gaseid, Norwegen",
             "jp": "Gåseid、ノルウェー",
-            "pi": "Gåseid, Norway"
+            "pi": "Gåseid, cold land"
         },
         "ltlo": [62.46810737711126, 6.236436673198563]
     },
@@ -1870,7 +1919,7 @@ var img_db = [
             "sp": "benson lo rompió",
             "de": "Benson hat es kaputt gemacht",
             "jp": "ベンソンはそれを壊した",
-            "pi": "benson broke it",
+            "pi": "benson has broke it",
         },
         "location": {
             "en": "USA",
@@ -1880,7 +1929,7 @@ var img_db = [
             "sp": "Estados Unidos",
             "de": "USA",
             "jp": "アメリカ合衆国",
-            "pi": "USA"
+            "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
     },
@@ -1895,7 +1944,7 @@ var img_db = [
             "sp": "benson esta gritando",
             "de": "Benson schreit",
             "jp": "ベンソンは叫んでいます",
-            "pi": "benson is screaming",
+            "pi": "benson is scrrrreaming",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1905,7 +1954,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.905722062753696, 10.755382399133437]
     },
@@ -1920,7 +1969,7 @@ var img_db = [
             "sp": "benson por un camino genial",
             "de": "benson auf einem coolen weg",
             "jp": "クールな道に沿ったベンソン",
-            "pi": "benson along a cool path",
+            "pi": "benson along a cool walking path",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1930,7 +1979,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.920011, 10.747603]
     },
@@ -1945,7 +1994,7 @@ var img_db = [
             "sp": "benson ama estos caminos",
             "de": "Benson liebt diese Pfade",
             "jp": "ベンソンはこれらの道が大好きです",
-            "pi": "benson loves these paths",
+            "pi": "benson loves the paths",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1955,7 +2004,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.920067, 10.747236]
     },
@@ -1970,7 +2019,7 @@ var img_db = [
             "sp": "benson frente a edificios de apartamentos",
             "de": "Benson vor Mehrfamilienhäusern",
             "jp": "アパートの前のベンソン",
-            "pi": "benson in front of apartment buildings",
+            "pi": "benson in front of many living quarters",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1980,7 +2029,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.920161, 10.748550]
     },
@@ -1995,7 +2044,7 @@ var img_db = [
             "sp": "benson ama el tubo",
             "de": "Benson liebt die Röhre",
             "jp": "ベンソンはチューブが大好きです",
-            "pi": "benson loves the tube",
+            "pi": "benson loves the underground train",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2005,7 +2054,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [0, 0]
     },
@@ -2020,7 +2069,7 @@ var img_db = [
             "sp": "benson se ha bajado de un tren",
             "de": "Benson ist aus einem Zug gestiegen",
             "jp": "ベンソンは電車を降りた",
-            "pi": "benson has gotten off a train",
+            "pi": "benson has left a train",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2030,7 +2079,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [0, 0]
     },
@@ -2055,7 +2104,7 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.907214, 10.687578]
     },
@@ -2070,7 +2119,7 @@ var img_db = [
             "sp": "benson está en el césped de un parque y le encanta",
             "de": "benson ist im gras in einem park und er liebt es",
             "jp": "ベンソンは公園の芝生にいて、それが大好きです",
-            "pi": "benson is in the grass in a park and he loves it",
+            "pi": "benson is in grass and he loves it",
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2080,9 +2129,559 @@ var img_db = [
             "sp": "Oslo, Noruega",
             "de": "Oslo, Norwegen",
             "jp": "ノルウェー、オスロ",
-            "pi": "Oslo, Norway"
+            "pi": "Oslo, cold land"
         },
         "ltlo": [59.924994, 10.706894]
+    },
+    {
+        "img": "../img/b_fireplace2.png",
+        "date": "13.05.2022",
+        "text": {
+            "en": "benson started a fire >:)",
+            "no": "benson startet en brann >:)",
+            "fr": "benson a allumé un feu > :)",
+            "it": "benson ha appiccato un incendio >:)",
+            "sp": "Benson inició un incendio >:)",
+            "de": "Benson hat ein Feuer gemacht >:)",
+            "jp": "ベンソンが火事を起こしました>:)",
+            "pi": "benson started a fire >:)",
+        },
+        "location": {
+            "en": "Sykkylven, Norway",
+            "no": "Sykkylven, Norway",
+            "fr": "Sykkylven, Norvège",
+            "it": "Sykkylven, Norvegia",
+            "sp": "Sykkylven, Noruega",
+            "de": "Sykkylven, Norwegen",
+            "jp": "Sykkylven、ノルウェー",
+            "pi": "Sykkylven, cold land"
+        },
+        "ltlo": [62.403928, 6.582472]
+    },
+    {
+        "img": "../img/b_ost.png",
+        "date": "23.05.2022",
+        "text": {
+            "en": "benson with some brown cheese",
+            "no": "benson med litt brunost",
+            "fr": "benson avec du fromage brun",
+            "it": "benson con del formaggio marrone",
+            "sp": "benson con un poco de queso moreno",
+            "de": "Benson mit etwas braunem Käse",
+            "jp": "いくつかの茶色のチーズとベンソン",
+            "pi": "benson with some brown cheeses",
+        },
+        "location": {
+            "en": "Trondheim Airport, Norway",
+            "no": "Trondheim lufthavn, Norge",
+            "fr": "Aéroport de Trondheim, Norvège",
+            "it": "Aeroporto di Trondheim, Norvegia",
+            "sp": "Aeropuerto de Trondheim, Noruega",
+            "de": "Flughafen Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム空港",
+            "pi": "Trondheim Airport, cold land"
+        },
+        "ltlo": [63.454231, 10.917764]
+    },
+    {
+        "img": "../img/b_view.png",
+        "date": "23.05.2022",
+        "text": {
+            "en": "benson in a windowsill",
+            "no": "benson i en vinduskarm",
+            "fr": "benson dans un rebord de fenêtre",
+            "it": "benson sul davanzale",
+            "sp": "Benson en el alféizar de una ventana",
+            "de": "Benson auf einer Fensterbank",
+            "jp": "窓辺のベンソン",
+            "pi": "benson in a windowsill",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.433919, 10.399972]
+    },
+    {
+        "img": "../img/b_burg.png",
+        "date": "23.05.2022",
+        "text": {
+            "en": "benson at a burger king",
+            "no": "benson på en burger king",
+            "fr": "benson chez un burger king",
+            "it": "benson da un burger king",
+            "sp": "benson en un burger king",
+            "de": "Benson bei einem Burger King",
+            "jp": "バーガーキングのベンソン",
+            "pi": "benson at a burger king",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.433231718937876, 10.400638638796694]
+    },
+    {
+        "img": "../img/b_burg2.png",
+        "date": "23.05.2022",
+        "text": {
+            "en": "benson in a burger king window",
+            "no": "benson i et burger king-vindu",
+            "fr": "benson dans une vitrine de burger king",
+            "it": "benson nella finestra di un burger king",
+            "sp": "benson en una ventana de burger king",
+            "de": "Benson in einem Burger-King-Fenster",
+            "jp": "バーガーキングの窓にいるベンソン",
+            "pi": "benson in a burger king window",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.433222142840705, 10.400637162773355]
+    },
+    {
+        "img": "../img/b_pocket.png",
+        "date": "23.05.2022",
+        "text": {
+            "en": "benson in a pocket",
+            "no": "benson i en lomme",
+            "fr": "benson dans une poche",
+            "it": "benson in tasca",
+            "sp": "benson en un bolsillo",
+            "de": "Benson in einer Tasche",
+            "jp": "ポケットの中のベンソン",
+            "pi": "benson in a coat pocket",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.433221849413655, 10.400594843406667]
+    },
+    {
+        "img": "../img/b_chairs_cathedral.png",
+        "date": "24.05.2022",
+        "text": {
+            "en": "benson on some chairs",
+            "no": "benson på noen stoler",
+            "fr": "benson sur certaines chaises",
+            "it": "benson su alcune sedie",
+            "sp": "benson en algunas sillas",
+            "de": "Benson auf einigen Stühlen",
+            "jp": "いくつかの椅子にベンソン",
+            "pi": "benson on some seats",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.427589, 10.398225]
+    },
+    {
+        "img": "../img/b_cathedral_jebus.png",
+        "date": "24.05.2022",
+        "text": {
+            "en": "benson in a cathedral",
+            "no": "benson i en katedral",
+            "fr": "benson dans une cathédrale",
+            "it": "benson in una cattedrale",
+            "sp": "benson en una catedral",
+            "de": "Benson in einer Kathedrale",
+            "jp": "大聖堂のベンソン",
+            "pi": "benson in a jesus building",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.426892, 10.395831]
+    },
+    {
+        "img": "../img/b_cathedral_light.png",
+        "date": "24.05.2022",
+        "text": {
+            "en": "benson in the light",
+            "no": "benson i lyset",
+            "fr": "benson dans la lumière",
+            "it": "benson nella luce",
+            "sp": "benson en la luz",
+            "de": "Benson im Licht",
+            "jp": "光の中のベンソン",
+            "pi": "benson in the light",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.426897, 10.395856]
+    },
+    {
+        "img": "../img/b_sentrum.png",
+        "date": "24.05.2022",
+        "text": {
+            "en": "benson in the city center",
+            "no": "benson i sentrum",
+            "fr": "Benson dans le centre-ville",
+            "it": "benson nel centro della città",
+            "sp": "benson en el centro de la ciudad",
+            "de": "Benson im Stadtzentrum",
+            "jp": "市内中心部のベンソン",
+            "pi": "benson in the town center",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.430606, 10.395311]
+    },
+    {
+        "img": "../img/b_smallchurch.png",
+        "date": "24.05.2022",
+        "text": {
+            "en": "benson in front of a small church",
+            "no": "benson foran en liten kirke",
+            "fr": "benson devant une petite église",
+            "it": "benson davanti ad una chiesetta",
+            "sp": "benson frente a una pequeña iglesia",
+            "de": "Benson vor einer kleinen Kirche",
+            "jp": "小さな教会の前のベンソン",
+            "pi": "benson in front of a small church",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.43027750127714, 10.399089088918105]
+    },
+    {
+        "img": "../img/b_waterway.png",
+        "date": "24.05.2022",
+        "text": {
+            "en": "benson in a waterway",
+            "no": "benson i en vannvei",
+            "fr": "benson dans un cours d'eau",
+            "it": "benson in un corso d'acqua",
+            "sp": "benson en un canal",
+            "de": "Benson in einer Wasserstraße",
+            "jp": "水路のベンソン",
+            "pi": "benson in the seas",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.43019731035507, 10.402754363955346]
+    },
+    {
+        "img": "../img/b_marina_birb.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson on the marina with a friend",
+            "no": "benson på marinaen med en venn",
+            "fr": "benson sur la marina avec un ami",
+            "it": "benson sul porto turistico con un amico",
+            "sp": "benson en el puerto deportivo con un amigo",
+            "de": "Benson am Yachthafen mit einem Freund",
+            "jp": "友達とマリーナでベンソン",
+            "pi": "benson on the marina with his matey",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.435833147436604, 10.399059311165194]
+    },
+    {
+        "img": "../img/b_røros_bridge.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson on da bridge",
+            "no": "benson på broen",
+            "fr": "benson sur le pont",
+            "it": "benson sul ponte da",
+            "sp": "benson en el puente da",
+            "de": "Benson auf der Brücke",
+            "jp": "ダブリッジのベンソン",
+            "pi": "benson on da land crossing",
+        },
+        "location": {
+            "en": "Røros, Norway",
+            "no": "Røros, Norway",
+            "fr": "Roros, Norvège",
+            "it": "Roros, Norvegia",
+            "sp": "Roros, Noruega",
+            "de": "Röros, Norwegen",
+            "jp": "ノルウェー、レーロス",
+            "pi": "Røros, cold land"
+        },
+        "ltlo": [62.575894, 11.389289]
+    },
+    {
+        "img": "../img/b_røros_church.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson is in front of a church",
+            "no": "benson er foran en kirke",
+            "fr": "benson est devant une église",
+            "it": "benson è davanti a una chiesa",
+            "sp": "benson esta frente a una iglesia",
+            "de": "Benson steht vor einer Kirche",
+            "jp": "ベンソンは教会の前にいます",
+            "pi": "benson is in front of a church",
+        },
+        "location": {
+            "en": "Røros, Norway",
+            "no": "Røros, Norway",
+            "fr": "Roros, Norvège",
+            "it": "Roros, Norvegia",
+            "sp": "Roros, Noruega",
+            "de": "Röros, Norwegen",
+            "jp": "ノルウェー、レーロス",
+            "pi": "Røros, cold land"
+        },
+        "ltlo": [62.577169, 11.391033]
+    },
+    {
+        "img": "../img/b_røros_street.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson on a street",
+            "no": "benson på en gate",
+            "fr": "benson dans une rue",
+            "it": "benson in una strada",
+            "sp": "benson en una calle",
+            "de": "Benson auf einer Straße",
+            "jp": "通りのベンソン",
+            "pi": "benson on a road",
+        },
+        "location": {
+            "en": "Røros, Norway",
+            "no": "Røros, Norway",
+            "fr": "Roros, Norvège",
+            "it": "Roros, Norvegia",
+            "sp": "Roros, Noruega",
+            "de": "Röros, Norwegen",
+            "jp": "ノルウェー、レーロス",
+            "pi": "Røros, cold land"
+        },
+        "ltlo": [62.574839, 11.384300]
+    },
+    {
+        "img": "../img/b_street_river.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson in front of the river",
+            "no": "benson foran elven",
+            "fr": "benson devant la rivière",
+            "it": "benson davanti al fiume",
+            "sp": "benson frente al rio",
+            "de": "Benson vor dem Fluss",
+            "jp": "川の前のベンソン",
+            "pi": "benson in front of the river",
+        },
+        "location": {
+            "en": "Røros, Norway",
+            "no": "Røros, Norway",
+            "fr": "Roros, Norvège",
+            "it": "Roros, Norvegia",
+            "sp": "Roros, Noruega",
+            "de": "Röros, Norwegen",
+            "jp": "ノルウェー、レーロス",
+            "pi": "Røros, cold land"
+        },
+        "ltlo": [62.575439, 11.388528]
+    },
+    {
+        "img": "../img/b_train_dark1.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson is in the dark train",
+            "no": "benson er i mørketoget",
+            "fr": "benson est dans le train sombre",
+            "it": "Benson è nel treno oscuro",
+            "sp": "benson esta en el tren oscuro",
+            "de": "Benson ist im dunklen Zug",
+            "jp": "ベンソンは暗い電車の中にいます",
+            "pi": "benson is in the dark train",
+        },
+        "location": {
+            "en": "Norway",
+            "no": "Norway",
+            "fr": "Norvège",
+            "it": "Norvegia",
+            "sp": "Noruega",
+            "de": "Norwegen",
+            "jp": "レーロス",
+            "pi": "cold land"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_train_dark2.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson sees himself in his reflection",
+            "no": "benson ser seg selv i sitt speilbilde",
+            "fr": "benson se voit dans son reflet",
+            "it": "benson vede se stesso nel suo riflesso",
+            "sp": "benson se ve a sí mismo en su reflejo",
+            "de": "benson sieht sich in seinem spiegelbild",
+            "jp": "ベンソンは自分の振り返りに自分自身を見ています",
+            "pi": "benson sees heself in his reflection",
+        },
+        "location": {
+            "en": "Norway",
+            "no": "Norway",
+            "fr": "Norvège",
+            "it": "Norvegia",
+            "sp": "Noruega",
+            "de": "Norwegen",
+            "jp": "レーロス",
+            "pi": "cold land"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_train_greens.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson is on the train",
+            "no": "benson er på toget",
+            "fr": "Benson est dans le train",
+            "it": "Benson è sul treno",
+            "sp": "benson esta en el tren",
+            "de": "Benson ist im Zug",
+            "jp": "ベンソンは電車に乗っています",
+            "pi": "benson is on the train",
+        },
+        "location": {
+            "en": "Brubakken, Norway",
+            "no": "Brubakken, Norway",
+            "fr": "Brubakken, Norvège",
+            "it": "Brubakken, Norvegia",
+            "sp": "Brubakken, Noruega",
+            "de": "Brubakken, Norwegen",
+            "jp": "Brubakken、ノルウェー",
+            "pi": "Brubakken, cold land"
+        },
+        "ltlo": [63.295994, 10.298756]
+    },
+    {
+        "img": "../img/b_train_mirror.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson is prime beauty",
+            "no": "benson er førsteklasses skjønnhet",
+            "fr": "benson est la première beauté",
+            "it": "benson è la prima bellezza",
+            "sp": "benson es la belleza principal",
+            "de": "benson ist erstklassige schönheit",
+            "jp": "ベンソンは最高の美しさです",
+            "pi": "benson is prime prettiness",
+        },
+        "location": {
+            "en": "Ålen, Norway",
+            "no": "Ålen, Norway",
+            "fr": "Ålen, Norvège",
+            "it": "Alen, Norvegia",
+            "sp": "Ålen, Noruega",
+            "de": "Alen, Norwegen",
+            "jp": "Ålen、ノルウェー",
+            "pi": "Ålen, cold land"
+        },
+        "ltlo": [62.809247, 11.369864]
+    },
+    {
+        "img": "../img/b_trondheim_umbrellas.png",
+        "date": "25.05.2022",
+        "text": {
+            "en": "benson is ready for the rain",
+            "no": "benson er klar for regnet",
+            "fr": "benson est prêt pour la pluie",
+            "it": "benson è pronto per la pioggia",
+            "sp": "benson está listo para la lluvia",
+            "de": "Benson ist bereit für den Regen",
+            "jp": "ベンソンは雨の準備ができています",
+            "pi": "benson is ready for rain",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, cold land"
+        },
+        "ltlo": [63.432919, 10.397503]
     },
     
     

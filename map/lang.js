@@ -11,36 +11,6 @@ if (ls_lang) {
 // localstorage stuff complete
 
 
-var lang_vis = {    // for language selector
-    "en": {
-        "name": "EN",
-        "flag": "../flag/en.png"
-    },
-    "no": {
-        "name": "NO",
-        "flag": "../flag/no.png"
-    },
-    "fr": {
-        "name": "FR",
-        "flag": "../flag/fr.png"
-    },
-    "it": {
-        "name": "IT",
-        "flag": "../flag/it.png"
-    },
-    "sp": {
-        "name": "SP",
-        "flag": "../flag/sp.png"
-    },
-    "de": {
-        "name": "DE",
-        "flag": "../flag/de.png"
-    },
-    "jp": {
-        "name": "JP",
-        "flag": "../flag/jp.png"
-    },
-}
 
 var lang_txt = {    // key is the element's id, value is its innerHTML
     "en": {
@@ -50,8 +20,10 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "GET YOUR OWN BENSON HERE!",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "designed in Ålesund, Norway.",
+        "f3": "contact me on discord @pugface#2222, email: benson@benson.lol",
         "finn-mid": "get a benson",
-        "finn-bot": "benson.lol is not affiliated with<br>finntheduck.com"
+        "finn-bot": "benson.lol is not affiliated with<br>finntheduck.com",
+        "langdisc": ""
     },
     "no": {
         "t1": "Bensons verden",
@@ -59,9 +31,11 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "bmb2": "hvor har benson vært?",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "designet i Ålesund, Norge.",
+        "f3": "kontakt meg på discord @pugface#2222, e-post: benson@benson.lol",
         "finn-top": "FÅ DIN EGEN BENSON HER!",
         "finn-mid": "få en benson",
-        "finn-bot": "benson.lol er ikke tilknyttet<br>finntheduck.com"
+        "finn-bot": "benson.lol er ikke tilknyttet<br>finntheduck.com",
+        "langdisc": "*oversettelser er kanskje ikke nøyaktige"
     },
     "fr": {
         "t1": "Le monde de Benson",
@@ -69,9 +43,11 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "bmb2": "Où est passé Benson ?",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "conçu à Ålesund, en Norvège.",
+        "f3": "contactez-moi sur discord @pugface#2222, email: benson@benson.lol",
         "finn-top": "OBTENEZ VOTRE PROPRE BENSON ICI !",
         "finn-mid": "obtenir un benson",
-        "finn-bot": "benson.lol n'est pas affilié à<br>finntheduck.com"
+        "finn-bot": "benson.lol n'est pas affilié à<br>finntheduck.com",
+        "langdisc": "*La traduction peut ne pas être exacte"
     },
     "it": {
         "t1": "Il mondo di Benson",
@@ -79,9 +55,11 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "bmb2": "dove è stato Benson?",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "progettato ad Ålesund, Norvegia.",
+        "f3": "contattami su discord @pugface#2222, e-mail: benson@benson.lol",
         "finn-top": "PRENDI IL TUO BENSON QUI!",
         "finn-mid": "prendi un benson",
-        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com"
+        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com",
+        "langdisc": "*La traduzione potrebbe non essere accurata"
     },
     "sp": {
         "t1": "mundo de benson",
@@ -89,9 +67,11 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "bmb2": "¿Dónde ha estado Benson?",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "diseñado en Ålesund, Noruega.",
+        "f3": "contáctame en discord @pugface#2222, correo electrónico: benson@benson.lol",
         "finn-top": "PRENDI IL TUO BENSON QUI!",
         "finn-mid": "prendi un benson",
-        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com"
+        "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com",
+        "langdisc": "*La traducción puede no ser exacta."
     },
     "de": {
         "t1": "Welt von Benson",
@@ -99,9 +79,11 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "bmb2": "Wo war Benson?",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "entworfen in Ålesund, Norwegen.",
+        "f3": "Kontaktieren Sie mich unter Discord @pugface#2222, E-Mail: benson@benson.lol",
         "finn-top": "HOL DIR HIER DEINEN EIGENEN BENSON!",
         "finn-mid": "nimm einen Benson",
-        "finn-bot": "benson.lol ist nicht mit finntheduck.com<br>verbunden"
+        "finn-bot": "benson.lol ist nicht mit finntheduck.com<br>verbunden",
+        "langdisc": "*Die Übersetzung ist möglicherweise nicht korrekt"
     },
     "jp": {
         "t1": "ベンソンの世界",
@@ -109,9 +91,23 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "bmb2": "ベンソンはどこにいましたか？",
         "f1": "©2022 benson.lol & dapug.lol",
         "f2": "ノルウェーのオーレスンで設計されました。",
+        "f3": "不和で私に連絡してください@pugface＃2222、電子メール：benson@benson.lol",
         "finn-top": "ここであなた自身のベンソンを手に入れよう！",
         "finn-mid": "ベンソンを取得",
-        "finn-bot": "benson.lolはfinntheduck.comと提携していません"
+        "finn-bot": "benson.lolはfinntheduck.comと提携していません",
+        "langdisc": "*翻訳は正確でない可能性があります"
+    },
+    "pi": {
+        "t1": "Ye All Love Our Benson",
+        "bmb1": "ye all love our benson",
+        "bmb2": "many photographs of our duck, benson",
+        "f1": "©2022 benson.lol & dapug.lol",
+        "f2": "hath been designed in Ålesund, Norway.",
+        "f3": "write me a note in a bottle using discord @pugface#2222 or by electronic note: benson@benson.lol",
+        "finn-top": "YE WANT BENSON!!",
+        "finn-mid": "get benson",
+        "finn-bot": "benson.lol is not affiliated with<br>finntheduck.com",
+        "langdisc": "*ye translation is perrrrrfect"
     },
 }
 
@@ -131,6 +127,7 @@ function do_lang(language) {
         lang = language;
         localStorage.setItem("lang", lang);
         for (i in lang_txt[language]) {
+            console.log(i)
             document.getElementById(`${i}`).innerHTML = `${lang_txt[language][i]}`;
         }
         document.getElementById("selected-lang").innerHTML = `<span class="sel-lang"><img src="${lang_vis[language]["flag"]}" class="lang-flag"> ${lang_vis[language]["name"]}</span>`;

@@ -1,0 +1,3 @@
+- [ ] make a search bar on main page
+- [ ] make it so you can swap sorting
+- [ ] add a pirate speak entry to the python script (right after you do the first description tm)
