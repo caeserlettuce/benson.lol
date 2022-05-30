@@ -1,7 +1,5 @@
 var darkmode = false;
 
-var mapid = ""
-
 var mode_svg = document.getElementById("mode-sel");
 
 var moon_svg = `<path id="moon svg" fill="white" stroke="none" stroke-width="1"
@@ -76,11 +74,11 @@ var darkmode_css = `
 
 if (darkmode == true) {
     document.getElementById("backy").innerHTML = dm_html;
-    mode_svg.innerHTML = moon_svg;
+    mode_svg.src = "../assets/moon.svg";
     document.getElementById("darkmode-switch").innerHTML = darkmode_css;
 } else {
     document.getElementById("backy").innerHTML = lm_html;
-    mode_svg.innerHTML = sun_svg;
+    mode_svg.src = "../assets/sun.svg";
     document.getElementById("darkmode-switch").innerHTML = "";
 }
 
@@ -88,18 +86,18 @@ function toggle_mode() {
     if (darkmode == false) {
         // turn to dark mode
         document.getElementById("backy").innerHTML = dm_html;
-        mode_svg.innerHTML = moon_svg;
+        mode_svg.src = "../assets/moon.svg";
         document.getElementById("darkmode-switch").innerHTML = darkmode_css;
+        darkmode = true        
         mapid = "1c05e506f7f2a10a";
-        darkmode = true;
     } else {
         // turn to light mode
         document.getElementById("backy").innerHTML = lm_html;
-        mode_svg.innerHTML = sun_svg;
+        mode_svg.src = "../assets/sun.svg";
         document.getElementById("darkmode-switch").innerHTML = "";
         darkmode = false;
         mapid = "9bd2e77c7cbe837c";
     }
     localStorage.setItem("mode", darkmode);
-    location.reload()
+    
 }

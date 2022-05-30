@@ -82,6 +82,50 @@
     </div>
 
 
+    <div id="search-center" class="search-center">
+      <br>
+      <p class="big-bensontext" id="sc1">search center</p>
+      
+      <p>
+        <span>
+          <input type="text" id="search-input" class="search-input">
+          <br><br>
+          <span class="search-checkbox" id="search-desc" onclick="sc_tog_desc()">
+            <svg id="checky1-bac" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" class="checky disable">
+              <path id="checky1" class="checkmark" fill="white" stroke="none" stroke-width="1" d="M 50.00,275.00 C 50.00,275.00 0.00,325.00 0.00,325.00 0.00,325.00 175.00,500.00 175.00,500.00 175.00,500.00 499.50,175.00 499.50,175.00 499.50,175.00 450.00,125.00 450.00,125.00 450.00,125.00 175.00,400.00 175.00,400.00 175.00,400.00 50.00,275.00 50.00,275.00" />
+            </svg>
+          <span id="sc2" style="color: white;">search descriptions</span></span>
+          <br><br>
+          <span class="search-checkbox" id="search-desc" onclick="sc_tog_loca()">
+            <svg id="checky2-bac" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" class="checky disable">
+              <path id="checky2" class="checkmark" fill="white" stroke="none" stroke-width="1" d="M 50.00,275.00 C 50.00,275.00 0.00,325.00 0.00,325.00 0.00,325.00 175.00,500.00 175.00,500.00 175.00,500.00 499.50,175.00 499.50,175.00 499.50,175.00 450.00,125.00 450.00,125.00 450.00,125.00 175.00,400.00 175.00,400.00 175.00,400.00 50.00,275.00 50.00,275.00" />
+            </svg>
+          <span id="sc3" style="color: white;">search locations</span></span>
+          <br><br><br>
+          <span class="search-checkbox" id="search-desc" onclick="sc_tog_time()">
+            <svg id="checky3-bac" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" class="checky disable">
+              <path id="checky3" class="checkmark" fill="white" stroke="none" stroke-width="1" d="M 50.00,275.00 C 50.00,275.00 0.00,325.00 0.00,325.00 0.00,325.00 175.00,500.00 175.00,500.00 175.00,500.00 499.50,175.00 499.50,175.00 499.50,175.00 450.00,125.00 450.00,125.00 450.00,125.00 175.00,400.00 175.00,400.00 175.00,400.00 50.00,275.00 50.00,275.00" />
+            </svg>
+          <span id="sc4" style="color: white;">search specific time</span></span>
+            <br><br>
+            <span class="search-text"> <span id="sc5">from</span> <input type="date" id="search-date-from" class="search-input search-date"> <span id="sc6">to</span> <input type="date" id="search-date-to" class="search-input search-date"></span>
+            <br><br><br><br>
+            <span class="search-button disable" id="searchbutton" onclick="run_search()">search</span>
+             
+            <span class="search-button disable relbutton" id="reloadbutton" onclick="reload_db()">reload</span>
+
+            <br><br><br><br>
+            <span class="search-text" id="results">0</span> <span class="search-text" id="sc7">result(s)</span>
+
+          <!--<input type="date" id="search-date-from" class="search-input" style="margin-left: 50px;">  reload_db()-->
+        </span>
+
+      </p>
+
+
+    </div>
+
+
 
 
 
@@ -91,9 +135,11 @@
       
       <a href="https://benson.lol" class="header-text">BENSON</a>
 
-      <svg id="mode-sel" class="modesel disable" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" onclick="toggle_mode()">
+      <img id="searchfung" class="searchfung disable" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" onclick="toggle_sc()" src="../assets/search.svg">
+        
 
-      </svg>
+      <img id="mode-sel" class="modesel disable" onclick="toggle_mode()" src="../assets/sun.svg">
+
 
       <img src="assets/trifold_map.png" class="map-icon" title="where has benson been?" id="trifold" onclick="redir_map()">
 
@@ -155,6 +201,7 @@
     <script src="display.js"></script>
     <script src="benson.js"></script>
     <script src="lang.js"></script>
+    <script src="search.js"></script>
 
     
 

@@ -23,7 +23,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "GET YOUR OWN BENSON HERE!",
         "finn-mid": "get a benson",
         "finn-bot": "benson.lol is not affiliated with<br>finntheduck.com",
-        "langdisc": ""
+        "langdisc": "",
+        "sc1": "search center",
+        "sc2": "search descriptions",
+        "sc3": "search locations",
+        "sc4": "search specific time",
+        "sc5": "from",
+        "sc6": "to",
+        "searchbutton": "search"
     },
     "no": {
         "t1": "Benson min elskede",
@@ -35,7 +42,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "FÅ DIN EGEN BENSON HER!",
         "finn-mid": "få en benson",
         "finn-bot": "benson.lol er ikke tilknyttet<br>finntheduck.com",
-        "langdisc": "*oversettelser er kanskje ikke nøyaktige"
+        "langdisc": "*oversettelser er kanskje ikke nøyaktige",
+        "sc1": "søkesenter",
+        "sc2": "søkebeskrivelser",
+        "sc3": "søke på steder",
+        "sc4": "søk på et bestemt tidspunkt",
+        "sc5": "fra",
+        "sc6": "til",
+        "searchbutton": "søk"
     },
     "fr": {
         "t1": "Benson mon bien-aimé",
@@ -47,7 +61,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "OBTENEZ VOTRE PROPRE BENSON ICI !",
         "finn-mid": "obtenir un benson",
         "finn-bot": "benson.lol n'est pas affilié à<br>finntheduck.com",
-        "langdisc": "*La traduction peut ne pas être exacte"
+        "langdisc": "*La traduction peut ne pas être exacte",
+        "sc1": "centre de recherche",
+        "sc2": "descriptions de recherche",
+        "sc3": "emplacements de recherche",
+        "sc4": "rechercher une heure précise",
+        "sc5": "de",
+        "sc6": "à",
+        "searchbutton": "recherche"
     },
     "it": {
         "t1": "Benson mio amato",
@@ -59,7 +80,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "PRENDI IL TUO BENSON QUI!",
         "finn-mid": "prendi un benson",
         "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com",
-        "langdisc": "*La traduzione potrebbe non essere accurata"
+        "langdisc": "*La traduzione potrebbe non essere accurata",
+        "sc1": "centro di ricerca",
+        "sc2": "cerca le descrizioni",
+        "sc3": "ricerca posizioni",
+        "sc4": "cerca un'ora specifica",
+        "sc5": "da",
+        "sc6": "a",
+        "searchbutton": "ricerca"
     },
     "sp": {
         "t1": "Benson mi amado",
@@ -71,7 +99,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "PRENDI IL TUO BENSON QUI!",
         "finn-mid": "prendi un benson",
         "finn-bot": "benson.lol non è affiliato con<br>finntheduck.com",
-        "langdisc": "*La traducción puede no ser exacta."
+        "langdisc": "*La traducción puede no ser exacta.",
+        "sc1": "centro de busqueda",
+        "sc2": "buscar descripciones",
+        "sc3": "buscar ubicaciones",
+        "sc4": "buscar tiempo especifico",
+        "sc5": "de",
+        "sc6": "a",
+        "searchbutton": "busqueda"
     },
     "de": {
         "t1": "Benson Mein Geliebter",
@@ -83,7 +118,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "HOL DIR HIER DEINEN EIGENEN BENSON!",
         "finn-mid": "nimm einen Benson",
         "finn-bot": "benson.lol ist nicht mit finntheduck.com<br>verbunden",
-        "langdisc": "*Die Übersetzung ist möglicherweise nicht korrekt"
+        "langdisc": "*Die Übersetzung ist möglicherweise nicht korrekt",
+        "sc1": "Suchzentrum",
+        "sc2": "Suchbeschreibungen",
+        "sc3": "Suchorte",
+        "sc4": "bestimmte Zeit suchen",
+        "sc5": "aus",
+        "sc6": "zu",
+        "searchbutton": "Suche"
     },
     "jp": {
         "t1": "ベンソン私の最愛の人",
@@ -95,7 +137,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "ここであなた自身のベンソンを手に入れよう！",
         "finn-mid": "ベンソンを取得",
         "finn-bot": "benson.lolはfinntheduck.comと提携していません",
-        "langdisc": "*翻訳は正確でない可能性があります"
+        "langdisc": "*翻訳は正確でない可能性があります",
+        "sc1": "検索センター",
+        "sc2": "検索の説明",
+        "sc3": "検索場所",
+        "sc4": "特定の時間を検索する",
+        "sc5": "から",
+        "sc6": "に",
+        "searchbutton": "探す"
     },
     "pi": {
         "t1": "Ye All Love Our Benson",
@@ -107,7 +156,14 @@ var lang_txt = {    // key is the element's id, value is its innerHTML
         "finn-top": "YE WANT BENSON!!",
         "finn-mid": "get benson",
         "finn-bot": "benson.lol is not affiliated with<br>finntheduck.com",
-        "langdisc": "*ye translation is perrrrrfect"
+        "langdisc": "*ye translation is perrrrrfect",
+        "sc1": "me map o' searchin'",
+        "sc2": "search ye writings",
+        "sc3": "search ye red x's",
+        "sc4": "search ye times",
+        "sc5": "from",
+        "sc6": "to",
+        "searchbutton": "find it"
     },
 }
 

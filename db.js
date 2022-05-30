@@ -1,3 +1,13 @@
+console.debug(`       __                                           __          __ 
+      / /_   ___   ____   _____ ____   ____        / / ____    / /
+     / __ \\ / _ \\ / __ \\ / ___// __ \\ / __ \\      / / / __ \\  / /
+    / /_/ //  __// / / /(__  )/ /_/ // / / / _   / / / /_/ / / /
+   /_.___/ \\___//_/ /_//____/ \\____//_/ /_/ (_) /_/  \\____/ /_/
+                                                                   
+`);
+
+// fancy fancy i know
+
 var lang_vis = {    // for language selector
     "en": {
         "name": "EN",
@@ -26,11 +36,11 @@ var lang_vis = {    // for language selector
     "jp": {
         "name": "JP",
         "flag": "../flag/jp.png"
-    },/*
+    },
     "pi": {
         "name": "PI",
         "flag": "../flag/pi.png"
-    },*/
+    },
 }
 
 var hv_txt = {

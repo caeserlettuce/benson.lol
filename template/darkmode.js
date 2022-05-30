@@ -68,11 +68,11 @@ var darkmode_css = `
 
 if (darkmode == true) {
     document.getElementById("backy").innerHTML = dm_html;
-    mode_svg.innerHTML = moon_svg;
+    mode_svg.src = "../assets/moon.svg";
     document.getElementById("darkmode-switch").innerHTML = darkmode_css;
 } else {
     document.getElementById("backy").innerHTML = lm_html;
-    mode_svg.innerHTML = sun_svg;
+    mode_svg.src = "../assets/sun.svg";
     document.getElementById("darkmode-switch").innerHTML = "";
 }
 
@@ -80,13 +80,13 @@ function toggle_mode() {
     if (darkmode == false) {
         // turn to dark mode
         document.getElementById("backy").innerHTML = dm_html;
-        mode_svg.innerHTML = moon_svg;
+        mode_svg.src = "../assets/moon.svg";
         document.getElementById("darkmode-switch").innerHTML = darkmode_css;
         darkmode = true;
     } else {
         // turn to light mode
         document.getElementById("backy").innerHTML = lm_html;
-        mode_svg.innerHTML = sun_svg;
+        mode_svg.src = "../assets/sun.svg";
         document.getElementById("darkmode-switch").innerHTML = "";
         darkmode = false;
     }

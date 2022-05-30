@@ -8,6 +8,7 @@ var prev_h = localStorage.getItem("ph");
 var max_tm = 0;
 var load_amount = 10;
 var query_more = true;
+var sort = true;
 
 localStorage.setItem("pw", windowWidth);
 localStorage.setItem("ph", windowHeight);
@@ -118,7 +119,23 @@ if (max_tm * 4 > 100) {
 }
 //load_amount = 1;
 
-split_json = chunky(reverse_array(img_db), load_amount);
+
+var all_jsom = new Object();
+
+function load_jsontm(jsom) {
+    if (sort == true) {
+        split_json = chunky(reverse_array(jsom), load_amount);
+        all_jsom = reverse_array(jsom);
+    } else {
+        split_json = chunky(jsom, load_amount);
+        all_jsom = [...jsom];
+    }
+    document.getElementById("results").innerHTML = all_jsom.length
+}
+
+load_jsontm(img_db)
+
+
 
 
 // load_amount is the amount of photos itll load at a time

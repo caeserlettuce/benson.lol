@@ -22,7 +22,8 @@ body {
     top: 0px;
     left: 0px;
     width: 100vw;
-    z-index: 1000;
+    z-index: 9000;
+    backdrop-filter: blur(5px);
 }
 
 .technopug {
@@ -194,9 +195,9 @@ a {
     display: inline-block;
     padding: 0px;
     margin: 10px;
+    background-color:rgba(255, 255, 255, 0.2);
     margin-top: 15px;
     border: 0px;
-    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     text-shadow: 2px 2px 8px #3b3b3b20;
     cursor: default;
@@ -442,4 +443,101 @@ a {
     100% { background-image: url(../assets/transparent.png); }
 }
 
+.searchfung {
+    height: 2.1em;
+    width: 2.1em;
+    float: right;
+    position: absolute;
+    padding-right: 10px;
+    padding-top: 2.5px;
+    cursor: pointer;
+}
 
+
+.search-center {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100vw;
+    z-index: 5000;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.search-input {
+    width: 15em;
+    height: 1em;
+    font-size: 2em;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.search-input:focus-visible {
+    outline: 0px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+}
+  
+.search-checkbox {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.search-checkbox input {
+    width: 18px;
+}
+
+.checky {
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #4672ff;
+    padding: 0.2em;
+    padding-top: 0.1em;
+    padding-bottom: 0.25em;
+    border-radius: 3px;
+}
+
+.search-text {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: #3b3b3b25 0px 0px 10px;
+}
+
+.search-date {
+    font-size: 1em;
+}
+
+.search-button {
+    font-size: 1.5em;
+    color: white;
+    background-color: #4672ff;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #587fff;
+}
+
+.relbutton {
+    background-color: #cb46ff;
+}
+
+.relbutton:hover {
+    background-color: #cd54fd;
+}
