@@ -72,11 +72,10 @@ function redir_map() {
     location.href = "./map";
 }
 function toggle_sc() {
+    searchcenter = !searchcenter
     if (searchcenter == false) {
-        searchcenter = true;
         document.getElementById("search-center").style.display = "none";
     } else {
-        searchcenter = false
         document.getElementById("search-center").style.display = "";
     }
 }

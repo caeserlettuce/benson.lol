@@ -36,11 +36,11 @@ var lang_vis = {    // for language selector
     "jp": {
         "name": "JP",
         "flag": "../flag/jp.png"
-    },
-    "pi": {
+    }
+    /*"pi": {
         "name": "PI",
         "flag": "../flag/pi.png"
-    },
+    },*/
 }
 
 var hv_txt = {
@@ -2692,6 +2692,381 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.432919, 10.397503]
+    },
+    {
+        "img": "../img/b_busstop.png",
+        "date": "26.05.2022",
+        "text": {
+            "en": "benson waiting patiently at a bus stop",
+            "no": "benson venter tålmodig på et busstopp",
+            "fr": "Benson attend patiemment à un arrêt de bus",
+            "it": "Benson aspetta pazientemente alla fermata dell'autobus",
+            "sp": "benson esperando pacientemente en una parada de autobús",
+            "de": "benson wartet geduldig an einer bushaltestelle",
+            "jp": "バス停で辛抱強く待っているベンソン",
+            "pi": "benson waiting patiently at a bus stop",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, Norway"
+        },
+        "ltlo": [63.430000, 10.373769]
+    },
+    {
+        "img": "../img/b_lion.png",
+        "date": "26.05.2022",
+        "text": {
+            "en": "benson is lion to you",
+            "no": "benson er en løve for deg",
+            "fr": "benson est un lion pour toi",
+            "it": "benson è leone per te",
+            "sp": "benson es un león para ti",
+            "de": "Benson ist Löwe für Sie",
+            "jp": "ベンソンはあなたにとってライオンです",
+            "pi": "benson is lion to you",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, Norway"
+        },
+        "ltlo": [63.421658, 10.358128]
+    },
+    {
+        "img": "../img/b_nightman.png",
+        "date": "26.05.2022",
+        "text": {
+            "en": "benson in the house",
+            "no": "benson i huset",
+            "fr": "benson dans la maison",
+            "it": "benson in casa",
+            "sp": "benson en la casa",
+            "de": "benson im haus",
+            "jp": "家の中のベンソン",
+            "pi": "benson in the house",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, Norway"
+        },
+        "ltlo": [63.421997, 10.359536]
+    },
+    {
+        "img": "../img/b_stage.png",
+        "date": "26.05.2022",
+        "text": {
+            "en": "benson is on the stage",
+            "no": "benson er på scenen",
+            "fr": "benson est sur scène",
+            "it": "Benson è sul palco",
+            "sp": "benson está en el escenario",
+            "de": "Benson ist auf der Bühne",
+            "jp": "ベンソンが舞台に立つ",
+            "pi": "benson is on the stage",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, Norway"
+        },
+        "ltlo": [63.417828, 10.356236]
+    },
+    {
+        "img": "../img/b_grasses.png",
+        "date": "26.05.2022",
+        "text": {
+            "en": "benson is in more grass",
+            "no": "benson er i mer gress",
+            "fr": "benson est dans plus d'herbe",
+            "it": "benson è in più erba",
+            "sp": "benson esta en mas pasto",
+            "de": "Benson ist in mehr Gras",
+            "jp": "ベンソンはもっと草の中にいます",
+            "pi": "benson is in more grass",
+        },
+        "location": {
+            "en": "Trondheim, Norway",
+            "no": "Trondheim, Norge",
+            "fr": "Trondheim, Norvège",
+            "it": "Trondheim, Norvegia",
+            "sp": "Trondheim, Noruega",
+            "de": "Trondheim, Norwegen",
+            "jp": "ノルウェー、トロンハイム",
+            "pi": "Trondheim, Norway"
+        },
+        "ltlo": [63.420581, 10.358253]
+    },
+    {
+        "img": "../img/b_restaurant_hell.png",
+        "date": "26.05.2022",
+        "text": {
+            "en": "benson is eating at the restaraunt",
+            "no": "benson spiser på restauranten",
+            "fr": "benson mange au restaurant",
+            "it": "benson sta mangiando al ristorante",
+            "sp": "benson esta comiendo en el restaurante",
+            "de": "Benson isst im Restaurant",
+            "jp": "ベンソンはレストランで食べています",
+            "pi": "benson is eating at the restaurant",
+        },
+        "location": {
+            "en": "Hell, Norway",
+            "no": "Helvete, Norge",
+            "fr": "Enfer, Norvège",
+            "it": "Inferno, Norvegia",
+            "sp": "Infierno, Noruega",
+            "de": "Hölle, Norwegen",
+            "jp": "ノルウェー、ヘル村",
+            "pi": "Hell, Norway"
+        },
+        "ltlo": [63.448422, 10.911614]
+    },
+    {
+        "img": "../img/b_airport_hell.png",
+        "date": "26.05.2022",
+        "text": {
+            "en": "benson overlooking the airport",
+            "no": "benson med utsikt over flyplassen",
+            "fr": "benson surplombant l'aéroport",
+            "it": "benson con vista sull'aeroporto",
+            "sp": "benson con vistas al aeropuerto",
+            "de": "Benson mit Blick auf den Flughafen",
+            "jp": "空港を見下ろすベンソン",
+            "pi": "benson overlooking the airport",
+        },
+        "location": {
+            "en": "Hell, Norway",
+            "no": "Helvete, Norge",
+            "fr": "Enfer, Norvège",
+            "it": "Inferno, Norvegia",
+            "sp": "Infierno, Noruega",
+            "de": "Hölle, Norwegen",
+            "jp": "ノルウェー、ヘル村",
+            "pi": "Hell, Norway"
+        },
+        "ltlo": [63.448917, 10.912750]
+    },
+    {
+        "img": "../img/b_hotel_hell.png",
+        "date": "27.05.2022",
+        "text": {
+            "en": "benson in the hotel lobby",
+            "no": "benson i hotellets lobby",
+            "fr": "benson dans le hall de l'hôtel",
+            "it": "benson nella hall dell'hotel",
+            "sp": "benson en el vestíbulo del hotel",
+            "de": "Benson in der Hotellobby",
+            "jp": "ホテルロビーのベンソン",
+            "pi": "benson in the hotel lobby",
+        },
+        "location": {
+            "en": "Hell, Norway",
+            "no": "Helvete, Norge",
+            "fr": "Enfer, Norvège",
+            "it": "Inferno, Norvegia",
+            "sp": "Infierno, Noruega",
+            "de": "Hölle, Norwegen",
+            "jp": "ノルウェー、ヘル村",
+            "pi": "Hell, Norway"
+        },
+        "ltlo": [63.448886, 10.912614]
+    },
+    {
+        "img": "../img/b_hell_station.png",
+        "date": "27.05.2022",
+        "text": {
+            "en": "benson is at the train station",
+            "no": "benson er på jernbanestasjonen",
+            "fr": "benson est à la gare",
+            "it": "Benson è alla stazione dei treni",
+            "sp": "benson está en la estación de tren",
+            "de": "Benson ist am Bahnhof",
+            "jp": "ベンソンは駅にいます",
+            "pi": "benson is at the train station",
+        },
+        "location": {
+            "en": "Hell, Norway",
+            "no": "Helvete, Norge",
+            "fr": "Enfer, Norvège",
+            "it": "Inferno, Norvegia",
+            "sp": "Infierno, Noruega",
+            "de": "Hölle, Norwegen",
+            "jp": "ノルウェー、ヘル村",
+            "pi": "Hell, Norway"
+        },
+        "ltlo": [63.445897, 10.899400]
+    },
+    {
+        "img": "../img/b_car_again.png",
+        "date": "27.05.2022",
+        "text": {
+            "en": "benson is in the car again",
+            "no": "benson er i bilen igjen",
+            "fr": "benson est de nouveau dans la voiture",
+            "it": "Benson è di nuovo in macchina",
+            "sp": "benson está en el auto otra vez",
+            "de": "Benson ist wieder im Auto",
+            "jp": "ベンソンは再び車の中にいます",
+            "pi": "benson is in the car again",
+        },
+        "location": {
+            "en": "Hamar, Norway",
+            "no": "Hamar, Norway",
+            "fr": "Hamar, Norvège",
+            "it": "Hamar, Norvegia",
+            "sp": "Hamar, Noruega",
+            "de": "Hamar, Norwegen",
+            "jp": "ノルウェー、ハーマル",
+            "pi": "Hamar, Norway"
+        },
+        "ltlo": [60.790036, 11.092022]
+    },
+    {
+        "img": "../img/b_viking_ship.png",
+        "date": "28.05.2022",
+        "text": {
+            "en": "benson in front of a viking ship",
+            "no": "benson foran et vikingskip",
+            "fr": "benson devant un bateau viking",
+            "it": "benson davanti a una nave vichinga",
+            "sp": "benson frente a un barco vikingo",
+            "de": "Benson vor einem Wikingerschiff",
+            "jp": "バイキング船の前のベンソン",
+            "pi": "benson in front of a viking ship",
+        },
+        "location": {
+            "en": "Tønsburg, Norway",
+            "no": "Tønsburg, Norway",
+            "fr": "Tonsburg, Norvège",
+            "it": "Tonsburg, Norvegia",
+            "sp": "Tonsburg, Noruega",
+            "de": "Tönsburg, Norwegen",
+            "jp": "ノルウェー、テンスベルグ",
+            "pi": "Tønsburg, Norway"
+        },
+        "ltlo": [59.265228, 10.406469]
+    },
+    {
+        "img": "../img/b_candle.png",
+        "date": "28.05.2022",
+        "text": {
+            "en": "benson likes fire",
+            "no": "benson liker ild",
+            "fr": "benson aime le feu",
+            "it": "a benson piace il fuoco",
+            "sp": "a benson le gusta el fuego",
+            "de": "Benson mag Feuer",
+            "jp": "ベンソンは火が好き",
+            "pi": "benson likes fire",
+        },
+        "location": {
+            "en": "Borre, Norway",
+            "no": "Borre, Norge",
+            "fr": "Borré, Norvège",
+            "it": "Borre, Norvegia",
+            "sp": "Borre, Norway",
+            "de": "Borre, Norwegen",
+            "jp": "Borre、ノルウェー",
+            "pi": "Borre, Norway"
+        },
+        "ltlo": [59.387383, 10.469953]
+    },
+    {
+        "img": "../img/b_godray.png",
+        "date": "28.05.2022",
+        "text": {
+            "en": "benson is the god of light",
+            "no": "benson er lysets gud",
+            "fr": "benson est le dieu de la lumière",
+            "it": "benson è il dio della luce",
+            "sp": "benson es el dios de la luz",
+            "de": "Benson ist der Gott des Lichts",
+            "jp": "ベンソンは光の神です",
+            "pi": "benson is the god of light",
+        },
+        "location": {
+            "en": "Borre, Norway",
+            "no": "Borre, Norge",
+            "fr": "Borré, Norvège",
+            "it": "Borre, Norvegia",
+            "sp": "Borre, Norway",
+            "de": "Borre, Norwegen",
+            "jp": "Borre、ノルウェー",
+            "pi": "Borre, Norway"
+        },
+        "ltlo": [59.387419, 10.470053]
+    },
+    {
+        "img": "../img/b_gravesite.png",
+        "date": "28.05.2022",
+        "text": {
+            "en": "benson at an ancient burial site",
+            "no": "benson på et gammelt gravsted",
+            "fr": "benson sur un ancien lieu de sépulture",
+            "it": "benson in un antico luogo di sepoltura",
+            "sp": "benson en un antiguo lugar de enterramiento",
+            "de": "Benson an einer alten Grabstätte",
+            "jp": "古代の埋葬地でのベンソン",
+            "pi": "benson at an ancient burial site",
+        },
+        "location": {
+            "en": "Norway",
+            "no": "Norway",
+            "fr": "Norvège",
+            "it": "Norvegia",
+            "sp": "Noruega",
+            "de": "Norwegen",
+            "jp": "ノルウェー",
+            "pi": "Norway"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_petrol.png",
+        "date": "28.05.2022",
+        "text": {
+            "en": "filling the car with pure, liquefied, benson",
+            "no": "fylle bilen med ren, flytende benson",
+            "fr": "remplir la voiture de pur, liquéfié, benson",
+            "it": "riempiendo l'auto di benson puro, liquefatto",
+            "sp": "llenando el carro de puro, licuado, benson",
+            "de": "Füllen Sie das Auto mit reinem, verflüssigtem Benson",
+            "jp": "車を純粋な液化ベンソンで満たす",
+            "pi": "filling the car with pure, liquefied, benson",
+        },
+        "location": {
+            "en": "Oslo Airport, Norway",
+            "no": "Oslo Lufthavn, Norge",
+            "fr": "Aéroport d'Oslo, Norvège",
+            "it": "Aeroporto di Oslo, Norvegia",
+            "sp": "Aeropuerto de Oslo, Noruega",
+            "de": "Flughafen Oslo, Norwegen",
+            "jp": "ノルウェー、オスロ空港",
+            "pi": "Oslo Airport, Norway"
+        },
+        "ltlo": [60.179375, 11.081778]
     },
     
     

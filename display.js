@@ -121,8 +121,10 @@ if (max_tm * 4 > 100) {
 
 
 var all_jsom = new Object();
+var raw_jsom = new Object();
 
 function load_jsontm(jsom) {
+    raw_jsom = [...jsom];
     if (sort == true) {
         split_json = chunky(reverse_array(jsom), load_amount);
         all_jsom = reverse_array(jsom);

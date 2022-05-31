@@ -82,7 +82,7 @@
     </div>
 
 
-    <div id="search-center" class="search-center">
+    <div id="search-center" class="search-center" style="display: none;">
       <br>
       <p class="big-bensontext" id="sc1">search center</p>
       
@@ -113,6 +113,8 @@
             <span class="search-button disable" id="searchbutton" onclick="run_search()">search</span>
              
             <span class="search-button disable relbutton" id="reloadbutton" onclick="reload_db()">reload</span>
+
+            <span class="search-button disable sorbutton" id="rsortbutton" onclick="sort_db()"> <img src="assets/arrow.svg" id="sortsvg" class="sortsvg disable">sort</span>
 
             <br><br><br><br>
             <span class="search-text" id="results">0</span> <span class="search-text" id="sc7">result(s)</span>

@@ -541,3 +541,16 @@ a {
 .relbutton:hover {
     background-color: #cd54fd;
 }
+.sortsvg {
+    height: 1em;
+    margin-bottom: -0.12em;
+    margin-left: -0.12em;
+}
+
+.sorbutton {
+    background-color: #46b5ff;
+}
+
+.sorbutton:hover {
+    background-color: #61c0ff;
+}

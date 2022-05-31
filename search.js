@@ -73,6 +73,16 @@ function sc_tog_time() {
     }
 }
 
+function pardat(dat) {
+    var dee = dat.split(".");
+    return `${dee[1]}/${dee[0]}/${dee[2]}`;
+}
+
+function pardat2(dat) {
+    var dee = dat.split("-");
+    return `${dee[1]}/${dee[2]}/${dee[0]}`;
+}
+
 function run_search() {
     // oh god  the main search function my god this will be fun aaaa
 
@@ -114,6 +124,8 @@ function run_search() {
 
 
     var he_one = new Array();
+
+    var he_two = new Array();
     for (i in img_db) {
         //desciption
         var done = false;
@@ -134,14 +146,64 @@ function run_search() {
             done = true;
         }
 
-
+        console.log(scv.tim)
     }
 
+
+
+    // thank you random stackoverflow user for this
+    function dateCheck(from,to,check) {
+
+        var fDate,lDate,cDate;
+        fDate = Date.parse(from);
+        lDate = Date.parse(to);
+        cDate = Date.parse(check);
+    
+        if((cDate <= lDate && cDate >= fDate)) {
+            return true;
+        }
+        return false;
+    }
+
+
+    function hahadate(db, num) {
+
+        // time
+
+        
+        var dec = db[num]["date"];
+        
+        var chk = dateCheck(pardat2(scv.dtf), pardat2(scv.dtt), pardat(dec));
+    
+        console.log(chk);
+
+        if (chk == true) {
+            he_two.push(db[num]);
+        }
+        
+
+        
+    }
+
+    if (scv.tim == true) {
+        if (he_one.length == 0) {
+            for (i in img_db) {
+                hahadate(img_db, i);
+            }
+        } else {
+            for (i in he_one) {
+                hahadate(he_one, i);
+            }
+        }
+    }
+    
     console.log(he_one);
 
-
-    load_jsontm(he_one);
-
+    if (scv.tim == true) {
+        load_jsontm(he_two);
+    } else {
+        load_jsontm(he_one);
+    }
 /*
     if (scv.des == false && scv.loc == false && scv.tim == false) {
 
@@ -168,6 +230,22 @@ function reload_db() {
 
     load_jsontm(img_db);
         
+    set_img(generate_html(split_json[0]));
+    cur_json = [...split_json[0]];
+}
+
+function sort_db() {
+
+    sort = !sort;
+
+    if (sort == true) {
+        document.getElementById("sortsvg").style.transform = "rotate(0deg)";
+    } else {
+        document.getElementById("sortsvg").style.transform = "rotate(180deg)";
+    }
+
+    load_jsontm(raw_jsom);
+
     set_img(generate_html(split_json[0]));
     cur_json = [...split_json[0]];
 }

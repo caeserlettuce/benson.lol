@@ -127,6 +127,7 @@ function do_lang(language) {
         lang = language;
         localStorage.setItem("lang", lang);
         for (i in lang_txt[language]) {
+            console.log(i)
             document.getElementById(`${i}`).innerHTML = `${lang_txt[language][i]}`;
         }
         document.getElementById("selected-lang").innerHTML = `<span class="sel-lang"><img src="${lang_vis[language]["flag"]}" class="lang-flag"> ${lang_vis[language]["name"]}</span>`;
