@@ -56,8 +56,15 @@ function initMap() {
             
             console.log(i)
 
+            var cj = img_db[i];
+
+            var bogo = `${cj["img"]}`;
+    
+            bogo = bogo.replace("../img/", "");
+            bogo = bogo.replace(".png", "");
+
             eval(`marker_${i}.addListener("click", () => {
-                location.href = "../view?bogo=${i}";
+                location.href = "../view?bogo=${bogo}";
             });`);
                 
 

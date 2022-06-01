@@ -8,6 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
+    overflow: overlay;
     overflow-x: hidden;
 }
 
@@ -230,7 +231,8 @@ a {
     border-radius: 5px;
 }
 ::-webkit-scrollbar-track {
-    background: #789feb;
+    /*background: #789feb;*/
+    display: none;
 }
 
 /*haha i stole this code from the dogecoin website*/

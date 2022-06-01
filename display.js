@@ -38,8 +38,13 @@ function generate_html(json) {
     for (i in json) {
         var cj = json[i];
 
+        var bogo = `${cj["img"]}`;
 
-        var c_html = `<span class="blocky"> <img src="${cj["img"]}" class="imagetm disable"> <br> <span class="blocky-text"> <span class="tt">${cj["location"][lang]}<span class="tth">${hv_txt["lc"][lang]}</span></span> <span style="color: #e9e9e9;">-</span> <span class="tt">${cj["date"]}<span class="tth">${hv_txt["dt"][lang]}</span></span> </span> <br><br> <span class="blocky-text">${cj["text"][lang]}</span> <br><span style="font-size: 0px;">[benson.lol] bogos binted</span> </span>`;
+        bogo = bogo.replace("../img/", "");
+        bogo = bogo.replace(".png", "");
+
+
+        var c_html = `<span class="blocky"> <img src="${cj["img"]}" class="imagetm disable" onclick="location.href = 'https://benson.lol/view?bogo=${bogo}'"> <br> <span class="blocky-text"> <span class="tt">${cj["location"][lang]}<span class="tth">${hv_txt["lc"][lang]}</span></span> <span style="color: #e9e9e9;">-</span> <span class="tt">${cj["date"]}<span class="tth">${hv_txt["dt"][lang]}</span></span> </span> <br><br> <span class="blocky-text">${cj["text"][lang]}</span> <br><span style="font-size: 0px;">[benson.lol] bogos binted</span> </span>`;
         f_html += c_html;
 
     }

@@ -8,6 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
+    overflow: overlay;
     overflow-x: hidden;
 }
 
@@ -156,7 +157,8 @@ a {
     border-radius: 5px;
 }
 ::-webkit-scrollbar-track {
-    background: #789feb;
+    /*background: #789feb;*/
+    display: none;
 }
 
 /*haha i stole this code from the dogecoin website*/
@@ -202,6 +204,7 @@ a {
     text-shadow: 2px 2px 8px #3b3b3b20;
     cursor: default;
     z-index: -10;
+    border-radius: 10px;
 }
 
 .blocky-title {
@@ -553,4 +556,66 @@ a {
 
 .sorbutton:hover {
     background-color: #61c0ff;
+}
+
+.notifcenter {
+    width: 30em;
+    height: 100vh;
+    position: fixed;
+    top: calc(2em + 10px);;
+    right: 10px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    border: 0px;
+    z-index: 5000;
+    overflow-y: scroll;
+    pointer-events: none;
+}
+
+.notifbox {
+    width: 29em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: auto;
+    background-color:rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    overflow-x: scroll;
+    pointer-events: all;
+    cursor: default;
+}
+
+.notifbox::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.notifimg {
+    width: 4em;
+    height: 4em;
+}
+
+.notiftitle {
+    font-size: 2em;
+    padding-left: 1rem;
+}
+
+.notifdesc {
+    font-size: 1.25em;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    overflow-x: scroll;
+}
+
+.notifwrap {
+    padding: 0.5rem;
+}
+
+.box-close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
