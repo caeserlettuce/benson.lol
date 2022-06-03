@@ -33,23 +33,32 @@ function reverse_array(array) {
 
 
 function generate_html(json) {
-    var f_html = "";
+    try {
+        var f_html = "";
 
-    for (i in json) {
-        var cj = json[i];
+        for (i in json) {
+            var cj = json[i];
 
-        var bogo = `${cj["img"]}`;
+            var bogo = `${cj["img"]}`;
 
-        bogo = bogo.replace("../img/", "");
-        bogo = bogo.replace(".png", "");
+            bogo = bogo.replace("../img/", "");
+            bogo = bogo.replace(".png", "");
 
 
-        var c_html = `<span class="blocky"> <img src="${cj["img"]}" class="imagetm disable" onclick="location.href = 'https://benson.lol/view?bogo=${bogo}'"> <br> <span class="blocky-text"> <span class="tt">${cj["location"][lang]}<span class="tth">${hv_txt["lc"][lang]}</span></span> <span style="color: #e9e9e9;">-</span> <span class="tt">${cj["date"]}<span class="tth">${hv_txt["dt"][lang]}</span></span> </span> <br><br> <span class="blocky-text">${cj["text"][lang]}</span> <br><span style="font-size: 0px;">[benson.lol] bogos binted</span> </span>`;
-        f_html += c_html;
+            var c_html = `<span class="blocky"> <img src="${cj["img"]}" class="imagetm disable" onclick="location.href = 'https://benson.lol/view?bogo=${bogo}'"> <br> <span class="blocky-text"> <span class="tt">${cj["location"][lang]}<span class="tth">${hv_txt["lc"][lang]}</span></span> <span style="color: #e9e9e9;">-</span> <span class="tt">${cj["date"]}<span class="tth">${hv_txt["dt"][lang]}</span></span> </span> <br><br> <span class="blocky-text">${cj["text"][lang]}</span> <br><span style="font-size: 0px;">[benson.lol] bogos binted</span> </span>`;
+            f_html += c_html;
 
+        }
+
+        return f_html
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
-
-    return f_html
 }
 
 function set_img(html) {
@@ -65,24 +74,42 @@ function clr_img() {
 }
 
 function load_next() {
-    load_index += 1;
-    apd_img(generate_html(split_json[load_index]));
-    //cur_json = [cur_json, split_json[load_index]];
-    for (i in split_json[load_index]) {
-        cur_json.push(split_json[load_index][i]);
+    try {    
+        load_index += 1;
+        apd_img(generate_html(split_json[load_index]));
+        //cur_json = [cur_json, split_json[load_index]];
+        for (i in split_json[load_index]) {
+            cur_json.push(split_json[load_index][i]);
+        }
+        //cur_json.push([...split_json[load_index]]);
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
-    //cur_json.push([...split_json[load_index]]);
 }
 
 function chunky(array, size) {
-    var out = new Array();
-    for (let i = 0; i < array.length; i += size) {
-        const chunk = array.slice(i, i + size);
-        console.log(chunk);
-        out.push(chunk);
-        // do whatever
+    try {
+        var out = new Array();
+        for (let i = 0; i < array.length; i += size) {
+            const chunk = array.slice(i, i + size);
+            console.log(chunk);
+            out.push(chunk);
+            // do whatever
+        }
+        return out
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
-    return out
 }
 
 
@@ -129,15 +156,24 @@ var all_jsom = new Object();
 var raw_jsom = new Object();
 
 function load_jsontm(jsom) {
-    raw_jsom = [...jsom];
-    if (sort == true) {
-        split_json = chunky(reverse_array(jsom), load_amount);
-        all_jsom = reverse_array(jsom);
-    } else {
-        split_json = chunky(jsom, load_amount);
-        all_jsom = [...jsom];
+    try {
+        raw_jsom = [...jsom];
+        if (sort == true) {
+            split_json = chunky(reverse_array(jsom), load_amount);
+            all_jsom = reverse_array(jsom);
+        } else {
+            split_json = chunky(jsom, load_amount);
+            all_jsom = [...jsom];
+        }
+        document.getElementById("results").innerHTML = all_jsom.length
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
-    document.getElementById("results").innerHTML = all_jsom.length
 }
 
 load_jsontm(img_db)
@@ -162,27 +198,38 @@ var scroll_buffer = 100;
 
 $(window).scroll(function() {   
 
-    var scroll_top = $(window).scrollTop();
-    var window_height = $(window).height();
-    var document_height = $(document).height();
+    try {
+        var scroll_top = $(window).scrollTop();
+        var window_height = $(window).height();
+        var document_height = $(document).height();
 
-    console.log(`scrolltop: ${scroll_top}\nwindow height: ${window_height}\ndocument height: ${document_height}\nscroll + window: ${scroll_top + window_height}\npoop: ${document_height - (scroll_top + window_height)}`);
-    if(document_height - (scroll_top + window_height) < scroll_buffer) {
-        console.debug("a!!!!!!!!");
-        if (query_more == true) {
-            query_more = false;
-            load_next();
-            setTimeout(() => {
-                query_more = true;
-                console.log("ab");
-                
+        
 
-                if ($(document).height() - ($(window).scrollTop() + $(window).height()) < scroll_buffer) {
-                    load_next();
-                }
-            }, 4000);
+        console.log(`scrolltop: ${scroll_top}\nwindow height: ${window_height}\ndocument height: ${document_height}\nscroll + window: ${scroll_top + window_height}\npoop: ${document_height - (scroll_top + window_height)}`);
+        if(document_height - (scroll_top + window_height) < scroll_buffer) {
+            console.debug("a!!!!!!!!");
+            if (query_more == true) {
+                query_more = false;
+                load_next();
+                setTimeout(() => {
+                    query_more = true;
+                    console.log("ab");
+                    
+
+                    if ($(document).height() - ($(window).scrollTop() + $(window).height()) < scroll_buffer) {
+                        load_next();
+                    }
+                }, 4000);
+            }
+
+
         }
-
-
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
 });

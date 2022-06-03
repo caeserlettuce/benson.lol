@@ -122,91 +122,108 @@ function len(json) {
 var lod = true;
 
 function do_lang(language) {
-    console.log(language);
-    if (lang_txt[language] && lang_vis[language]) { // if it exists
-        lang = language;
-        localStorage.setItem("lang", lang);
-        for (i in lang_txt[language]) {
-            console.log(i)
-            document.getElementById(`${i}`).innerHTML = `${lang_txt[language][i]}`;
+    try {
+        console.log(language);
+        if (lang_txt[language] && lang_vis[language]) { // if it exists
+            lang = language;
+            localStorage.setItem("lang", lang);
+            for (i in lang_txt[language]) {
+                console.log(i)
+                document.getElementById(`${i}`).innerHTML = `${lang_txt[language][i]}`;
+            }
+            document.getElementById("selected-lang").innerHTML = `<span class="sel-lang"><img src="${lang_vis[language]["flag"]}" class="lang-flag"> ${lang_vis[language]["name"]}</span>`;
+            make_lang_list();
+
+
+            // finn badge
+
+            //document.getElementById("finn-transition").innerHTML = ".finn-badge { transition: 0s; }";
+            
+            //                                                                                                              -891px
+            //document.getElementById("finn-size").innerHTML = `.finn-badge { width: 5000px; /*default width: 450px */ right: 0px; /*default amount: -340px */ }`;
+            document.getElementById("ft-s").innerHTML = lang_txt[lang]["finn-top"];
+            document.getElementById("fm-s").innerHTML = lang_txt[lang]["finn-mid"];
+            document.getElementById("fb-s").innerHTML = lang_txt[lang]["finn-bot"];
+            var ft = document.getElementById("ft-s").clientWidth + 10;
+            var fm = document.getElementById("fm-s").clientWidth + 20;
+            var fb = document.getElementById("fb-s").clientWidth + 10;
+            console.log(`${ft}, ${fm}, ${fb}`);
+            var wid = 0;
+            if (ft > wid) {
+                wid = ft;
+            }
+            if (fm > wid) {
+                wid = fm;
+            }
+            if (fb > wid) {
+                wid = fb;
+            }
+            console.log("finn badge text width: ", wid);
+            var final_wid = wid + 114;
+            if (lod == true) {
+                final_wid = wid + 114;
+                lod = false;
+            }
+            console.log("finn badge width: ", final_wid);
+            var finn_css = `.finn-badge { width: ${final_wid}px; /*default width: 450px */ right: -${final_wid - 109}px; /*default amount: -340px */ }`;
+            document.getElementById("finn-size").innerHTML = finn_css;
+            console.log(finn_css);
+
+            var footer_height = document.getElementById("footer").clientHeight;
+
+            document.getElementById("technopug-pos").innerHTML = `.technopug { bottom: ${footer_height}px; }`;
+
+
+            //document.getElementById("finn-transition").innerHTML = ".finn-badge { transition: 1.5s; }";
+        } else {
+            console.error(`language '${language}' does not exist!!!!!`);
         }
-        document.getElementById("selected-lang").innerHTML = `<span class="sel-lang"><img src="${lang_vis[language]["flag"]}" class="lang-flag"> ${lang_vis[language]["name"]}</span>`;
-        make_lang_list();
-
-
-        // finn badge
-
-        //document.getElementById("finn-transition").innerHTML = ".finn-badge { transition: 0s; }";
-        
-        //                                                                                                              -891px
-        //document.getElementById("finn-size").innerHTML = `.finn-badge { width: 5000px; /*default width: 450px */ right: 0px; /*default amount: -340px */ }`;
-        document.getElementById("ft-s").innerHTML = lang_txt[lang]["finn-top"];
-        document.getElementById("fm-s").innerHTML = lang_txt[lang]["finn-mid"];
-        document.getElementById("fb-s").innerHTML = lang_txt[lang]["finn-bot"];
-        var ft = document.getElementById("ft-s").clientWidth + 10;
-        var fm = document.getElementById("fm-s").clientWidth + 20;
-        var fb = document.getElementById("fb-s").clientWidth + 10;
-        console.log(`${ft}, ${fm}, ${fb}`);
-        var wid = 0;
-        if (ft > wid) {
-            wid = ft;
-        }
-        if (fm > wid) {
-            wid = fm;
-        }
-        if (fb > wid) {
-            wid = fb;
-        }
-        console.log("finn badge text width: ", wid);
-        var final_wid = wid + 114;
-        if (lod == true) {
-            final_wid = wid + 114;
-            lod = false;
-        }
-        console.log("finn badge width: ", final_wid);
-        var finn_css = `.finn-badge { width: ${final_wid}px; /*default width: 450px */ right: -${final_wid - 109}px; /*default amount: -340px */ }`;
-        document.getElementById("finn-size").innerHTML = finn_css;
-        console.log(finn_css);
-
-        var footer_height = document.getElementById("footer").clientHeight;
-
-        document.getElementById("technopug-pos").innerHTML = `.technopug { bottom: ${footer_height}px; }`;
-
-
-        //document.getElementById("finn-transition").innerHTML = ".finn-badge { transition: 1.5s; }";
-    } else {
-        console.error(`language '${language}' does not exist!!!!!`);
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
 }
 // making the language list
 
 function make_lang_list() {
-    var the_list = document.getElementById("lang-list");
-    the_list.innerHTML = '';
+    try {
+        var the_list = document.getElementById("lang-list");
+        the_list.innerHTML = '';
 
-    for (i in lang_vis) {
-        //console.debug(i);
-        if (i != lang) {
-            var new_elem = document.createElement('li');
-    
-            new_elem.innerHTML = `<span class="sel-lang"><img src="${lang_vis[i]["flag"]}" class="lang-flag"> ${lang_vis[i]["name"]}</span>`;
-    
-            eval(`new_elem.addEventListener('click', function(){ do_lang('${i}'); });`);
-    
-            the_list.appendChild(new_elem);
+        for (i in lang_vis) {
+            //console.debug(i);
+            if (i != lang) {
+                var new_elem = document.createElement('li');
+        
+                new_elem.innerHTML = `<span class="sel-lang"><img src="${lang_vis[i]["flag"]}" class="lang-flag"> ${lang_vis[i]["name"]}</span>`;
+        
+                eval(`new_elem.addEventListener('click', function(){ do_lang('${i}'); });`);
+        
+                the_list.appendChild(new_elem);
 
+            }
         }
+
+        
+
+        var ll_height = lang_hei * (len(lang_vis) - 0.66);
+
+        console.debug(`height: ${ll_height}`);
+
+        var new_css = `#touch:checked + .slide {height: ${ll_height}px;}`;
+        document.getElementById("lang-heightness").innerHTML = new_css;
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
-
-    
-
-    var ll_height = lang_hei * (len(lang_vis) - 0.66);
-
-    console.debug(`height: ${ll_height}`);
-
-    var new_css = `#touch:checked + .slide {height: ${ll_height}px;}`;
-    document.getElementById("lang-heightness").innerHTML = new_css;
-    
 }
 
 

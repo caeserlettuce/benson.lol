@@ -31,45 +31,72 @@ var sadnews = [{
 
 
 function sc_tog_desc() {
-    var la = document.getElementById("checky1");
-    var le = document.getElementById("checky1-bac");
-    sc_desc = !sc_desc;
+    try {    
+        var la = document.getElementById("checky1");
+        var le = document.getElementById("checky1-bac");
+        sc_desc = !sc_desc;
 
-    if (sc_desc == true) {
-        la.style.fill = "white";
-        le.style.backgroundColor = "#4672ff";
-    } else {
-        la.style.fill = "none";
-        le.style.backgroundColor = "grey";
+        if (sc_desc == true) {
+            la.style.fill = "white";
+            le.style.backgroundColor = "#4672ff";
+        } else {
+            la.style.fill = "none";
+            le.style.backgroundColor = "grey";
+        }
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
 }
 
 
 function sc_tog_loca() {
-    var la = document.getElementById("checky2");
-    var le = document.getElementById("checky2-bac");
-    sc_loca = !sc_loca;
+    try {
+        var la = document.getElementById("checky2");
+        var le = document.getElementById("checky2-bac");
+        sc_loca = !sc_loca;
 
-    if (sc_loca == true) {
-        la.style.fill = "white";
-        le.style.backgroundColor = "#4672ff";
-    } else {
-        la.style.fill = "none";
-        le.style.backgroundColor = "grey";
+        if (sc_loca == true) {
+            la.style.fill = "white";
+            le.style.backgroundColor = "#4672ff";
+        } else {
+            la.style.fill = "none";
+            le.style.backgroundColor = "grey";
+        }
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
 }
 
 function sc_tog_time() {
-    var la = document.getElementById("checky3");
-    var le = document.getElementById("checky3-bac");
-    sc_time = !sc_time;
+    try {
+        var la = document.getElementById("checky3");
+        var le = document.getElementById("checky3-bac");
+        sc_time = !sc_time;
 
-    if (sc_time == true) {
-        la.style.fill = "white";
-        le.style.backgroundColor = "#4672ff";
-    } else {
-        la.style.fill = "none";
-        le.style.backgroundColor = "grey";
+        if (sc_time == true) {
+            la.style.fill = "white";
+            le.style.backgroundColor = "#4672ff";
+        } else {
+            la.style.fill = "none";
+            le.style.backgroundColor = "grey";
+        }
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
 }
 
@@ -84,168 +111,196 @@ function pardat2(dat) {
 }
 
 function run_search() {
-    // oh god  the main search function my god this will be fun aaaa
+    try {
+        // oh god  the main search function my god this will be fun aaaa
 
-    load_jsontm(img_db);
+        load_jsontm(img_db);
 
-    console.log("querying search!!");
+        console.log("querying search!!");
 
-    var out_json = new Object();
+        var out_json = new Object();
 
-    var scv = {
-        "txt": document.getElementById("search-input").value,
-        "dtf": document.getElementById("search-date-from").value,
-        "dtt": document.getElementById("search-date-to").value,
-        "des": sc_desc,
-        "loc": sc_loca,
-        "tim": sc_time
-    }
+        var scv = {
+            "txt": document.getElementById("search-input").value,
+            "dtf": document.getElementById("search-date-from").value,
+            "dtt": document.getElementById("search-date-to").value,
+            "des": sc_desc,
+            "loc": sc_loca,
+            "tim": sc_time
+        }
 
-    console.debug("parsing some stoof...");
+        console.debug("parsing some stoof...");
 
-    if (scv.txt == '') {
-        scv.des = false;
-        scv.loc = false;
-    }
+        if (scv.txt == '') {
+            scv.des = false;
+            scv.loc = false;
+        }
 
-    if (scv.dtf == '' && scv.dtt != '') { // before date
-        scv.dtf = "1970-01-01";
-    } 
-    if (scv.dtt == '' && scv.dtf != '') { // after date
-        scv.dtt = "9999-12-31";
-    }
-
-
-    if (scv.dtf == '' && scv.dtt == '') {
-        scv.tim = false;
-    }
-    
-    console.log(scv);
+        if (scv.dtf == '' && scv.dtt != '') { // before date
+            scv.dtf = "1970-01-01";
+        } 
+        if (scv.dtt == '' && scv.dtf != '') { // after date
+            scv.dtt = "9999-12-31";
+        }
 
 
-    var he_one = new Array();
-
-    var he_two = new Array();
-    for (i in img_db) {
-        //desciption
-        var done = false;
-        if (scv.des == true) {
-            var dec = img_db[i]["text"][lang];
-            if (`${dec}`.toLowerCase().indexOf(`${scv.txt}`.toLowerCase() ) > -1) {
-                he_one.push(img_db[i]);
-            }
-            done = true;
+        if (scv.dtf == '' && scv.dtt == '') {
+            scv.tim = false;
         }
         
-        if (scv.loc == true) {
-            var dec = img_db[i]["location"][lang];
+        console.log(scv);
+
+
+        var he_one = new Array();
+
+        var he_two = new Array();
+        for (i in img_db) {
+            //desciption
+            var done = false;
+            if (scv.des == true) {
+                var dec = img_db[i]["text"][lang];
+                if (`${dec}`.toLowerCase().indexOf(`${scv.txt}`.toLowerCase() ) > -1) {
+                    he_one.push(img_db[i]);
+                }
+                done = true;
+            }
             
-            if (`${dec}`.toLowerCase().indexOf(`${scv.txt}`.toLowerCase() ) > -1) {
-                he_one.push(img_db[i]);
+            if (scv.loc == true) {
+                var dec = img_db[i]["location"][lang];
+                
+                if (`${dec}`.toLowerCase().indexOf(`${scv.txt}`.toLowerCase() ) > -1) {
+                    he_one.push(img_db[i]);
+                }
+                done = true;
             }
-            done = true;
+
+            console.log(scv.tim)
         }
 
-        console.log(scv.tim)
-    }
 
 
+        // thank you random stackoverflow user for this
+        function dateCheck(from,to,check) {
 
-    // thank you random stackoverflow user for this
-    function dateCheck(from,to,check) {
-
-        var fDate,lDate,cDate;
-        fDate = Date.parse(from);
-        lDate = Date.parse(to);
-        cDate = Date.parse(check);
-    
-        if((cDate <= lDate && cDate >= fDate)) {
-            return true;
-        }
-        return false;
-    }
-
-
-    function hahadate(db, num) {
-
-        // time
-
+            var fDate,lDate,cDate;
+            fDate = Date.parse(from);
+            lDate = Date.parse(to);
+            cDate = Date.parse(check);
         
-        var dec = db[num]["date"];
-        
-        var chk = dateCheck(pardat2(scv.dtf), pardat2(scv.dtt), pardat(dec));
-    
-        console.log(chk);
-
-        if (chk == true) {
-            he_two.push(db[num]);
-        }
-        
-
-        
-    }
-
-    if (scv.tim == true) {
-        if (he_one.length == 0) {
-            for (i in img_db) {
-                hahadate(img_db, i);
+            if((cDate <= lDate && cDate >= fDate)) {
+                return true;
             }
+            return false;
+        }
+
+
+        function hahadate(db, num) {
+
+            // time
+
+            
+            var dec = db[num]["date"];
+            
+            var chk = dateCheck(pardat2(scv.dtf), pardat2(scv.dtt), pardat(dec));
+        
+            console.log(chk);
+
+            if (chk == true) {
+                he_two.push(db[num]);
+            }
+            
+
+            
+        }
+
+        if (scv.tim == true) {
+            if (he_one.length == 0) {
+                for (i in img_db) {
+                    hahadate(img_db, i);
+                }
+            } else {
+                for (i in he_one) {
+                    hahadate(he_one, i);
+                }
+            }
+        }
+        
+        console.log(he_one);
+
+        if (scv.tim == true) {
+            load_jsontm(he_two);
         } else {
-            for (i in he_one) {
-                hahadate(he_one, i);
-            }
+            load_jsontm(he_one);
         }
-    }
-    
-    console.log(he_one);
+    /*
+        if (scv.des == false && scv.loc == false && scv.tim == false) {
 
-    if (scv.tim == true) {
-        load_jsontm(he_two);
-    } else {
-        load_jsontm(he_one);
-    }
-/*
-    if (scv.des == false && scv.loc == false && scv.tim == false) {
+            load_jsontm(img_db)
 
-        load_jsontm(img_db)
+        }
 
-    }
+    */
 
-*/
+        if (split_json.length == 0) {
+            load_jsontm(sadnews);
+            
+            set_img(generate_html(split_json[0]));
+            cur_json = [...split_json[0]];
+        } else {
 
-    if (split_json.length == 0) {
-        load_jsontm(sadnews);
-        
-        set_img(generate_html(split_json[0]));
-        cur_json = [...split_json[0]];
-    } else {
-
-        set_img(generate_html(split_json[0]));
-        cur_json = [...split_json[0]];
+            set_img(generate_html(split_json[0]));
+            cur_json = [...split_json[0]];
+        }
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
 
 }
 
 function reload_db() {
 
-    load_jsontm(img_db);
-        
-    set_img(generate_html(split_json[0]));
-    cur_json = [...split_json[0]];
+    try {
+        load_jsontm(img_db);
+            
+        set_img(generate_html(split_json[0]));
+        cur_json = [...split_json[0]];
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
+    }
 }
 
 function sort_db() {
 
-    sort = !sort;
+    try {
 
-    if (sort == true) {
-        document.getElementById("sortsvg").style.transform = "rotate(0deg)";
-    } else {
-        document.getElementById("sortsvg").style.transform = "rotate(180deg)";
+        sort = !sort;
+
+        if (sort == true) {
+            document.getElementById("sortsvg").style.transform = "rotate(0deg)";
+        } else {
+            document.getElementById("sortsvg").style.transform = "rotate(180deg)";
+        }
+
+        load_jsontm(raw_jsom);
+
+        set_img(generate_html(split_json[0]));
+        cur_json = [...split_json[0]];
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
     }
-
-    load_jsontm(raw_jsom);
-
-    set_img(generate_html(split_json[0]));
-    cur_json = [...split_json[0]];
 }

@@ -127,22 +127,11 @@
 
     </div>
 
-<!--
+
+
     <div class="notifcenter" id="notifcenter">
-      
-      <div class="notifbox">
-        <img src="../assets/icon.png" class="notifimg" CLEAR="left" ALIGN="top">
-        <span class="notifwrap">
-          
-          <span class="notiftitle">title</span>
-          <span class="notifdesc">uh oh desc</span>
-        </span>
-      </div>
-
-
-
     </div>
-  -->
+  
 
 
     <!--header-->
@@ -157,7 +146,7 @@
       <img id="mode-sel" class="modesel disable" onclick="toggle_mode()" src="../assets/sun.svg">
 
 
-      <img src="assets/trifold_map.png" class="map-icon" title="where has benson been?" id="trifold" onclick="redir_map()">
+      <img src="assets/trifold_map.png" class="map-icon disable" title="where has benson been?" id="trifold" onclick="redir_map()">
 
 
       <div class="lang-select" id="langsel">
@@ -219,6 +208,11 @@
     <script src="benson.js"></script>
     <script src="lang.js"></script>
     <script src="search.js"></script>
+    <script>
+      setTimeout(() => {
+        cheese();
+      }, 500);
+    </script>
 
     
 

@@ -428,3 +428,76 @@ a {
 
 
 
+
+.notifcenter {
+    width: 30em;
+    height: 100vh;
+    position: fixed;
+    top: calc(2em + 10px);;
+    right: 10px;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 10px;
+    border: 0px;
+    z-index: 5000;
+    overflow-y: scroll;
+    pointer-events: none;
+}
+
+.notifbox {
+    width: 29em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: auto;
+    background-color:rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    overflow-x: scroll;
+    pointer-events: all;
+    cursor: default;
+}
+
+.notifbox::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.notifimg {
+    width: 4em;
+    height: 4em;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.notiftitle {
+    font-size: 2em;
+}
+
+.notifdesc {
+    font-size: 1.25em;
+    display: block;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0px; 
+}
+
+.notifwrap {
+    padding: 0.5rem;
+}
+
+.close-notif {
+    position: absolute;
+    right: 1.05em;
+    /*top: 1.05em;*/
+    margin-top: 0.5em;
+    width: 1.25em;
+    cursor: pointer;
+}
+
+
+@keyframes notif-leave {
+    0% { opacity: 1; }
+    75% { opacity: 1;}
+    100% { opacity: 0; }
+}

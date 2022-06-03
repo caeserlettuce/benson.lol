@@ -595,27 +595,38 @@ a {
 .notifimg {
     width: 4em;
     height: 4em;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .notiftitle {
     font-size: 2em;
-    padding-left: 1rem;
 }
 
 .notifdesc {
     font-size: 1.25em;
     display: block;
-    padding-left: 1rem;
     padding-right: 0.5rem;
-    overflow-x: scroll;
+    padding-top: 0.3rem;
+    padding-bottom: 0px; 
 }
 
 .notifwrap {
     padding: 0.5rem;
 }
 
-.box-close {
+.close-notif {
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 1.05em;
+    /*top: 1.05em;*/
+    margin-top: 0.5em;
+    width: 1.25em;
+    cursor: pointer;
+}
+
+
+@keyframes notif-leave {
+    0% { opacity: 1; }
+    75% { opacity: 1;}
+    100% { opacity: 0; }
 }

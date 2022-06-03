@@ -36,29 +36,47 @@ for (i in disable_rightclick) {
 var popa;
 // nft websites cant even figure it out when it took me a simple google search
 function obama() {
-    // whenever scroll
-    console.log("he");
-    var last = scrolltm * 1;
-    scrolltm = window.scrollY;
-    benson.style.transform = `rotateZ(${scrolltm / 6}deg)`;
-    clearTimeout(popa);
+    try {
+        // whenever scroll
+        console.log("he");
+        var last = scrolltm * 1;
+        scrolltm = window.scrollY;
+        benson.style.transform = `rotateZ(${scrolltm / 6}deg)`;
+        clearTimeout(popa);
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
+    }
 }
 function cheese() {
     // whenever resize
-    benson_top = benson.style.top;
-    console.log(benson_top);
+    try 
+        benson_top = benson.style.top;
+        console.log(benson_top);
 
-    var footwap = footer_wrap.clientHeight;
-    footer_tm.height = footwap;
-    
-    var footer_height = document.getElementById("footer").clientHeight;
+        var footwap = footer_wrap.clientHeight;
+        footer_tm.height = footwap;
+        
+        var footer_height = document.getElementById("footer").clientHeight;
 
-    document.getElementById("technopug-pos").innerHTML = `.technopug { bottom: ${footer_height}px; }`;
+        document.getElementById("technopug-pos").innerHTML = `.technopug { bottom: ${footer_height}px; }`;
 
-    var lang_wid = document.getElementById("langsel").clientWidth;
-    document.getElementById("trifold").style.right = `${lang_wid + 10}px`;
-    var yayahaha = parseInt(`${document.getElementById("trifold").style.right}`.replace("px", ""))
-    document.getElementById("mode-sel").style.right = `${yayahaha + document.getElementById("trifold").clientWidth}px`;
+        var lang_wid = document.getElementById("langsel").clientWidth;
+        document.getElementById("trifold").style.right = `${lang_wid + 10}px`;
+        var yayahaha = parseInt(`${document.getElementById("trifold").style.right}`.replace("px", ""))
+        document.getElementById("mode-sel").style.right = `${yayahaha + document.getElementById("trifold").clientWidth}px`;
+    } catch (err) {
+        push_notif({
+            "title": "an error has occured!!",
+            "desc": `an error "${err.message}" has occured!`,
+            "icon": "../assets/error.png",
+            "time": 4
+        })
+    }
 }
 function redir_map() {
     location.href = "./map";
