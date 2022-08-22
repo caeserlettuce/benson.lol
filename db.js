@@ -3068,6 +3068,307 @@ var img_db = [
         },
         "ltlo": [60.179375, 11.081778]
     },
+    {
+        "img": "../img/b_bensons.png",
+        "date": "02.07.2022",
+        "text": {
+            "en": "benson has found the best restaurant",
+            "no": "benson har funnet den beste restauranten",
+            "fr": "benson a trouvé le meilleur restaurant",
+            "it": "benson ha trovato il miglior ristorante",
+            "sp": "benson ha encontrado el mejor restaurante",
+            "de": "Benson hat das beste Restaurant gefunden",
+            "jp": "ベンソンは最高のレストランを見つけました",
+            "pi": "benson has found the best restaurant",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [, ]
+    },
+    {
+        "img": "../img/b_grass_marshs.png",
+        "date": "03.07.2022",
+        "text": {
+            "en": "benson is in some more grass",
+            "no": "benson er i litt mer gress",
+            "fr": "Benson est dans un peu plus d'herbe",
+            "it": "Benson è in un po' più di erba",
+            "sp": "benson está en algo más de hierba",
+            "de": "Benson ist in etwas mehr Gras",
+            "jp": "ベンソンはもう少し草の中にいます",
+            "pi": "benson is in some more grass",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [46.34882359822199, -124.05479728416039]
+    },
+    {
+        "img": "../img/b_fryingpan.png",
+        "date": "03.07.2022",
+        "text": {
+            "en": "benson will not be fried",
+            "no": "benson vil ikke bli stekt",
+            "fr": "benson ne sera pas frit",
+            "it": "benson non sarà fritto",
+            "sp": "benson no será frito",
+            "de": "Benson wird nicht gebraten",
+            "jp": "ベンソンは揚げられません",
+            "pi": "benson will not be fried",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [46.34903823271921, -124.05450549631858]
+    },
+    {
+        "img": "../img/b_fisherman.png",
+        "date": "03.07.2022",
+        "text": {
+            "en": "benson will go fishing with statue fisherman",
+            "no": "Benson skal fiske med statuefisker",
+            "fr": "benson ira pêcher avec statue pêcheur",
+            "it": "Benson andrà a pescare con il pescatore di statue",
+            "sp": "benson irá a pescar con estatua pescador",
+            "de": "Benson wird mit dem Statuenfischer fischen gehen",
+            "jp": "ベンソンは彫像漁師と釣りに行きます",
+            "pi": "benson will go fishing with statue fisherman",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [46.34906582402745, -124.05452765004587]
+    },
+    {
+        "img": "../img/b_grass_swapmeet.png",
+        "date": "03.07.2022",
+        "text": {
+            "en": "benson is in his natural habitat",
+            "no": "benson er i sitt naturlige habitat",
+            "fr": "benson est dans son habitat naturel",
+            "it": "benson è nel suo habitat naturale",
+            "sp": "benson esta en su habitat natural",
+            "de": "Benson ist in seinem natürlichen Lebensraum",
+            "jp": "ベンソンは彼の自然の生息地にいます",
+            "pi": "benson is in his natural habitat",
+        },
+        "location": {
+            "en": "Ocean Park, WA",
+            "no": "Ocean Park, WA",
+            "fr": "Ocean Park, WA",
+            "it": "Ocean Park, WA",
+            "sp": "Ocean Park, Washington",
+            "de": "Ozeanpark, WA",
+            "jp": "ワシントン州オーシャンパーク",
+            "pi": "Ocean Park, WA"
+        },
+        "ltlo": [46.54672148706268, -124.02944267029513]
+    },
+    {
+        "img": "../img/b_grass_swapmeet2.png",
+        "date": "03.07.2022",
+        "text": {
+            "en": "benson is very comfy in the grass",
+            "no": "benson er veldig komfortabel i gresset",
+            "fr": "benson est très à l'aise dans l'herbe",
+            "it": "benson è molto a suo agio sull'erba",
+            "sp": "benson es muy cómodo en la hierba",
+            "de": "Benson fühlt sich im Gras sehr wohl",
+            "jp": "ベンソンは芝生でとても快適です",
+            "pi": "benson is very comfy in the grass",
+        },
+        "location": {
+            "en": "Ocean Park, WA",
+            "no": "Ocean Park, WA",
+            "fr": "Ocean Park, WA",
+            "it": "Ocean Park, WA",
+            "sp": "Ocean Park, Washington",
+            "de": "Ozeanpark, WA",
+            "jp": "ワシントン州オーシャンパーク",
+            "pi": "Ocean Park, WA"
+        },
+        "ltlo": [46.54673275819134, -124.0295396708313]
+    },
+    {
+        "img": "../img/b_grass_swapmeet3.png",
+        "date": "03.07.2022",
+        "text": {
+            "en": "benson is still comfy in the grass",
+            "no": "benson er fortsatt komfortabel i gresset",
+            "fr": "benson est toujours à l'aise dans l'herbe",
+            "it": "Benson è ancora a suo agio sull'erba",
+            "sp": "benson todavía está cómodo en la hierba",
+            "de": "Benson fühlt sich immer noch wohl im Gras",
+            "jp": "ベンソンはまだ草の中で快適です",
+            "pi": "benson is still comfy in the grass",
+        },
+        "location": {
+            "en": "Ocean Park, WA",
+            "no": "Ocean Park, WA",
+            "fr": "Ocean Park, WA",
+            "it": "Ocean Park, WA",
+            "sp": "Ocean Park, Washington",
+            "de": "Ozeanpark, WA",
+            "jp": "ワシントン州オーシャンパーク",
+            "pi": "Ocean Park, WA"
+        },
+        "ltlo": [46.54670726781045, -124.02957673635937]
+    },
+    {
+        "img": "../img/b_bench.png",
+        "date": "04.07.2022",
+        "text": {
+            "en": "benson is overlooking the beach",
+            "no": "Benson har utsikt over stranden",
+            "fr": "benson surplombe la plage",
+            "it": "benson si affaccia sulla spiaggia",
+            "sp": "benson está mirando a la playa",
+            "de": "Benson überblickt den Strand",
+            "jp": "ベンソンはビーチを見下ろしています",
+            "pi": "benson is overlooking the beach",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [, ]
+    },
+    {
+        "img": "../img/b_log.png",
+        "date": "04.07.2022",
+        "text": {
+            "en": "benson is on the log",
+            "no": "benson er på loggen",
+            "fr": "benson est sur le journal",
+            "it": "benson è sul registro",
+            "sp": "benson está en el registro",
+            "de": "Benson ist im Protokoll",
+            "jp": "ベンソンはログにあります",
+            "pi": "benson is on the log",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [, ]
+    },
+    {
+        "img": "../img/b_sunset_bench.png",
+        "date": "04.07.2022",
+        "text": {
+            "en": "benson loves the sunset",
+            "no": "benson elsker solnedgangen",
+            "fr": "benson aime le coucher du soleil",
+            "it": "benson ama il tramonto",
+            "sp": "benson ama la puesta de sol",
+            "de": "Benson liebt den Sonnenuntergang",
+            "jp": "ベンソンは夕日が大好き",
+            "pi": "benson loves the sunset",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [, ]
+    },
+    {
+        "img": "../img/b_sea.png",
+        "date": "04.07.2022",
+        "text": {
+            "en": "benson is living and loving his life by the sea",
+            "no": "benson lever og elsker livet sitt ved sjøen",
+            "fr": "benson vit et aime sa vie au bord de la mer",
+            "it": "benson vive e ama la sua vita in riva al mare",
+            "sp": "benson vive y ama su vida junto al mar",
+            "de": "Benson lebt und liebt sein Leben am Meer",
+            "jp": "ベンソンは海のそばで彼の人生を生き、愛しています",
+            "pi": "benson is living and loving his life by the sea",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [, ]
+    },
+    {
+        "img": "../img/b_firework.png",
+        "date": "04.07.2022",
+        "text": {
+            "en": "benson with the fireworks",
+            "no": "benson med fyrverkeriet",
+            "fr": "benson avec les feux d'artifice",
+            "it": "benson con i fuochi d'artificio",
+            "sp": "benson con los fuegos artificiales",
+            "de": "Benson mit dem Feuerwerk",
+            "jp": "花火でベンソン",
+            "pi": "benson with the fireworks",
+        },
+        "location": {
+            "en": "Long Beach, WA",
+            "no": "Long Beach, WA",
+            "fr": "Long Beach, WA",
+            "it": "Long Beach, WA",
+            "sp": "Long Beach, Washington",
+            "de": "Long Beach, Washington",
+            "jp": "ワシントン州ロングビーチ",
+            "pi": "Long Beach, WA"
+        },
+        "ltlo": [, ]
+    },
+    
     
     
 

@@ -266,6 +266,8 @@ function reload_db() {
 
     try {
         load_jsontm(img_db);
+
+        document.getElementById("search-input").value = ""   // clear search value
             
         set_img(generate_html(split_json[0]));
         cur_json = [...split_json[0]];

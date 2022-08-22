@@ -117,3 +117,15 @@ b_candle
 b_godray
 b_gravesite
 b_petrol
+b_bensons
+b_grass_marshs
+b_fryingpan
+b_fisherman
+b_grass_swapmeet
+b_grass_swapmeet2
+b_grass_swapmeet3
+b_bench
+b_log
+b_sea
+b_sunset_bench
+b_firework
