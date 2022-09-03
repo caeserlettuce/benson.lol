@@ -64,17 +64,9 @@ function initMap() {
                 bogo = bogo.replace("../img/", "");
                 bogo = bogo.replace(".png", "");
 
-                // eval(`marker_${i}.addListener("click", () => {
-                //     location.href = "../view?bogo=${bogo}";
-                // });`);
-
-                eval(`marker_${i}.addListener("auxclick", function(e) {
-                    alert("butt")
-                    if (e.button == 1) {
-                        alert("middle button clicked")
-                      }
+                eval(`marker_${i}.addListener("click", () => {
+                location.href = "../view?bogo=${bogo}";
                 });`);
-                
 
                 
 

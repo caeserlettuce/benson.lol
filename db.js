@@ -3368,6 +3368,381 @@ var img_db = [
         },
         "ltlo": [, ]
     },
+    {
+        "img": "../img/b_bridge_seattle.png",
+        "date": "21.08.2022",
+        "text": {
+            "en": "benson is under the bridge",
+            "no": "benson er under broen",
+            "fr": "benson est sous le pont",
+            "it": "benson è sotto il ponte",
+            "sp": "benson esta debajo del puente",
+            "de": "Benson ist unter der Brücke",
+            "jp": "ベンソンは橋の下にいます",
+            "pi": "benson is under the bridge",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.65095619071674, -122.3473418125129]
+    },
+    {
+        "img": "../img/b_centerplant.png",
+        "date": "20.08.2022",
+        "text": {
+            "en": "benson is with the plants",
+            "no": "benson er med plantene",
+            "fr": "benson est avec les plantes",
+            "it": "benson è con le piante",
+            "sp": "benson esta con las plantas",
+            "de": "Benson ist bei den Pflanzen",
+            "jp": "ベンソンは植物と一緒です",
+            "pi": "benson is with the plants",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.61149031006518, -122.33068704563222]
+    },
+    {
+        "img": "../img/b_spaceneedle_cer.png",
+        "date": "21.08.2022",
+        "text": {
+            "en": "benson is with the space needle",
+            "no": "benson er med space needle",
+            "fr": "benson est avec l'aiguille de l'espace",
+            "it": "Benson è con lo Space Needle",
+            "sp": "benson esta con la aguja espacial",
+            "de": "Benson ist mit der Raumnadel",
+            "jp": "ベンソンはスペースニードルを持っています",
+            "pi": "benson is with the space needle",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.61741456169409, -122.34332977984141]
+    },
+    {
+        "img": "../img/b_camp_sea.png",
+        "date": "16.08.2022",
+        "text": {
+            "en": "benson loves the sea",
+            "no": "benson elsker havet",
+            "fr": "benson aime la mer",
+            "it": "benson ama il mare",
+            "sp": "benson ama el mar",
+            "de": "Benson liebt das Meer",
+            "jp": "ベンソンは海が大好き",
+            "pi": "benson loves the sea",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_sunset_bench2.png",
+        "date": "16.08.2022",
+        "text": {
+            "en": "benson is on the bench",
+            "no": "benson er på benken",
+            "fr": "benson est sur le banc",
+            "it": "Benson è in panchina",
+            "sp": "benson esta en el banquillo",
+            "de": "Benson sitzt auf der Bank",
+            "jp": "ベンソンはベンチにいる",
+            "pi": "benson is on the bench",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_i5.png",
+        "date": "20.08.2022",
+        "text": {
+            "en": "benson is watching everyone commute",
+            "no": "benson ser på alle pendler",
+            "fr": "benson regarde tout le monde faire la navette",
+            "it": "Benson sta guardando tutti i pendolari",
+            "sp": "benson está viendo a todos viajar",
+            "de": "Benson sieht allen beim Pendeln zu",
+            "jp": "ベンソンはみんなの通勤を見守っています",
+            "pi": "benson is watching everyone commute",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.610893773881934, -122.33156380536994]
+    },
+    {
+        "img": "../img/b_pikest.png",
+        "date": "20.08.2022",
+        "text": {
+            "en": "benson loves pike street",
+            "no": "benson elsker pike street",
+            "fr": "benson aime la rue des brochets",
+            "it": "Benson adora Pike Street",
+            "sp": "benson ama la calle pike",
+            "de": "Benson liebt Pike Street",
+            "jp": "ベンソンはパイクストリートが大好き",
+            "pi": "benson loves pike street",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.61168034168815, -122.33292214259319]
+    },
+    {
+        "img": "../img/b_center.png",
+        "date": "20.08.2022",
+        "text": {
+            "en": "benson is at the convention center",
+            "no": "benson er på konferansesenteret",
+            "fr": "benson est au palais des congrès",
+            "it": "benson è al centro congressi",
+            "sp": "benson está en el centro de convenciones",
+            "de": "Benson ist im Kongresszentrum",
+            "jp": "ベンソンはコンベンションセンターにいます",
+            "pi": "benson is at the convention center",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.61091909047631, -122.33156883679197]
+    },
+    {
+        "img": "../img/b_escalator_center.png",
+        "date": "20.08.2022",
+        "text": {
+            "en": "benson sees the building",
+            "no": "benson ser bygningen",
+            "fr": "benson voit le bâtiment",
+            "it": "Benson vede l'edificio",
+            "sp": "benson ve el edificio",
+            "de": "Benson sieht das Gebäude",
+            "jp": "ベンソンは建物を見る",
+            "pi": "benson sees the building",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.611335964948005, -122.3311005070969]
+    },
+    {
+        "img": "../img/b_troll.png",
+        "date": "21.08.2022",
+        "text": {
+            "en": "benson does a little trolling",
+            "no": "benson troller litt",
+            "fr": "Benson fait un peu de pêche à la traîne",
+            "it": "benson fa un po' di trolling",
+            "sp": "benson hace un poco de trolleo",
+            "de": "Benson trollt ein wenig",
+            "jp": "ベンソンは少しトローリングをします",
+            "pi": "benson does a little trolling",
+        },
+        "location": {
+            "en": "Seattle, WA",
+            "no": "Seattle, WA",
+            "fr": "Seattle, WA",
+            "it": "Seattle, WA",
+            "sp": "Seattle, WA",
+            "de": "Seattle, WA",
+            "jp": "Seattle, WA",
+            "pi": "Seattle, WA"
+        },
+        "ltlo": [47.65099006928717, -122.34734918858734]
+    },
+    {
+        "img": "../img/b_sunset_platforms.png",
+        "date": "16.08.2022",
+        "text": {
+            "en": "benson is the sunset",
+            "no": "benson er solnedgangen",
+            "fr": "benson est le coucher du soleil",
+            "it": "benson è il tramonto",
+            "sp": "benson es la puesta de sol",
+            "de": "Benson ist der Sonnenuntergang",
+            "jp": "ベンソンは夕日",
+            "pi": "benson is the sunset",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_wall_plants.png",
+        "date": "27.08.2022",
+        "text": {
+            "en": "benson is with the flowers",
+            "no": "benson er med blomstene",
+            "fr": "benson est avec les fleurs",
+            "it": "benson è con i fiori",
+            "sp": "benson esta con las flores",
+            "de": "Benson ist bei den Blumen",
+            "jp": "ベンソンは花と一緒です",
+            "pi": "benson is with the flowers",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_thames_lmao.png",
+        "date": "27.08.2022",
+        "text": {
+            "en": "benson is on a bridge",
+            "no": "benson er på en bro",
+            "fr": "benson est sur un pont",
+            "it": "Benson è su un ponte",
+            "sp": "benson esta en un puente",
+            "de": "Benson ist auf einer Brücke",
+            "jp": "ベンソンは橋の上にいます",
+            "pi": "benson is on a bridge",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_tophat_statue.png",
+        "date": "27.08.2022",
+        "text": {
+            "en": "benson has found the top hat man",
+            "no": "benson har funnet topphatten",
+            "fr": "benson a trouvé l'homme haut de forme",
+            "it": "Benson ha trovato l'uomo con il cappello a cilindro",
+            "sp": "benson ha encontrado al hombre del sombrero de copa",
+            "de": "Benson hat den Zylindermann gefunden",
+            "jp": "ベンソンはシルクハットの男を見つけた",
+            "pi": "benson has found the top hat man",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_thames_lamppost.png",
+        "date": "27.08.2022",
+        "text": {
+            "en": "benson is with the bridge lamp",
+            "no": "benson er med brolampen",
+            "fr": "benson est avec la lampe de pont",
+            "it": "benson è con la lampada da ponte",
+            "sp": "benson está con la lámpara del puente",
+            "de": "Benson ist mit der Brückenlampe",
+            "jp": "ベンソンはブリッジランプを持っています",
+            "pi": "benson is with the bridge lamp",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
     
     
     
@@ -3418,7 +3793,7 @@ empty image entry
 var ratings = [
     {
         "text": "it's cute!",
-        "person": "mother",
+        "person": "my mother",
         "rating": 5
     },
     {
@@ -3448,9 +3823,19 @@ var ratings = [
     },
     {
         "text": "my brother looks fabulous",
-        "person": "finn",
+        "person": "finn the duck",
         "rating": 5
     },
+    {
+        "text": "yippee!",
+        "person": "anonymous friend",
+        "rating": 3
+    },
+    {
+        "text": "i love benson so much. benson is our lord and savior, our sweet baby boy. i love this website and i also love its creator.",
+        "person": "dakota",
+        "rating": 6
+    }
 
 
 
