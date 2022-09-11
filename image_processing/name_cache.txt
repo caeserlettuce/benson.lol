@@ -129,3 +129,7 @@ b_log
 b_sea
 b_sunset_bench
 b_firework
+b_wall_plants
+b_thames_lmao
+b_tophat_statue
+b_thames_lamppost

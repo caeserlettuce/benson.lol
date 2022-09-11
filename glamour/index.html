@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="benson my beloved duck light tubbo">
+    <meta name="og:description" content="everybody's favourite duck, benson!">
+    <meta property="og:image" content="assets/icon.png">
+    <meta property="og:title" content="benson.lol">
+    <meta name="twitter:description" content="everybody's favourite duck, benson!">
+    <meta property="twitter:image" content="assets/icon.png">
+    <meta property="twitter:title" content="benson.lol">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="assets/icon.png">
+    
+    <title id="t1">Benson My Beloved</title>
+  </head>
+  <body>
+    <!--background-->
+    <div id="backy" style="margin: 0px; padding: 0px; border: 0px; background-color: transparent;">
+      <div class="bg sky"></div>
+      <div class="bg cloud1"></div>
+      <div class="bg cloud2"></div>
+    </div>
+    
+    
+    <img src="../assets/benson.png" class="fg-benson disable" id="benson">
+    <!--foreground-->
+    <br><br><br><br>
+    <div class="main">
+      <div style="width: 100vw; text-align: center; z-index: 400;">
+        <p class="big-bensontext" id="bmb1">benson glamour shots</p>
+        <p class="normal-bensontext" id="bmb2">these benson photos have been edited to make them look nicer,<br>the photos on the main site however are not edited.</p>
+        <p class="lang-disc" id="langdisc">*translations may not be accurate</p>
+      </div>
+      <div class="below-benson">
+   
+
+
+        <p style="padding-left: 10px; padding-right: 10px; text-align: center;" id="photos-div">
+
+
+          <!--
+          <span class="blocky">
+            <img src="img/b_turret.JPG" class="imagetm">
+            <br>
+            <span class="blocky-text">
+              <span class="tt">location<span class="tth">location</span></span> <span style="color: #e9e9e9;">-</span> <span class="tt">da.te.hehe<span class="tth">date taken</span></span>
+            </span>
+            <br><br>
+            <span class="blocky-text">description</span>
+            <br><span style="font-size: 0px;">[benson.lol] bogos binted</span>
+
+            
+          </span>
+        -->
+        
+
+        </p>
+        <!-- fancy above -->
+
+        <!--<span class="normal-bensontext"><br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a</span>-->
+        
+        <!--add stuff here for main site n stuff TM-->
+        
+        <!--footer-->
+
+
+        <img src="../assets/technopug.png" class="technopug disable" id="technopug">
+
+
+        <div class="footer" style="padding: 0px;" id="footer">
+          <p class="footer-wrap" id="footer-wrap">
+            <span class="footer-text" id="f1">©2022 benson.lol & dapug.lol</span>
+            <span class="footer-text" style="color: #adadad; padding-left: 10px;" id="f2" title="it sounds cool and is not wrong so shoosh">designed in Ålesund, Norway.</span>
+            <span class="footer-text" style="text-align: right; padding-right: 29px;" id="f3"> contact me on discord @pugface#2222, email: benson@benson.lol</span>
+          </p>
+          
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="search-center" class="search-center" style="display: none;">
+      <br>
+      <p class="big-bensontext" id="sc1">search center</p>
+      
+      <p>
+        <span>
+          <input type="text" id="search-input" class="search-input">
+          <br><br>
+          <span class="search-checkbox" id="search-desc" onclick="sc_tog_desc()">
+            <svg id="checky1-bac" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" class="checky disable">
+              <path id="checky1" class="checkmark" fill="white" stroke="none" stroke-width="1" d="M 50.00,275.00 C 50.00,275.00 0.00,325.00 0.00,325.00 0.00,325.00 175.00,500.00 175.00,500.00 175.00,500.00 499.50,175.00 499.50,175.00 499.50,175.00 450.00,125.00 450.00,125.00 450.00,125.00 175.00,400.00 175.00,400.00 175.00,400.00 50.00,275.00 50.00,275.00" />
+            </svg>
+          <span id="sc2" style="color: white;">search descriptions</span></span>
+          <br><br>
+          <span class="search-checkbox" id="search-desc" onclick="sc_tog_loca()">
+            <svg id="checky2-bac" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" class="checky disable">
+              <path id="checky2" class="checkmark" fill="white" stroke="none" stroke-width="1" d="M 50.00,275.00 C 50.00,275.00 0.00,325.00 0.00,325.00 0.00,325.00 175.00,500.00 175.00,500.00 175.00,500.00 499.50,175.00 499.50,175.00 499.50,175.00 450.00,125.00 450.00,125.00 450.00,125.00 175.00,400.00 175.00,400.00 175.00,400.00 50.00,275.00 50.00,275.00" />
+            </svg>
+          <span id="sc3" style="color: white;">search locations</span></span>
+          <br><br><br>
+          <span class="search-checkbox" id="search-desc" onclick="sc_tog_time()">
+            <svg id="checky3-bac" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" class="checky disable">
+              <path id="checky3" class="checkmark" fill="white" stroke="none" stroke-width="1" d="M 50.00,275.00 C 50.00,275.00 0.00,325.00 0.00,325.00 0.00,325.00 175.00,500.00 175.00,500.00 175.00,500.00 499.50,175.00 499.50,175.00 499.50,175.00 450.00,125.00 450.00,125.00 450.00,125.00 175.00,400.00 175.00,400.00 175.00,400.00 50.00,275.00 50.00,275.00" />
+            </svg>
+          <span id="sc4" style="color: white;">search specific time</span></span>
+            <br><br>
+            <span class="search-text"> <span id="sc5">from</span> <input type="date" id="search-date-from" class="search-input search-date"> <span id="sc6">to</span> <input type="date" id="search-date-to" class="search-input search-date"></span>
+            <br><br><br><br>
+            <span class="search-button disable" id="searchbutton" onclick="run_search()">search</span>
+             
+            <span class="search-button disable relbutton" id="reloadbutton" onclick="reload_db()">reload</span>
+
+            <span class="search-button disable sorbutton" id="rsortbutton" onclick="sort_db()"> <img src="../assets/arrow.svg" id="sortsvg" class="sortsvg disable">sort</span>
+
+            <br><br><br><br>
+            <span class="search-text" id="results">0</span> <span class="search-text" id="sc7">result(s)</span>
+
+          <!--<input type="date" id="search-date-from" class="search-input" style="margin-left: 50px;">  reload_db()-->
+        </span>
+
+      </p>
+
+
+    </div>
+
+
+
+    <div class="notifcenter" id="notifcenter">
+    </div>
+  
+
+
+    <!--header-->
+    <div class="header" style="padding: 0px;">
+      
+      
+      <a href="https://benson.lol" class="header-text">BENSON</a>
+
+      <img id="searchfung" class="searchfung disable" xmlns="http://www.w3.org/2000/svg" width="1.66667in" height="1.66667in" viewBox="0 0 500 500" onclick="toggle_sc()" src="../assets/search.svg">
+        
+
+      <img id="mode-sel" class="modesel disable" onclick="toggle_mode()" src="../assets/sun.svg">
+
+
+      <img src="../assets/trifold_map.png" class="map-icon disable" title="where has benson been?" id="trifold" onclick="redir_map()">
+
+
+      <div class="lang-select" id="langsel">
+
+        <label for="touch" id="selected-lang"><span class="sel-lang"><img src="../flag/en.png" class="lang-flag"> EN</span></label>
+        <input type="checkbox" id="touch">
+      
+        <ul class="slide" id="lang-list">
+          <li><span class="sel-lang"><img src="../flag/en.png" class="lang-flag"> EN</span></li> 
+          <li><span class="sel-lang"><img src="../flag/no.png" class="lang-flag"> NO</span></li>
+        </ul>
+      
+      </div> 
+
+
+    </div>
+
+
+    <div class="finn-badge">
+      <span><img src="../assets/benson-official.png" class="finn-img disable" id="finn"> <span class="finn finn-toptext" id="finn-top">GET YOUR OWN BENSON HERE!</span><span class="finn finn-midtext disable" id="finn-mid" onclick="finn_redir()">get a benson</span><span class="finn finn-bottomtext" id="finn-bot">benson.lol is not affiliated with finntheduck.com</span></span>
+
+    </div>
+
+    <div style="background-color: black; height: 1.25em; width: 100px; position: fixed; top: -9999px; left: -9999px;" id="lang-txt-size">e</div> <!-- dont mess with this at all-->
+
+    <style id="lang-heightness">
+      #touch:checked + .slide {height: 100px;}
+    </style>
+    <!--auto positioning-->
+    <style id="finn-size">
+      .finn-badge {
+        width: 450px; /*default width: 450px */
+        right: -340px; /*default amount: -340px */
+      }
+    </style>
+    <style id="finn-transition">
+      .finn-badge {
+        transition: 1.5s;
+      }
+    </style>
+    <style id="technopug-pos">
+      .technopug {
+        bottom: 40px;
+      }
+    </style>
+    <style id="darkmode-switch"> 
+    </style>
+    <span id="ft-s" class="finn finn-toptext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
+    <span id="fm-s" class="finn finn-midtext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
+    <span id="fb-s" class="finn finn-bottext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
+
+    <!--<script src="jquery.min.js"></script> i actually dont need jquery for this--> <!-- haha funny jquery-->
+    <script src="../jquery.min.js"></script>
+    <script src="setup.js"></script>
+    <script src="darkmode.js"></script>
+    <script src="notif.js"></script>
+    <script src="../db.js"></script>
+    <script src="display.js"></script>
+    <script src="benson.js"></script>
+    <script src="lang.js"></script>
+    <script src="search.js"></script>
+    <script>
+      setTimeout(() => {
+        cheese();
+      }, 500);
+    </script>
+
+    
+
+  </body>
+</html>

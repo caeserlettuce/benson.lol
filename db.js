@@ -3743,12 +3743,186 @@ var img_db = [
         },
         "ltlo": [0, 0]
     },
-    
-    
-    
-
-
+    {
+        "img": "../img/b_blackbench.png",
+        "date": "03.09.2022",
+        "text": {
+            "en": "a lil bench for a lil duck",
+            "no": "en lil benk for en lil and",
+            "fr": "un p'tit banc pour un p'tit canard",
+            "it": "una panca per una papera",
+            "sp": "un pequeño banco para un pequeño pato",
+            "de": "eine kleine Bank für eine kleine Ente",
+            "jp": "小さなアヒルのための小さなベンチ",
+            "pi": "a lil bench for a lil duck",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_boatropes.png",
+        "date": "03.09.2022",
+        "text": {
+            "en": "benson will hoist the anchor",
+            "no": "benson vil heise ankeret",
+            "fr": "benson va lever l'ancre",
+            "it": "Benson isserà l'ancora",
+            "sp": "benson izará el ancla",
+            "de": "Benson lichtet den Anker",
+            "jp": "ベンソンはアンカーを持ち上げます",
+            "pi": "benson will hoist the anchor",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_rocks_oly.png",
+        "date": "03.09.2022",
+        "text": {
+            "en": "benson rocks",
+            "no": "benson bergarter",
+            "fr": "roches benson",
+            "it": "rocce benson",
+            "sp": "rocas benson",
+            "de": "Benson-Felsen",
+            "jp": "ベンソン・ロックス",
+            "pi": "benson rocks",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_woodbench_oly.png",
+        "date": "03.09.2022",
+        "text": {
+            "en": "benson found a fancy bench",
+            "no": "benson fant en fancy benk",
+            "fr": "benson a trouvé un banc de fantaisie",
+            "it": "Benson ha trovato una panchina elegante",
+            "sp": "benson encontró un banco elegante",
+            "de": "Benson fand eine schicke Bank",
+            "jp": "ベンソンは派手なベンチを見つけた",
+            "pi": "benson found a fancy bench",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_boatside2.png",
+        "date": "03.09.2022",
+        "text": {
+            "en": "benson is a part of the swashbuckling crew",
+            "no": "benson er en del av det tøffe mannskapet",
+            "fr": "benson fait partie de l'équipe de cape et d'épée",
+            "it": "Benson fa parte della ciurma di spavaldi",
+            "sp": "benson es parte del equipo de capa y espada",
+            "de": "Benson ist ein Teil der verwegenen Crew",
+            "jp": "ベンソンはスワッシュバックリングクルーの一員です",
+            "pi": "benson is a part of the swashbuckling crew",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+    {
+        "img": "../img/b_boatside.png",
+        "date": "03.09.2022",
+        "text": {
+            "en": "benson is holding the rope",
+            "no": "benson holder tauet",
+            "fr": "benson tient la corde",
+            "it": "benson tiene la corda",
+            "sp": "benson esta sosteniendo la cuerda",
+            "de": "Benson hält das Seil",
+            "jp": "ベンソンはロープを持っています",
+            "pi": "benson is holding the rope",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
 ]
+
+var db_glamour = [
+    {
+        "img": "../img/b_boatside.png",
+        "date": "03.09.2022",
+        "text": {
+            "en": "benson is holding the rope",
+            "no": "benson holder tauet",
+            "fr": "benson tient la corde",
+            "it": "benson tiene la corda",
+            "sp": "benson esta sosteniendo la cuerda",
+            "de": "Benson hält das Seil",
+            "jp": "ベンソンはロープを持っています",
+            "pi": "benson is holding the rope",
+        },
+        "location": {
+            "en": "Washington State, USA",
+            "no": "Washington State, USA",
+            "fr": "État de Washington, États-Unis",
+            "it": "Stato di Washington, USA",
+            "sp": "Estado de Washington, EE. UU.",
+            "de": "Staat Washington, USA",
+            "jp": "米国ワシントン州",
+            "pi": "Washington State, USA"
+        },
+        "ltlo": [0, 0]
+    },
+]
+
 
 var pre_coords = {
     "unknown": [0, 0],
