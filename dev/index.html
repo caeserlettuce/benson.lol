@@ -11,9 +11,13 @@
     <meta property="twitter:title" content="benson.lol">
 
     <link rel="stylesheet" href="main.css">
-    <link rel="icon" href="assets/icon.png">
+    <link rel="icon" href="../assets/icon.png">
     
-    <title id="t1">Benson My Beloved</title>
+    <link rel="stylesheet" href="styles/github-dark-dimmed.min.css">
+    <script src="highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <title id="t1">Benson My Developer Page</title>
   </head>
   <body>
     <!--background-->
@@ -24,70 +28,33 @@
     </div>
     
     
-    <img src="../assets/benson.png" class="fg-benson disable" id="benson">
+    <img src="assets/benson.png" class="fg-benson disable" id="benson">
     <!--foreground-->
     <br><br><br><br>
     <div class="main">
       <div style="width: 100vw; text-align: center; z-index: 400;">
-        <p class="big-bensontext" id="bmb1">benson dev tools</p>
-        <p class="normal-bensontext" id="bmb2">whats up if youve found this congrats i guess</p>
+        <p class="big-bensontext" id="bmb1">benson my developer page</p>
+        <p class="normal-bensontext" id="bmb2">the devpage for managing new benson photos</p>
       </div>
+      
       <div class="below-benson">
-   
+        <button onclick="clear_photos()">clear photos</button>
+        <form action="http://localhost:5000/uploader" method="POST" enctype="multipart/form-data" style="margin-top: 10px;">
+          <input type="file" name="file" multiple /><input type="submit"/>
+        </form>   
 
 
         <p style="padding-left: 10px; padding-right: 10px; text-align: center;" id="photos-div">
-
-
-          
-          <span class="blocky">
-            <img src="../img/colour_test.png" class="imagetm">
-            <br>
-            <span class="blocky-text">
-              <span>name</span><br>
-              <span>description: </span><input style="margin-top: 5px;" type="text" class="tt texinput" id="indesc-"><br>
-              <span>location: </span><input style="margin-top: 5px;" type="text" class="tt texinput"    id="inloc-"><br>
-              <span>coordinates: </span><input style="margin-top: 5px;" type="text" class="tt texinput" id="incoord-"><br>
-              <span>date: </span><input style="margin-top: 5px;" type="date" class="tt texinput"        id="indate-"><br>
-
-            </span>
-            <br><br>
-            <br><span style="font-size: 0px;">[benson.lol] bogos binted</span>
-
-            
-          </span>
-        
-        
-
         </p>
-        <p style="text-align: center;">
-          <button class="copybutton" onclick="compileJSON()">compile json</button>
-        </p>
-        <!-- fancy above -->
-
-        <!--<span class="normal-bensontext"><br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a<br>a</span>-->
         
-        <!--add stuff here for main site n stuff TM-->
-        
-        <!--footer-->
 
+        <button onclick="send_json()">process photos</button> <button onclick="copy_json()">copy JSON</button>
+        <p class="server-message" id="server-message"></p>
+        <pre class="codetm"><code class="language-json" id="codetm"></code></pre>
 
-        <img src="../assets/technopug.png" class="technopug disable" id="technopug">
-
-
-        <div class="footer" style="padding: 0px;" id="footer">
-          <p class="footer-wrap" id="footer-wrap">
-            <span class="footer-text" id="f1">©2022 benson.lol & dapug.lol</span>
-            <span class="footer-text" style="color: #adadad; padding-left: 10px;" id="f2" title="it sounds cool and is not wrong so shoosh">designed in Ålesund, Norway.</span>
-            <span class="footer-text" style="text-align: right; padding-right: 29px;" id="f3"> contact me on discord @pugface#2222, email: benson@benson.lol</span>
-          </p>
-          
-        </div>
 
       </div>
     </div>
-
-
 
 
     <div class="notifcenter" id="notifcenter">
@@ -101,32 +68,10 @@
       
       <a href="https://benson.lol" class="header-text">BENSON</a>
 
-      <img id="mode-sel" class="modesel disable" onclick="toggle_mode()" src="../assets/sun.svg">
 
-
-<!--
-      <img src="../assets/trifold_map.png" class="map-icon disable" title="where has benson been?" id="trifold" onclick="redir_map()">
-
-      <div class="lang-select" id="langsel">
-
-        <label for="touch" id="selected-lang"><span class="sel-lang"><img src="../flag/en.png" class="lang-flag"> EN</span></label>
-        <input type="checkbox" id="touch">
-      
-        <ul class="slide" id="lang-list">
-          <li><span class="sel-lang"><img src="../flag/en.png" class="lang-flag"> EN</span></li> 
-          <li><span class="sel-lang"><img src="../flag/no.png" class="lang-flag"> NO</span></li>
-        </ul>
-      
-      </div> 
--->
 
     </div>
 
-
-    <div class="finn-badge">
-      <span><img src="../assets/benson-official.png" class="finn-img disable" id="finn"> <span class="finn finn-toptext" id="finn-top">GET YOUR OWN BENSON HERE!</span><span class="finn finn-midtext disable" id="finn-mid" onclick="finn_redir()">get a benson</span><span class="finn finn-bottomtext" id="finn-bot">benson.lol is not affiliated with finntheduck.com</span></span>
-
-    </div>
 
     <div style="background-color: black; height: 1.25em; width: 100px; position: fixed; top: -9999px; left: -9999px;" id="lang-txt-size">e</div> <!-- dont mess with this at all-->
 
@@ -152,18 +97,20 @@
     </style>
     <style id="darkmode-switch"> 
     </style>
+    <style id="seasonal-switch">
+    </style>
     <span id="ft-s" class="finn finn-toptext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
     <span id="fm-s" class="finn finn-midtext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
     <span id="fb-s" class="finn finn-bottext" style="width: 5000; position: fixed; top: -9999px; left: -9999px;"></span>
 
     <!--<script src="jquery.min.js"></script> i actually dont need jquery for this--> <!-- haha funny jquery-->
-    <script src="../jquery.min.js"></script>
+    <script src="jquery.min.js"></script>
     <script src="setup.js"></script>
-    <script src="darkmode.js"></script>
     <script src="notif.js"></script>
-    <script src="dv.js"></script>
+    <script src="db.js"></script>
     <script src="display.js"></script>
     <script src="benson.js"></script>
+    <script src="funnyfiles.js"></script>
     <script>
       setTimeout(() => {
         cheese();

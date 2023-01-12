@@ -133,3 +133,11 @@ b_wall_plants
 b_thames_lmao
 b_tophat_statue
 b_thames_lamppost
+b_recordplayer
+b_arcade
+b_conventioncenter_bench
+b_portland_road
+b_franks_noodlehouse
+b_sombrero
+b_carousel
+b_seaside_promenade

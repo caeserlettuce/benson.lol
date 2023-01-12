@@ -188,7 +188,9 @@ a {
 .below-benson {
     position: absolute;
     top: calc(50vh - (15rem / 2) + 15rem);
+    width: 100vw;
     /*top: 10px;*/
+    text-align: center;
     z-index: 400;
 }
 
@@ -205,6 +207,7 @@ a {
     cursor: default;
     z-index: -10;
     border-radius: 10px;
+    backdrop-filter: blur(5px);
 }
 
 .blocky-title {
@@ -484,54 +487,6 @@ a {
     outline: 0px;
 }
 
-.container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 1em;
-    text-align: center;
-}
-  
-.search-checkbox {
-    font-size: 1.5em;
-    cursor: pointer;
-}
-
-.search-checkbox input {
-    width: 18px;
-}
-
-.checky {
-    width: 0.8em;
-    height: 0.8em;
-    background-color: #4672ff;
-    padding: 0.2em;
-    padding-top: 0.1em;
-    padding-bottom: 0.25em;
-    border-radius: 3px;
-}
-
-.search-text {
-    color: white;
-    font-size: 1.5em;
-    text-shadow: #3b3b3b25 0px 0px 10px;
-}
-
-.search-date {
-    font-size: 1em;
-}
-
-.search-button {
-    font-size: 1.5em;
-    color: white;
-    background-color: #4672ff;
-    padding: 10px;
-    border-radius: 10px;
-    transition-duration: 0.5s;
-    cursor: pointer;
-}
 
 .search-button:hover {
     background-color: #587fff;
@@ -631,36 +586,145 @@ a {
     100% { opacity: 0; }
 }
 
-.texinput {
-    height: 1rem;
-    font-size: 1rem;
-    border: 2px solid rgba(255, 255, 255, 0.6);
-    background-color: rgba(255, 255, 255, 0.4);
+input, button {
+    color: white !important;
+    border: none;
+    background-color: #00000030;
+    backdrop-filter: blur(5px);
+    padding: 0.75em;
+    border-radius: 7.5px;
+}
+
+input[type="submit"], button {
+    font-size: 1.005em;
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+button {
+    margin-left: 0px !important;
+}
+
+.blocky input, .blocky button {
+    background-color: #ffffff40;
+    border: #ffffff50 1px solid;
+    font-size: 1.5em;
+    padding: 0.25em;
+}
+
+.spacey {
+    margin-top: 10px;
+}
+
+.schemedark {
+    color-scheme: dark;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     color: white;
-    border-radius: 10px;
-    padding: 5px;
 }
 
-.texinput::placeholder {
-    color: #969696;
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
 }
 
-.hlaf {
-    width:25%;
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eeeeee75;
 }
 
-.copybutton {
-    width: calc(fit-content + 20px);
-    font-size: 1.5rem;
-    border-radius: 12.5px;
-    border: 0px;
-    background-color: #389b57;
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #cccccc50;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.downy {
+    transform: translateY(10px);
+}
+
+.note {
+    color: #efefef;
+    font-size: 1.25em;
+}
+
+.wee {
+    margin-bottom: 10px;
+}
+
+input::file-selector-button {
     color: white;
-    padding: 10px;
-    transition-duration: 250ms;
+    border:rgba(255, 255, 255, 0.2) 1px solid;
+    border-radius: 5px;
+    background: #ffffff10;
+    font-size: 1.25em;
     cursor: pointer;
 }
 
-.copybutton:hover {
-    background-color: #41b165;
+.codetm code {
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
+    min-width: 40rem;
+    height: min-content;
+    min-height: 20rem;
+    border:rgba(255, 255, 255, 0.4) 1px solid;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.server-message {
+    color: white;
+    font-size: 1.5em;
+    z-index: 200;
+    cursor: default;
 }
