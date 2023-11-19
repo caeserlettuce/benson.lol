@@ -61,8 +61,8 @@ function cheese() {
         // whenever resize
         benson_top = benson.style.top;
         console.log(benson_top);
-        var lang_wid = document.getElementById("langsel").clientWidth;
-        document.getElementById("trifold").style.right = `${lang_wid + 10}px`;
+        //var lang_wid = document.getElementById("langsel").clientWidth;
+        //document.getElementById("trifold").style.right = `${lang_wid + 10}px`;
 
 
         var footwap = footer_wrap.clientHeight;
@@ -72,11 +72,13 @@ function cheese() {
 
         document.getElementById("technopug-pos").innerHTML = `.technopug { bottom: ${footer_height}px; }`;
 
-        var lang_wid = document.getElementById("langsel").clientWidth;
-        document.getElementById("trifold").style.right = `${lang_wid + 10}px`;
-        var yayahaha = parseInt(`${document.getElementById("trifold").style.right}`.replace("px", ""))
-        document.getElementById("mode-sel").style.right = `${yayahaha + document.getElementById("trifold").clientWidth}px`;
-        document.getElementById("searchfung").style.right = `${yayahaha + document.getElementById("trifold").clientWidth + document.getElementById("mode-sel").clientWidth}px`;
+        //var lang_wid = document.getElementById("langsel").clientWidth;
+        //document.getElementById("trifold").style.right = `${lang_wid + 10}px`;
+        //var yayahaha = parseInt(`${document.getElementById("trifold").style.right}`.replace("px", ""))
+        //document.getElementById("mode-sel").style.right = `${yayahaha + document.getElementById("trifold").clientWidth}px`;
+        //document.getElementById("searchfung").style.right = `${yayahaha + document.getElementById("trifold").clientWidth + document.getElementById("mode-sel").clientWidth}px`;
+
+
     } catch (err) {
         push_notif({
             "title": "an error has occured!!",
@@ -97,6 +99,10 @@ function toggle_sc() {
         document.getElementById("search-center").style.display = "";
     }
 }
+
+document.getElementById("langdisc").style.display = "none";
+
+
 cheese();
 document.querySelector("#main").onscroll = obama;
 window.onresize = cheese;

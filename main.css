@@ -28,6 +28,7 @@ body, html {
     width: 100vw;
     z-index: 9000;
     backdrop-filter: blur(5px);
+    display: flex;
 }
 
 .main {
@@ -87,7 +88,6 @@ body, html {
     border: 0px;
     z-index: 101;
     font-size: 2em;
-    position: fixed;
     top: 7px;
     left: 7px;
 }
@@ -381,7 +381,6 @@ a {
 .map-icon {
     height: 2.1em;
     float: right;
-    position: absolute;
     padding-right: 20px;
     padding-top: 2.5px;
     cursor: pointer;
@@ -391,7 +390,6 @@ a {
     height: 2.1em;
     width: 2.1em;
     float: right;
-    position: absolute;
     padding-right: 10px;
     padding-top: 2.5px;
     cursor: pointer;
@@ -474,7 +472,6 @@ a {
     height: 2.1em;
     width: 2.1em;
     float: right;
-    position: absolute;
     padding-right: 10px;
     padding-top: 2.5px;
     cursor: pointer;
@@ -653,4 +650,8 @@ a {
     0% { opacity: 1; }
     75% { opacity: 1;}
     100% { opacity: 0; }
+}
+
+.push {
+    margin-left: auto;
 }

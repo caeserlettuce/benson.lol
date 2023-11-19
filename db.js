@@ -4679,7 +4679,92 @@ var img_db = [
             "pi": "benson loves the sunrise",
             "sp": "Benson ama el amanecer"
         }
+    },
+    {
+      "date": "29.10.2023",
+      "img": "../img/b_deschutes_river.png",
+      "location": {
+        "en": "Olympia, WA"
+      },
+      "ltlo": [
+        47.01529578599735,
+        -122.90487194868477
+      ],
+      "text": {
+        "de": "[translation error] benson likes the river",
+        "en": "benson likes the river",
+        "fr": "[translation error] benson likes the river",
+        "it": "[translation error] benson likes the river",
+        "jp": "[translation error] benson likes the river",
+        "no": "[translation error] benson likes the river",
+        "pi": "[translation error] Olympia, WA",
+        "sp": "[translation error] benson likes the river"
+      }
+    },
+    {
+      "date": "29.10.2023",
+      "img": "../img/b_brewery_1.png",
+      "location": {
+        "en": "Olympia, WA"
+      },
+      "ltlo": [
+        47.01506079259703,
+        -122.90433885965112
+      ],
+      "text": {
+        "de": "[translation error] benson dislikes the abandoned brewery",
+        "en": "benson dislikes the abandoned brewery",
+        "fr": "[translation error] benson dislikes the abandoned brewery",
+        "it": "[translation error] benson dislikes the abandoned brewery",
+        "jp": "[translation error] benson dislikes the abandoned brewery",
+        "no": "[translation error] benson dislikes the abandoned brewery",
+        "pi": "[translation error] Olympia, WA",
+        "sp": "[translation error] benson dislikes the abandoned brewery"
+      }
+    },
+    {
+      "date": "29.10.2023",
+      "img": "../img/b_waterfal_deschutes.png",
+      "location": {
+        "en": "Olympia, WA"
+      },
+      "ltlo": [
+        47.01709547561192,
+        -122.90456027737899
+      ],
+      "text": {
+        "de": "[translation error] benson found a small waterfall",
+        "en": "benson found a small waterfall",
+        "fr": "[translation error] benson found a small waterfall",
+        "it": "[translation error] benson found a small waterfall",
+        "jp": "[translation error] benson found a small waterfall",
+        "no": "[translation error] benson found a small waterfall",
+        "pi": "[translation error] Olympia, WA",
+        "sp": "[translation error] benson found a small waterfall"
+      }
+    },
+    {
+      "date": "29.10.2023",
+      "img": "../img/b_deschutes_brewery.png",
+      "location": {
+        "en": "Olympia, WA"
+      },
+      "ltlo": [
+        47.01495199782395,
+        -122.90503198392305
+      ],
+      "text": {
+        "de": "[translation error] benson found a big waterfall",
+        "en": "benson found a big waterfall",
+        "fr": "[translation error] benson found a big waterfall",
+        "it": "[translation error] benson found a big waterfall",
+        "jp": "[translation error] benson found a big waterfall",
+        "no": "[translation error] benson found a big waterfall",
+        "pi": "[translation error] Olympia, WA",
+        "sp": "[translation error] benson found a big waterfall"
+      }
     }
+  
 
 
 ]
