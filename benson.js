@@ -44,7 +44,7 @@ function obama() {
         // whenever scroll
         console.log("he");
         var last = scrolltm * 1;
-        scrolltm = window.scrollY;
+        scrolltm = document.querySelector("#main").scrollTop;
         benson.style.transform = `rotateZ(${scrolltm / 6}deg)`;
         clearTimeout(popa);
     } catch (err) {
@@ -98,6 +98,6 @@ function toggle_sc() {
     }
 }
 cheese();
-window.onscroll = obama;
+document.querySelector("#main").onscroll = obama;
 window.onresize = cheese;
 console.debug("benson.JS loaded.");

@@ -1,0 +1,38 @@
+/* mobile styling */
+
+
+.header { 
+    font-size: 2rem;
+}
+
+.footer {
+    font-size: 2rem;
+}
+.footer-text {
+    margin-bottom: 5px;
+}
+
+.photos-div {
+    gap: 20px;
+}
+
+.blocky {
+    font-size: 1.5rem;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.main {
+    font-size: 1.5rem;
+}
+
+.main.mobile {
+    margin-top: 4em;
+}
+
+.modesel.mobile {
+    margin-right: 1.2em;
+}
+.footer.mobile {
+    height: 8em;
+}

@@ -6,6 +6,8 @@ var imgtm_stoof = document.getElementById("imagetmstuff");
 var benson_rot = 0;
 var benson_top = 0;
 var scape = "hehe";
+var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+var windowHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 benson.addEventListener('contextmenu', event => event.preventDefault());    // disabling right click
 benson.onmousedown = function() { return false; };
 finn.onmousedown = function() { return false; };
@@ -49,6 +51,17 @@ function cheese() {
     document.getElementById("mode-sel").style.right = `${lang_wid + 10}px`;
 
 }
+
+if (windowWidth < windowHeight) {
+    // MOBILE!!!
+    var node = document.createElement("link");
+    node.setAttribute("rel", "stylesheet");
+    node.setAttribute("href", `../mobile.css`);
+    document.head.appendChild(node);
+}
+
+
+
 cheese();
 window.onscroll = obama;
 window.onresize = cheese;

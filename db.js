@@ -4601,7 +4601,7 @@ var img_db = [
         "img": "../img/b_gas_pump_marina.png",
         "location": {
             "de": "Washington State, USA",
-            "en": "Washinton State, USA",
+            "en": "Washington State, USA",
             "fr": "Washington State, États-Unis",
             "it": "Washington State, Stati Uniti",
             "jp": "ワシントン Ｓたて、 うさ",
@@ -4629,7 +4629,7 @@ var img_db = [
         "img": "../img/b_sam_dark.png",
         "location": {
             "de": "Washington State, USA",
-            "en": "Washinton State, USA",
+            "en": "Washington State, USA",
             "fr": "Washington State, États-Unis",
             "it": "Washington State, Stati Uniti",
             "jp": "ワシントン Ｓたて、 うさ",
@@ -4657,7 +4657,7 @@ var img_db = [
         "img": "../img/b_sunrise_sound.png",
         "location": {
             "de": "Washington State, USA",
-            "en": "Washinton State, USA",
+            "en": "Washington State, USA",
             "fr": "Washington State, États-Unis",
             "it": "Washington State, Stati Uniti",
             "jp": "ワシントン Ｓたて、 うさ",

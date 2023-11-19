@@ -200,6 +200,9 @@ a {
     text-shadow: 2px 2px 8px #3b3b3b20;
     cursor: default;
     z-index: -10;
+    border-radius: 10px;
+    width: min-content;
+    min-width: 20em;
 }
 
 .blocky-title {
