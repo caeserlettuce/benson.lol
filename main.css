@@ -29,6 +29,7 @@ body, html {
     z-index: 9000;
     backdrop-filter: blur(5px);
     display: flex;
+    align-items: center;
 }
 
 .main {
@@ -90,6 +91,8 @@ body, html {
     font-size: 2em;
     top: 7px;
     left: 7px;
+    height: min-content;
+    margin-left: 5px;
 }
 
 a {
