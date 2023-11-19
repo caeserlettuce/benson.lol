@@ -8,7 +8,8 @@ console.debug(`       __                                           __          _
 
 // fancy fancy i know
 
-var lang_vis = {    // for language selector
+var lang_vis = {
+    // for language selector
     "en": {
         "name": "EN",
         "flag": "../flag/en.png"
@@ -139,7 +140,7 @@ var img_db = [
             "de": "Molde, Norwegen",
             "jp": "モルデ、ノルウェー",
             "pi": "Molde, cold land",
-        "pi": ""
+            "pi": ""
         },
         "ltlo": [62.736947, 7.159602]
     },
@@ -167,8 +168,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.09875190006276, 7.894109428616464]
-    },
-    {
+    }, {
         "img": "../img/b_turret.png",
         "date": "10.05.2022",
         "text": {
@@ -192,8 +192,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.100515233138644, 7.897152625079914]
-    },
-    {
+    }, {
         "img": "../img/b_bus.png",
         "date": "10.05.2022",
         "text": {
@@ -217,8 +216,7 @@ var img_db = [
             "pi": "Molde, cold land"
         },
         "ltlo": [62.73290613684786, 7.058839636246417]
-    },
-    {
+    }, {
         "img": "../img/b_knives.png",
         "date": "10.05.2022",
         "text": {
@@ -242,8 +240,7 @@ var img_db = [
             "pi": ""
         },
         "ltlo": [62.73796626818948, 7.183782434170825]
-    },
-    {
+    }, {
         "img": "../img/b_gorilla.png",
         "date": "10.05.2022",
         "text": {
@@ -267,8 +264,7 @@ var img_db = [
             "pi": "Molde, cold land"
         },
         "ltlo": [62.737823309031704, 7.18353683719408]
-    },
-    {
+    }, {
         "img": "../img/b_counter.png",
         "date": "10.05.2022",
         "text": {
@@ -292,8 +288,7 @@ var img_db = [
             "pi": "Molde, cold land"
         },
         "ltlo": [62.737952689907, 7.1840305236388655]
-    },
-    {
+    }, {
         "img": "../img/b_bridge.png",
         "date": "10.05.2022",
         "text": {
@@ -317,8 +312,7 @@ var img_db = [
             "pi": "Atlanterhavsveien, cold land"
         },
         "ltlo": [63.01682241297868, 7.347759809006998]
-    },
-    {
+    }, {
         "img": "../img/b_kristiansund.png",
         "date": "10.05.2022",
         "text": {
@@ -342,8 +336,7 @@ var img_db = [
             "pi": "Kristiansund, cold land"
         },
         "ltlo": [63.11548436710128, 7.7305793325871175]
-    },
-    {
+    }, {
         "img": "../img/b_toycars.png",
         "date": "10.05.2022",
         "text": {
@@ -367,8 +360,7 @@ var img_db = [
             "pi": "Frei, cold land"
         },
         "ltlo": [63.11026679753326, 7.800798398988505]
-    },
-    {
+    }, {
         "img": "../img/b_bridge2.png",
         "date": "10.05.2022",
         "text": {
@@ -392,8 +384,7 @@ var img_db = [
             "pi": "bergsøya, cold land"
         },
         "ltlo": [62.975473029363705, 7.786925827655459]
-    },
-    {
+    }, {
         "img": "../img/b_escalator.png",
         "date": "10.05.2022",
         "text": {
@@ -417,8 +408,7 @@ var img_db = [
             "pi": "Molde, cold land"
         },
         "ltlo": [62.73775061067626, 7.183856378974504]
-    },
-    {
+    }, {
         "img": "../img/b_oldhouse.png",
         "date": "10.05.2022",
         "text": {
@@ -442,8 +432,7 @@ var img_db = [
             "pi": "Farstad, cold land"
         },
         "ltlo": [62.98852058457185, 7.209570076810794]
-    },
-    {
+    }, {
         "img": "../img/b_plane.png",
         "date": "07.05.2022",
         "text": {
@@ -467,8 +456,7 @@ var img_db = [
             "pi": "Alberta, nice people land (in a metal bird)"
         },
         "ltlo": [53.55112098612576, -111.16703246313018]
-    },
-    {
+    }, {
         "img": "../img/b_door.png",
         "date": "10.05.2022",
         "text": {
@@ -492,8 +480,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10033334068353, 7.897240631421126]
-    },
-    {
+    }, {
         "img": "../img/b_turret2.png",
         "date": "10.05.2022",
         "text": {
@@ -517,8 +504,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10036631713199, 7.897204983969396]
-    },
-    {
+    }, {
         "img": "../img/b_rock.png",
         "date": "10.05.2022",
         "text": {
@@ -542,8 +528,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10030458921284, 7.896393217011947]
-    },
-    {
+    }, {
         "img": "../img/b_gate.png",
         "date": "10.05.2022",
         "text": {
@@ -567,8 +552,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.09674620978456, 7.891155891553488]
-    },
-    {
+    }, {
         "img": "../img/b_car2.png",
         "date": "10.05.2022",
         "text": {
@@ -592,8 +576,7 @@ var img_db = [
             "pi": "Bergsøya, cold land"
         },
         "ltlo": [62.97530109055154, 7.786863174092644]
-    },
-    {
+    }, {
         "img": "../img/b_nightstand.png",
         "date": "14.05.2022",
         "text": {
@@ -604,7 +587,7 @@ var img_db = [
             "sp": "benson siendo una gran pequeña luz nocturna",
             "de": "Benson ist ein tolles kleines Nachtlicht",
             "jp": "ベンソンは素晴らしい常夜灯です",
-            "pi": "benson is the best light for nighttime",
+            "pi": "benson is the best light for nighttime"
         },
         "location": {
             "en": "Sykkylven, Norway",
@@ -617,8 +600,7 @@ var img_db = [
             "pi": "Sykkylven, cold land"
         },
         "ltlo": [62.40396894566766, 6.582386557306165]
-    },
-    {
+    }, {
         "img": "../img/b_turret1.png",
         "date": "10.05.2022",
         "text": {
@@ -629,7 +611,7 @@ var img_db = [
             "sp": "benson está bloqueado y cargado",
             "de": "Benson ist gesperrt und geladen",
             "jp": "ベンソンはロックされてロードされています",
-            "pi": "benson is ready for fire",
+            "pi": "benson is ready for fire"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -642,8 +624,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.100490151010874, 7.897076156103559]
-    },
-    {
+    }, {
         "img": "../img/b_turret3.png",
         "date": "10.05.2022",
         "text": {
@@ -654,7 +635,7 @@ var img_db = [
             "sp": "benson mirando con anhelo el océano desde su torreta",
             "de": "Benson blickt von seinem Turm sehnsüchtig ins Meer",
             "jp": "砲塔から海を切望して見つめるベンソン",
-            "pi": "benson is protecting ye booty from enemies",
+            "pi": "benson is protecting ye booty from enemies"
         },
         "location": {
             "en": "Kvalvik Fort, Norway",
@@ -667,8 +648,7 @@ var img_db = [
             "pi": "Kvalvik Fort, cold land"
         },
         "ltlo": [63.10044150246214, 7.897105123897647]
-    },
-    {
+    }, {
         "img": "../img/b_kristiansund1.png",
         "date": "10.05.2022",
         "text": {
@@ -679,7 +659,7 @@ var img_db = [
             "sp": "benson frente a un puerto deportivo",
             "de": "Benson vor einem Jachthafen",
             "jp": "マリーナの前のベンソン",
-            "pi": "benson is waiting for us pirates",
+            "pi": "benson is waiting for us pirates"
         },
         "location": {
             "en": "Kristiansund, Norway",
@@ -692,8 +672,7 @@ var img_db = [
             "pi": "Kristiansund, cold land"
         },
         "ltlo": [63.110958, 7.733211]
-    },
-    {
+    }, {
         "img": "../img/b_mountain1.png",
         "date": "11.05.2022",
         "text": {
@@ -704,7 +683,7 @@ var img_db = [
             "sp": "benson en una montaña",
             "de": "Benson auf einem Berg",
             "jp": "山のベンソン",
-            "pi": "benson on da mountain",
+            "pi": "benson on da mountain"
         },
         "location": {
             "en": "Molde, Norway",
@@ -717,8 +696,7 @@ var img_db = [
             "pi": "Molde, cold land"
         },
         "ltlo": [62.74834041394015, 7.127437026726649]
-    },
-    {
+    }, {
         "img": "../img/b_shore.png",
         "date": "11.05.2022",
         "text": {
@@ -729,7 +707,7 @@ var img_db = [
             "sp": "benson por el mar",
             "de": "benson am meer",
             "jp": "海沿いのベンソン",
-            "pi": "benson by the seven seas",
+            "pi": "benson by the seven seas"
         },
         "location": {
             "en": "Helland, Norway",
@@ -742,8 +720,7 @@ var img_db = [
             "pi": "Helland, cold land"
         },
         "ltlo": [62.623153, 7.086450]
-    },
-    {
+    }, {
         "img": "../img/b_oldhouse_door.png",
         "date": "12.05.2022",
         "text": {
@@ -754,7 +731,7 @@ var img_db = [
             "sp": "benson esta en casa",
             "de": "Benson ist zu Hause",
             "jp": "ベンソンは家です",
-            "pi": "benson is at his home",
+            "pi": "benson is at his home"
         },
         "location": {
             "en": "Borgund, Norway",
@@ -767,8 +744,7 @@ var img_db = [
             "pi": "Borgund, cold land"
         },
         "ltlo": [62.468033, 6.237756]
-    },
-    {
+    }, {
         "img": "../img/b_barrel.png",
         "date": "12.05.2022",
         "text": {
@@ -779,7 +755,7 @@ var img_db = [
             "sp": "Benson en el barril",
             "de": "Benson auf dem Fass",
             "jp": "ダバレルのベンソン",
-            "pi": "benson on da rum barrels",
+            "pi": "benson on da rum barrels"
         },
         "location": {
             "en": "Borgund, Norway",
@@ -792,8 +768,7 @@ var img_db = [
             "pi": "Borgund, cold land"
         },
         "ltlo": [62.468075, 6.238628]
-    },
-    {
+    }, {
         "img": "../img/b_lil_bench.png",
         "date": "12.05.2022",
         "text": {
@@ -804,7 +779,7 @@ var img_db = [
             "sp": "benson en un banco del tamaño de benson",
             "de": "Benson auf einer Benson-großen Bank",
             "jp": "ベンソンサイズのベンチにベンソン",
-            "pi": "benson found his seat",
+            "pi": "benson found his seat"
         },
         "location": {
             "en": "Borgund, Norway",
@@ -817,8 +792,7 @@ var img_db = [
             "pi": "Borgund, cold land"
         },
         "ltlo": [62.467478, 6.233753]
-    },
-    {
+    }, {
         "img": "../img/b_telefon.png",
         "date": "12.05.2022",
         "text": {
@@ -829,7 +803,7 @@ var img_db = [
             "sp": "benson tiene una rosa para ti <3",
             "de": "Benson hat eine Rose für dich <3",
             "jp": "ベンソンはあなたのためにバラを持っています<3",
-            "pi": "benson has the rose",
+            "pi": "benson has the rose"
         },
         "location": {
             "en": "Ålesund, Norway",
@@ -842,8 +816,7 @@ var img_db = [
             "pi": "Ålesund, cold land"
         },
         "ltlo": [62.473227553812706, 6.156559824850604]
-    },
-    {
+    }, {
         "img": "../img/b_ålesund.png",
         "date": "13.05.2022",
         "text": {
@@ -854,7 +827,7 @@ var img_db = [
             "sp": "benson en el coche",
             "de": "benson im auto",
             "jp": "車の中でベンソン",
-            "pi": "benson is in the land machine",
+            "pi": "benson is in the land machine"
         },
         "location": {
             "en": "Ålesund, Norway",
@@ -867,8 +840,7 @@ var img_db = [
             "pi": "Ålesund, cold land"
         },
         "ltlo": [62.473303, 6.151189]
-    },
-    {
+    }, {
         "img": "../img/b_bacon.png",
         "date": "13.05.2022",
         "text": {
@@ -879,7 +851,7 @@ var img_db = [
             "sp": "benson en el pasillo del congelador",
             "de": "Benson im Gefriergang",
             "jp": "冷凍庫の通路にいるベンソン",
-            "pi": "benson in the cold box",
+            "pi": "benson in the cold box"
         },
         "location": {
             "en": "Sykkylven, Norway",
@@ -892,8 +864,7 @@ var img_db = [
             "pi": "Sykkylven, cold land"
         },
         "ltlo": [62.391850, 6.583339]
-    },
-    {
+    }, {
         "img": "../img/b_sykkylven_boardwalk.png",
         "date": "14.05.2022",
         "text": {
@@ -904,7 +875,7 @@ var img_db = [
             "sp": "benson en el paseo marítimo",
             "de": "Benson auf der Promenade",
             "jp": "遊歩道のベンソン",
-            "pi": "benson is waiting for the pirates to pick him up",
+            "pi": "benson is waiting for the pirates to pick him up"
         },
         "location": {
             "en": "Sykkylven, Norway",
@@ -917,8 +888,7 @@ var img_db = [
             "pi": "Sykkylven, cold land"
         },
         "ltlo": [62.392822, 6.578183]
-    },
-    {
+    }, {
         "img": "../img/b_mountain2.png",
         "date": "15.05.2022",
         "text": {
@@ -929,7 +899,7 @@ var img_db = [
             "sp": "benson frente a mas montañas",
             "de": "Benson vor mehr Bergen",
             "jp": "より多くの山の前でベンソン",
-            "pi": "benson with more mountains",
+            "pi": "benson with more mountains"
         },
         "location": {
             "en": "Norway",
@@ -942,8 +912,7 @@ var img_db = [
             "pi": "cold land"
         },
         "ltlo": [62.293258, 6.886656]
-    },
-    {
+    }, {
         "img": "../img/b_fjord_grass.png",
         "date": "13.05.2022",
         "text": {
@@ -954,7 +923,7 @@ var img_db = [
             "sp": "benson con algunas montañas nevadas",
             "de": "Benson mit einigen schneebedeckten Bergen",
             "jp": "雪をかぶった山々のあるベンソン",
-            "pi": "benson with some white mountains",
+            "pi": "benson with some white mountains"
         },
         "location": {
             "en": "Norway",
@@ -967,8 +936,7 @@ var img_db = [
             "pi": "cold land"
         },
         "ltlo": [62.188136, 6.923864]
-    },
-    {
+    }, {
         "img": "../img/b_fjord_waterfall.png",
         "date": "15.05.2022",
         "text": {
@@ -979,7 +947,7 @@ var img_db = [
             "sp": "benson mirando una hermosa cascada",
             "de": "benson starrt auf einen wunderschönen wasserfall",
             "jp": "美しい滝を見つめるベンソン",
-            "pi": "benson staring at a waterfall",
+            "pi": "benson staring at a waterfall"
         },
         "location": {
             "en": "Geirangerfjord, Norway",
@@ -992,8 +960,7 @@ var img_db = [
             "pi": "Geirangerfjord, cold land"
         },
         "ltlo": [62.104458, 7.102975]
-    },
-    {
+    }, {
         "img": "../img/b_fjord_bench.png",
         "date": "15.05.2022",
         "text": {
@@ -1004,7 +971,7 @@ var img_db = [
             "sp": "benson sentado en un banco",
             "de": "benson sitzt auf einer bank",
             "jp": "ベンチに座っているベンソン",
-            "pi": "benson sitting on a bench",
+            "pi": "benson sitting on a bench"
         },
         "location": {
             "en": "Geiranger, Norway",
@@ -1017,8 +984,7 @@ var img_db = [
             "pi": "Geiranger, cold land"
         },
         "ltlo": [62.091081, 7.222056]
-    },
-    {
+    }, {
         "img": "../img/b_fjord_geiranger.png",
         "date": "15.05.2022",
         "text": {
@@ -1029,7 +995,7 @@ var img_db = [
             "sp": "benson en un acantilado",
             "de": "Benson auf einer Klippe",
             "jp": "崖の上のベンソン",
-            "pi": "benson on da cliff",
+            "pi": "benson on da cliff"
         },
         "location": {
             "en": "Geiranger, Norway",
@@ -1042,8 +1008,7 @@ var img_db = [
             "pi": "Geiranger, cold land"
         },
         "ltlo": [62.091350, 7.222064]
-    },
-    {
+    }, {
         "img": "../img/b_roadwork.png",
         "date": "15.05.2022",
         "text": {
@@ -1054,7 +1019,7 @@ var img_db = [
             "sp": "¿trabajos en la vía más adelante? bueno, sí, espero que sí",
             "de": "Straßenarbeit voran? Nun ja, ich hoffe es wirklich",
             "jp": "道路工事先？ええ、私はそれがすることを願っています",
-            "pi": "ye have road work ahead? ahoy! i sure hope it does",
+            "pi": "ye have road work ahead? ahoy! i sure hope it does"
         },
         "location": {
             "en": "Norway",
@@ -1067,8 +1032,7 @@ var img_db = [
             "pi": "cold land"
         },
         "ltlo": [62.499917, 6.889047]
-    },
-    {
+    }, {
         "img": "../img/b_royal_palace.png",
         "date": "17.05.2022",
         "text": {
@@ -1079,7 +1043,7 @@ var img_db = [
             "sp": "benson con el rey y la reina de noruega",
             "de": "benson mit dem könig und der königin von norwegen",
             "jp": "ノルウェーの王と女王とのベンソン",
-            "pi": "benson with ye royalty of cold land",
+            "pi": "benson with ye royalty of cold land"
         },
         "location": {
             "en": "Det kongelige slott, Norway",
@@ -1092,8 +1056,7 @@ var img_db = [
             "pi": "The Royal Palace, cold land"
         },
         "ltlo": [59.916722, 10.728389]
-    },
-    {
+    }, {
         "img": "../img/b_fountain.png",
         "date": "17.05.2022",
         "text": {
@@ -1104,7 +1067,7 @@ var img_db = [
             "sp": "benson en una fuente vacia",
             "de": "Benson in einem leeren Brunnen",
             "jp": "空の噴水にいるベンソン",
-            "pi": "benson in the empty fountain",
+            "pi": "benson in the empty fountain"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1117,8 +1080,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.915661, 10.739292]
-    },
-    {
+    }, {
         "img": "../img/b_park.png",
         "date": "17.05.2022",
         "text": {
@@ -1129,7 +1091,7 @@ var img_db = [
             "sp": "benson en el parque",
             "de": "benson im park",
             "jp": "公園のベンソン",
-            "pi": "benson in da grass field",
+            "pi": "benson in da grass field"
         },
         "location": {
             "en": "Slottsparken, Oslo, Norway",
@@ -1142,8 +1104,7 @@ var img_db = [
             "pi": "Slottsparken, Oslo, cold land"
         },
         "ltlo": [59.916594, 10.732047]
-    },
-    {
+    }, {
         "img": "../img/b_park_sun.png",
         "date": "17.05.2022",
         "text": {
@@ -1154,7 +1115,7 @@ var img_db = [
             "sp": "benson en el sol",
             "de": "benson in der sonne",
             "jp": "太陽の下でベンソン",
-            "pi": "benson is in the sun",
+            "pi": "benson is in the sun"
         },
         "location": {
             "en": "Slottsparken, Oslo, Norway",
@@ -1167,8 +1128,7 @@ var img_db = [
             "pi": "Slottsparken, Oslo, cold land"
         },
         "ltlo": [59.916781, 10.731531]
-    },
-    {
+    }, {
         "img": "../img/b_shoes.png",
         "date": "18.05.2022",
         "text": {
@@ -1179,7 +1139,7 @@ var img_db = [
             "sp": "benson va a comprar zapatos",
             "de": "Benson geht Schuhe einkaufen",
             "jp": "ベンソンは靴の買い物に行きます",
-            "pi": "benson is buying himself some of ye new shoes",
+            "pi": "benson is buying himself some of ye new shoes"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1192,8 +1152,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.91463463470055, 10.740621062825157]
-    },
-    {
+    }, {
         "img": "../img/b_blanket.png",
         "date": "18.05.2022",
         "text": {
@@ -1204,7 +1163,7 @@ var img_db = [
             "sp": "benson es acogedor",
             "de": "Benson ist gemütlich",
             "jp": "ベンソンは居心地が良い",
-            "pi": "benson is verrrrry comfortable",
+            "pi": "benson is verrrrry comfortable"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1217,8 +1176,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.914638562590646, 10.740610851233862]
-    },
-    {
+    }, {
         "img": "../img/b_stave_church.png",
         "date": "19.05.2022",
         "text": {
@@ -1229,7 +1187,7 @@ var img_db = [
             "sp": "benson frente a una de las últimas iglesias de madera de noruega",
             "de": "benson vor einer der letzten stabkirchen norwegens",
             "jp": "ノルウェーで最後のスターヴ教会の前にあるベンソン",
-            "pi": "benson in front of one of ye last stave churches in all of the cold land",
+            "pi": "benson in front of one of ye last stave churches in all of the cold land"
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1242,8 +1200,7 @@ var img_db = [
             "pi": "Bygdøy, Oslo, cold land"
         },
         "ltlo": [59.908122, 10.682969]
-    },
-    {
+    }, {
         "img": "../img/b_moai.png",
         "date": "19.05.2022",
         "text": {
@@ -1254,7 +1211,7 @@ var img_db = [
             "sp": "benson en una cueva del museo",
             "de": "Benson in einer Museumshöhle",
             "jp": "博物館の洞窟のベンソン",
-            "pi": "benson in a museum's version of davey jones' lockarrr",
+            "pi": "benson in a museum's version of davey jones' lockarrr"
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1267,8 +1224,7 @@ var img_db = [
             "pi": "Bygdøy, Oslo, cold land"
         },
         "ltlo": [59.9035439483444, 10.698020773721245]
-    },
-    {
+    }, {
         "img": "../img/b_window.png",
         "date": "19.05.2022",
         "text": {
@@ -1279,7 +1235,7 @@ var img_db = [
             "sp": "Benson en el alféizar de una ventana",
             "de": "Benson auf einer Fensterbank",
             "jp": "窓辺のベンソン",
-            "pi": "benson in a window",
+            "pi": "benson in a window"
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1292,8 +1248,7 @@ var img_db = [
             "pi": "Bygdøy, Oslo, cold land"
         },
         "ltlo": [59.9033155398052, 10.698028690214068]
-    },
-    {
+    }, {
         "img": "../img/b_sewing.png",
         "date": "19.05.2022",
         "text": {
@@ -1304,7 +1259,7 @@ var img_db = [
             "sp": "benson esta cosiendo",
             "de": "Benson näht",
             "jp": "ベンソンは縫っています",
-            "pi": "benson is sewing some new clothes",
+            "pi": "benson is sewing some new clothes"
         },
         "location": {
             "en": "Bygdøy, Oslo, Norway",
@@ -1317,8 +1272,7 @@ var img_db = [
             "pi": "Bygdøy, Oslo, cold land"
         },
         "ltlo": [59.903336, 10.699439]
-    },
-    {
+    }, {
         "img": "../img/b_cart.png",
         "date": "19.05.2022",
         "text": {
@@ -1329,7 +1283,7 @@ var img_db = [
             "sp": "benson va de compras",
             "de": "Benson geht einkaufen",
             "jp": "ベンソンは買い物に行きます",
-            "pi": "benson is shopping",
+            "pi": "benson is shopping"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1342,8 +1296,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.911922, 10.748244]
-    },
-    {
+    }, {
         "img": "../img/b_oslo_church.png",
         "date": "19.05.2022",
         "text": {
@@ -1354,7 +1307,7 @@ var img_db = [
             "sp": "benson frente a una iglesia",
             "de": "Benson vor einer Kirche",
             "jp": "教会の前のベンソン",
-            "pi": "benson in front of a church",
+            "pi": "benson in front of a church"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1367,8 +1320,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.912853, 10.746875]
-    },
-    {
+    }, {
         "img": "../img/b_leek.png",
         "date": "19.05.2022",
         "text": {
@@ -1379,7 +1331,7 @@ var img_db = [
             "sp": "benson encontró un puerro",
             "de": "Benson hat einen Lauch gefunden",
             "jp": "ベンソンはネギを見つけました",
-            "pi": "benson found a leek",
+            "pi": "benson found a leek"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1392,8 +1344,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.913167, 10.746622]
-    },
-    {
+    }, {
         "img": "../img/b_tokyo_store.png",
         "date": "19.05.2022",
         "text": {
@@ -1404,7 +1355,7 @@ var img_db = [
             "sp": "conocieron a benson!!!",
             "de": "sie trafen benson!!!",
             "jp": "彼らはベンソンに会いました!!!",
-            "pi": "they met benson!!!",
+            "pi": "they met benson!!!"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1417,8 +1368,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.911675, 10.747859]
-    },
-    {
+    }, {
         "img": "../img/b_bed.png",
         "date": "20.05.2022",
         "text": {
@@ -1429,7 +1379,7 @@ var img_db = [
             "sp": "benson ha creado una galaxia",
             "de": "Benson hat eine Galaxie erschaffen",
             "jp": "ベンソンは銀河を作りました",
-            "pi": "benson has created a brrrrand new galaxy",
+            "pi": "benson has created a brrrrand new galaxy"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1442,8 +1392,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.917983, 10.733197]
-    },
-    {
+    }, {
         "img": "../img/b_coins.png",
         "date": "20.05.2022",
         "text": {
@@ -1454,7 +1403,7 @@ var img_db = [
             "sp": "dame de comer mis monedas señor freemannnnnnnnn",
             "de": "füttere mich mit meinen Münzen, Herr Freemannnnnnnnn",
             "jp": "私のコインを送ってくださいmrfreemannnnnnnnn",
-            "pi": "feed me my coins mr frrrrrrrreemannnn!!!",
+            "pi": "feed me my coins mr frrrrrrrreemannnn!!!"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1467,8 +1416,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.916528, 10.735067]
-    },
-    {
+    }, {
         "img": "../img/b_mainroad_oslo.png",
         "date": "20.05.2022",
         "text": {
@@ -1479,7 +1427,7 @@ var img_db = [
             "sp": "benson es muy amable",
             "de": "Benson ist sehr nett",
             "jp": "ベンソンはとても親切です",
-            "pi": "benson is very kind to all",
+            "pi": "benson is very kind to all"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1492,8 +1440,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.914906, 10.735053]
-    },
-    {
+    }, {
         "img": "../img/b_oslo_lay.png",
         "date": "20.05.2022",
         "text": {
@@ -1504,7 +1451,7 @@ var img_db = [
             "sp": "Benson está acostado (simplemente no lo parece)",
             "de": "Benson legt sich hin (es sieht nur nicht so aus)",
             "jp": "ベンソンは横たわっています（それはちょうどそれのようには見えません）",
-            "pi": "benson is resting",
+            "pi": "benson is resting"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1517,8 +1464,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.915022, 10.735569]
-    },
-    {
+    }, {
         "img": "../img/b_bush.png",
         "date": "20.05.2022",
         "text": {
@@ -1529,7 +1475,7 @@ var img_db = [
             "sp": "benson en un arbusto",
             "de": "Benson in einem Busch",
             "jp": "茂みの中のベンソン",
-            "pi": "benson in a bush",
+            "pi": "benson in a bush"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1542,8 +1488,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.914939, 10.734839]
-    },
-    {
+    }, {
         "img": "../img/b_flowers.png",
         "date": "20.05.2022",
         "text": {
@@ -1554,7 +1499,7 @@ var img_db = [
             "sp": "benson ama las flores",
             "de": "Benson liebt Blumen",
             "jp": "ベンソンは花が大好き",
-            "pi": "benson loves the flowerrrrs",
+            "pi": "benson loves the flowerrrrs"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1567,8 +1512,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.914917, 10.735672]
-    },
-    {
+    }, {
         "img": "../img/b_roses.png",
         "date": "20.05.2022",
         "text": {
@@ -1579,7 +1523,7 @@ var img_db = [
             "sp": "benson encontró rosas",
             "de": "Benson hat Rosen gefunden",
             "jp": "ベンソンはバラを見つけました",
-            "pi": "benson found roses",
+            "pi": "benson found roses"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1592,8 +1536,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.913672, 10.735894]
-    },
-    {
+    }, {
         "img": "../img/b_street.png",
         "date": "20.05.2022",
         "text": {
@@ -1604,7 +1547,7 @@ var img_db = [
             "sp": "benson está en la calle",
             "de": "Benson ist an der Straße",
             "jp": "ベンソンは通りのそばにあります",
-            "pi": "benson is by the main street",
+            "pi": "benson is by the main street"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1617,8 +1560,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.913739, 10.735953]
-    },
-    {
+    }, {
         "img": "../img/b_oslo_marina.png",
         "date": "20.05.2022",
         "text": {
@@ -1629,7 +1571,7 @@ var img_db = [
             "sp": "benson",
             "de": "Benson",
             "jp": "ベンソン",
-            "pi": "Benson",
+            "pi": "Benson"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1642,8 +1584,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.910328, 10.735078]
-    },
-    {
+    }, {
         "img": "../img/b_torch.png",
         "date": "20.05.2022",
         "text": {
@@ -1654,7 +1595,7 @@ var img_db = [
             "sp": "benson es ahora la antorcha",
             "de": "Benson ist jetzt die Fackel",
             "jp": "ベンソンは今やトーチです",
-            "pi": "benson is now the torrrch",
+            "pi": "benson is now the torrrch"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1667,8 +1608,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.907506, 10.736403]
-    },
-    {
+    }, {
         "img": "../img/b_beckham.png",
         "date": "11.02.2022",
         "text": {
@@ -1679,7 +1619,7 @@ var img_db = [
             "sp": "beckham tiene benson",
             "de": "beckham hält benson",
             "jp": "ベッカムはベンソンを保持します",
-            "pi": "beckham holds ye benson",
+            "pi": "beckham holds ye benson"
         },
         "location": {
             "en": "USA",
@@ -1692,8 +1632,7 @@ var img_db = [
             "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_munch.png",
         "date": "21.05.2022",
         "text": {
@@ -1704,7 +1643,7 @@ var img_db = [
             "sp": "benson esta en la ventana!!",
             "de": "benson ist im fenster!!",
             "jp": "ベンソンは窓の中にいます！",
-            "pi": "benson is in da window!!",
+            "pi": "benson is in da window!!"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1717,8 +1656,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_oslo_park.png",
         "date": "21.05.2022",
         "text": {
@@ -1729,7 +1667,7 @@ var img_db = [
             "sp": "benson esta en el parque",
             "de": "Benson ist im Park",
             "jp": "ベンソンは公園にいます",
-            "pi": "benson is at the parrrrk",
+            "pi": "benson is at the parrrrk"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1742,8 +1680,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.907689, 10.753731]
-    },
-    {
+    }, {
         "img": "../img/b_grate.png",
         "date": "21.05.2022",
         "text": {
@@ -1754,7 +1691,7 @@ var img_db = [
             "sp": "benson se siente agradecido",
             "de": "benson freut sich",
             "jp": "ベンソンはすりおろしている",
-            "pi": "benson is feeling just grrrrrate!!",
+            "pi": "benson is feeling just grrrrrate!!"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1767,8 +1704,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.919078, 10.732972]
-    },
-    {
+    }, {
         "img": "../img/b_xavier_bag.png",
         "date": "11.02.2022",
         "text": {
@@ -1779,7 +1715,7 @@ var img_db = [
             "sp": "Benson ama a los ajolotes",
             "de": "Benson liebt Axolotl",
             "jp": "ベンソンはアホロートルが大好きです",
-            "pi": "benson loves the axolotls",
+            "pi": "benson loves the axolotls"
         },
         "location": {
             "en": "USA",
@@ -1792,8 +1728,7 @@ var img_db = [
             "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_heldup.png",
         "date": "11.02.2022",
         "text": {
@@ -1804,7 +1739,7 @@ var img_db = [
             "sp": "benson es dios",
             "de": "Benson ist Gott",
             "jp": "ベンソンは神です",
-            "pi": "benson is our god",
+            "pi": "benson is our god"
         },
         "location": {
             "en": "USA",
@@ -1817,8 +1752,7 @@ var img_db = [
             "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_convcenter.png",
         "date": "05.12.2021",
         "text": {
@@ -1829,7 +1763,7 @@ var img_db = [
             "sp": "benson está en el centro de convenciones",
             "de": "Benson ist im Kongresszentrum",
             "jp": "ベンソンはコンベンションセンターにいます",
-            "pi": "benson is at the center for meetings",
+            "pi": "benson is at the center for meetings"
         },
         "location": {
             "en": "Seattle, Washington",
@@ -1842,8 +1776,7 @@ var img_db = [
             "pi": "Seattle, washing state"
         },
         "ltlo": [47.611029842952, -122.33165985759916]
-    },
-    {
+    }, {
         "img": "../img/b_ikea.png",
         "date": "18.02.2022",
         "text": {
@@ -1854,7 +1787,7 @@ var img_db = [
             "sp": "benson está en ikea",
             "de": "benson ist bei ikea",
             "jp": "ベンソンはイケアにいます",
-            "pi": "benson is in the swedish furniture store",
+            "pi": "benson is in the swedish furniture store"
         },
         "location": {
             "en": "USA",
@@ -1867,8 +1800,7 @@ var img_db = [
             "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_ferry.png",
         "date": "23.07.2021",
         "text": {
@@ -1879,7 +1811,7 @@ var img_db = [
             "sp": "benson se ve bien",
             "de": "Benson sieht gut aus",
             "jp": "ベンソンは格好良い",
-            "pi": "benson is looking very nice",
+            "pi": "benson is looking very nice"
         },
         "location": {
             "en": "Seattle, Washington",
@@ -1892,8 +1824,7 @@ var img_db = [
             "pi": "Seattle, washing state"
         },
         "ltlo": [47.60463558488405, -122.3951981018473]
-    },
-    {
+    }, {
         "img": "../img/b_fireplace.png",
         "date": "12.05.2022",
         "text": {
@@ -1904,7 +1835,7 @@ var img_db = [
             "sp": "benson es el fuego",
             "de": "Benson ist das Feuer",
             "jp": "ベンソンは火です",
-            "pi": "benson is the fire",
+            "pi": "benson is the fire"
         },
         "location": {
             "en": "Gåseid, Norway",
@@ -1917,8 +1848,7 @@ var img_db = [
             "pi": "Gåseid, cold land"
         },
         "ltlo": [62.46810737711126, 6.236436673198563]
-    },
-    {
+    }, {
         "img": "../img/b_tv.png",
         "date": "18.03.2022",
         "text": {
@@ -1929,7 +1859,7 @@ var img_db = [
             "sp": "benson lo rompió",
             "de": "Benson hat es kaputt gemacht",
             "jp": "ベンソンはそれを壊した",
-            "pi": "benson has broke it",
+            "pi": "benson has broke it"
         },
         "location": {
             "en": "USA",
@@ -1942,8 +1872,7 @@ var img_db = [
             "pi": "\"free\" land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_scream.png",
         "date": "21.05.2022",
         "text": {
@@ -1954,7 +1883,7 @@ var img_db = [
             "sp": "benson esta gritando",
             "de": "Benson schreit",
             "jp": "ベンソンは叫んでいます",
-            "pi": "benson is scrrrreaming",
+            "pi": "benson is scrrrreaming"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1967,8 +1896,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.905722062753696, 10.755382399133437]
-    },
-    {
+    }, {
         "img": "../img/b_path2.png",
         "date": "22.05.2022",
         "text": {
@@ -1979,7 +1907,7 @@ var img_db = [
             "sp": "benson por un camino genial",
             "de": "benson auf einem coolen weg",
             "jp": "クールな道に沿ったベンソン",
-            "pi": "benson along a cool walking path",
+            "pi": "benson along a cool walking path"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -1992,8 +1920,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.920011, 10.747603]
-    },
-    {
+    }, {
         "img": "../img/b_path1.png",
         "date": "22.05.2022",
         "text": {
@@ -2004,7 +1931,7 @@ var img_db = [
             "sp": "benson ama estos caminos",
             "de": "Benson liebt diese Pfade",
             "jp": "ベンソンはこれらの道が大好きです",
-            "pi": "benson loves the paths",
+            "pi": "benson loves the paths"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2017,8 +1944,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.920067, 10.747236]
-    },
-    {
+    }, {
         "img": "../img/b_afartments.png",
         "date": "22.05.2022",
         "text": {
@@ -2029,7 +1955,7 @@ var img_db = [
             "sp": "benson frente a edificios de apartamentos",
             "de": "Benson vor Mehrfamilienhäusern",
             "jp": "アパートの前のベンソン",
-            "pi": "benson in front of many living quarters",
+            "pi": "benson in front of many living quarters"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2042,8 +1968,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.920161, 10.748550]
-    },
-    {
+    }, {
         "img": "../img/b_tube.png",
         "date": "22.05.2022",
         "text": {
@@ -2054,7 +1979,7 @@ var img_db = [
             "sp": "benson ama el tubo",
             "de": "Benson liebt die Röhre",
             "jp": "ベンソンはチューブが大好きです",
-            "pi": "benson loves the underground train",
+            "pi": "benson loves the underground train"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2067,8 +1992,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_tube2.png",
         "date": "22.05.2022",
         "text": {
@@ -2079,7 +2003,7 @@ var img_db = [
             "sp": "benson se ha bajado de un tren",
             "de": "Benson ist aus einem Zug gestiegen",
             "jp": "ベンソンは電車を降りた",
-            "pi": "benson has left a train",
+            "pi": "benson has left a train"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2092,8 +2016,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_bus_window.png",
         "date": "22.05.2022",
         "text": {
@@ -2104,7 +2027,7 @@ var img_db = [
             "sp": "Benson viaja en autobús",
             "de": "Benson fährt mit dem Bus",
             "jp": "ベンソンはバスに乗る",
-            "pi": "benson rides a bus",
+            "pi": "benson rides a bus"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2117,8 +2040,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.907214, 10.687578]
-    },
-    {
+    }, {
         "img": "../img/b_parktm.png",
         "date": "22.05.2022",
         "text": {
@@ -2129,7 +2051,7 @@ var img_db = [
             "sp": "benson está en el césped de un parque y le encanta",
             "de": "benson ist im gras in einem park und er liebt es",
             "jp": "ベンソンは公園の芝生にいて、それが大好きです",
-            "pi": "benson is in grass and he loves it",
+            "pi": "benson is in grass and he loves it"
         },
         "location": {
             "en": "Oslo, Norway",
@@ -2142,8 +2064,7 @@ var img_db = [
             "pi": "Oslo, cold land"
         },
         "ltlo": [59.924994, 10.706894]
-    },
-    {
+    }, {
         "img": "../img/b_fireplace2.png",
         "date": "13.05.2022",
         "text": {
@@ -2154,7 +2075,7 @@ var img_db = [
             "sp": "Benson inició un incendio >:)",
             "de": "Benson hat ein Feuer gemacht >:)",
             "jp": "ベンソンが火事を起こしました>:)",
-            "pi": "benson started a fire >:)",
+            "pi": "benson started a fire >:)"
         },
         "location": {
             "en": "Sykkylven, Norway",
@@ -2167,8 +2088,7 @@ var img_db = [
             "pi": "Sykkylven, cold land"
         },
         "ltlo": [62.403928, 6.582472]
-    },
-    {
+    }, {
         "img": "../img/b_ost.png",
         "date": "23.05.2022",
         "text": {
@@ -2179,7 +2099,7 @@ var img_db = [
             "sp": "benson con un poco de queso moreno",
             "de": "Benson mit etwas braunem Käse",
             "jp": "いくつかの茶色のチーズとベンソン",
-            "pi": "benson with some brown cheeses",
+            "pi": "benson with some brown cheeses"
         },
         "location": {
             "en": "Trondheim Airport, Norway",
@@ -2192,8 +2112,7 @@ var img_db = [
             "pi": "Trondheim Airport, cold land"
         },
         "ltlo": [63.454231, 10.917764]
-    },
-    {
+    }, {
         "img": "../img/b_view.png",
         "date": "23.05.2022",
         "text": {
@@ -2204,7 +2123,7 @@ var img_db = [
             "sp": "Benson en el alféizar de una ventana",
             "de": "Benson auf einer Fensterbank",
             "jp": "窓辺のベンソン",
-            "pi": "benson in a windowsill",
+            "pi": "benson in a windowsill"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2217,8 +2136,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.433919, 10.399972]
-    },
-    {
+    }, {
         "img": "../img/b_burg.png",
         "date": "23.05.2022",
         "text": {
@@ -2229,7 +2147,7 @@ var img_db = [
             "sp": "benson en un burger king",
             "de": "Benson bei einem Burger King",
             "jp": "バーガーキングのベンソン",
-            "pi": "benson at a burger king",
+            "pi": "benson at a burger king"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2242,8 +2160,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.433231718937876, 10.400638638796694]
-    },
-    {
+    }, {
         "img": "../img/b_burg2.png",
         "date": "23.05.2022",
         "text": {
@@ -2254,7 +2171,7 @@ var img_db = [
             "sp": "benson en una ventana de burger king",
             "de": "Benson in einem Burger-King-Fenster",
             "jp": "バーガーキングの窓にいるベンソン",
-            "pi": "benson in a burger king window",
+            "pi": "benson in a burger king window"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2267,8 +2184,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.433222142840705, 10.400637162773355]
-    },
-    {
+    }, {
         "img": "../img/b_pocket.png",
         "date": "23.05.2022",
         "text": {
@@ -2279,7 +2195,7 @@ var img_db = [
             "sp": "benson en un bolsillo",
             "de": "Benson in einer Tasche",
             "jp": "ポケットの中のベンソン",
-            "pi": "benson in a coat pocket",
+            "pi": "benson in a coat pocket"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2292,8 +2208,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.433221849413655, 10.400594843406667]
-    },
-    {
+    }, {
         "img": "../img/b_chairs_cathedral.png",
         "date": "24.05.2022",
         "text": {
@@ -2304,7 +2219,7 @@ var img_db = [
             "sp": "benson en algunas sillas",
             "de": "Benson auf einigen Stühlen",
             "jp": "いくつかの椅子にベンソン",
-            "pi": "benson on some seats",
+            "pi": "benson on some seats"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2317,8 +2232,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.427589, 10.398225]
-    },
-    {
+    }, {
         "img": "../img/b_cathedral_jebus.png",
         "date": "24.05.2022",
         "text": {
@@ -2329,7 +2243,7 @@ var img_db = [
             "sp": "benson en una catedral",
             "de": "Benson in einer Kathedrale",
             "jp": "大聖堂のベンソン",
-            "pi": "benson in a jesus building",
+            "pi": "benson in a jesus building"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2342,8 +2256,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.426892, 10.395831]
-    },
-    {
+    }, {
         "img": "../img/b_cathedral_light.png",
         "date": "24.05.2022",
         "text": {
@@ -2354,7 +2267,7 @@ var img_db = [
             "sp": "benson en la luz",
             "de": "Benson im Licht",
             "jp": "光の中のベンソン",
-            "pi": "benson in the light",
+            "pi": "benson in the light"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2367,8 +2280,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.426897, 10.395856]
-    },
-    {
+    }, {
         "img": "../img/b_sentrum.png",
         "date": "24.05.2022",
         "text": {
@@ -2379,7 +2291,7 @@ var img_db = [
             "sp": "benson en el centro de la ciudad",
             "de": "Benson im Stadtzentrum",
             "jp": "市内中心部のベンソン",
-            "pi": "benson in the town center",
+            "pi": "benson in the town center"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2392,8 +2304,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.430606, 10.395311]
-    },
-    {
+    }, {
         "img": "../img/b_smallchurch.png",
         "date": "24.05.2022",
         "text": {
@@ -2404,7 +2315,7 @@ var img_db = [
             "sp": "benson frente a una pequeña iglesia",
             "de": "Benson vor einer kleinen Kirche",
             "jp": "小さな教会の前のベンソン",
-            "pi": "benson in front of a small church",
+            "pi": "benson in front of a small church"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2417,8 +2328,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.43027750127714, 10.399089088918105]
-    },
-    {
+    }, {
         "img": "../img/b_waterway.png",
         "date": "24.05.2022",
         "text": {
@@ -2429,7 +2339,7 @@ var img_db = [
             "sp": "benson en un canal",
             "de": "Benson in einer Wasserstraße",
             "jp": "水路のベンソン",
-            "pi": "benson in the seas",
+            "pi": "benson in the seas"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2442,8 +2352,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.43019731035507, 10.402754363955346]
-    },
-    {
+    }, {
         "img": "../img/b_marina_birb.png",
         "date": "25.05.2022",
         "text": {
@@ -2454,7 +2363,7 @@ var img_db = [
             "sp": "benson en el puerto deportivo con un amigo",
             "de": "Benson am Yachthafen mit einem Freund",
             "jp": "友達とマリーナでベンソン",
-            "pi": "benson on the marina with his matey",
+            "pi": "benson on the marina with his matey"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2467,8 +2376,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.435833147436604, 10.399059311165194]
-    },
-    {
+    }, {
         "img": "../img/b_røros_bridge.png",
         "date": "25.05.2022",
         "text": {
@@ -2479,7 +2387,7 @@ var img_db = [
             "sp": "benson en el puente da",
             "de": "Benson auf der Brücke",
             "jp": "ダブリッジのベンソン",
-            "pi": "benson on da land crossing",
+            "pi": "benson on da land crossing"
         },
         "location": {
             "en": "Røros, Norway",
@@ -2492,8 +2400,7 @@ var img_db = [
             "pi": "Røros, cold land"
         },
         "ltlo": [62.575894, 11.389289]
-    },
-    {
+    }, {
         "img": "../img/b_røros_church.png",
         "date": "25.05.2022",
         "text": {
@@ -2504,7 +2411,7 @@ var img_db = [
             "sp": "benson esta frente a una iglesia",
             "de": "Benson steht vor einer Kirche",
             "jp": "ベンソンは教会の前にいます",
-            "pi": "benson is in front of a church",
+            "pi": "benson is in front of a church"
         },
         "location": {
             "en": "Røros, Norway",
@@ -2517,8 +2424,7 @@ var img_db = [
             "pi": "Røros, cold land"
         },
         "ltlo": [62.577169, 11.391033]
-    },
-    {
+    }, {
         "img": "../img/b_røros_street.png",
         "date": "25.05.2022",
         "text": {
@@ -2529,7 +2435,7 @@ var img_db = [
             "sp": "benson en una calle",
             "de": "Benson auf einer Straße",
             "jp": "通りのベンソン",
-            "pi": "benson on a road",
+            "pi": "benson on a road"
         },
         "location": {
             "en": "Røros, Norway",
@@ -2542,8 +2448,7 @@ var img_db = [
             "pi": "Røros, cold land"
         },
         "ltlo": [62.574839, 11.384300]
-    },
-    {
+    }, {
         "img": "../img/b_street_river.png",
         "date": "25.05.2022",
         "text": {
@@ -2554,7 +2459,7 @@ var img_db = [
             "sp": "benson frente al rio",
             "de": "Benson vor dem Fluss",
             "jp": "川の前のベンソン",
-            "pi": "benson in front of the river",
+            "pi": "benson in front of the river"
         },
         "location": {
             "en": "Røros, Norway",
@@ -2567,8 +2472,7 @@ var img_db = [
             "pi": "Røros, cold land"
         },
         "ltlo": [62.575439, 11.388528]
-    },
-    {
+    }, {
         "img": "../img/b_train_dark1.png",
         "date": "25.05.2022",
         "text": {
@@ -2579,7 +2483,7 @@ var img_db = [
             "sp": "benson esta en el tren oscuro",
             "de": "Benson ist im dunklen Zug",
             "jp": "ベンソンは暗い電車の中にいます",
-            "pi": "benson is in the dark train",
+            "pi": "benson is in the dark train"
         },
         "location": {
             "en": "Norway",
@@ -2592,8 +2496,7 @@ var img_db = [
             "pi": "cold land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_train_dark2.png",
         "date": "25.05.2022",
         "text": {
@@ -2604,7 +2507,7 @@ var img_db = [
             "sp": "benson se ve a sí mismo en su reflejo",
             "de": "benson sieht sich in seinem spiegelbild",
             "jp": "ベンソンは自分の振り返りに自分自身を見ています",
-            "pi": "benson sees heself in his reflection",
+            "pi": "benson sees heself in his reflection"
         },
         "location": {
             "en": "Norway",
@@ -2617,8 +2520,7 @@ var img_db = [
             "pi": "cold land"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_train_greens.png",
         "date": "25.05.2022",
         "text": {
@@ -2629,7 +2531,7 @@ var img_db = [
             "sp": "benson esta en el tren",
             "de": "Benson ist im Zug",
             "jp": "ベンソンは電車に乗っています",
-            "pi": "benson is on the train",
+            "pi": "benson is on the train"
         },
         "location": {
             "en": "Brubakken, Norway",
@@ -2642,8 +2544,7 @@ var img_db = [
             "pi": "Brubakken, cold land"
         },
         "ltlo": [63.295994, 10.298756]
-    },
-    {
+    }, {
         "img": "../img/b_train_mirror.png",
         "date": "25.05.2022",
         "text": {
@@ -2654,7 +2555,7 @@ var img_db = [
             "sp": "benson es la belleza principal",
             "de": "benson ist erstklassige schönheit",
             "jp": "ベンソンは最高の美しさです",
-            "pi": "benson is prime prettiness",
+            "pi": "benson is prime prettiness"
         },
         "location": {
             "en": "Ålen, Norway",
@@ -2667,8 +2568,7 @@ var img_db = [
             "pi": "Ålen, cold land"
         },
         "ltlo": [62.809247, 11.369864]
-    },
-    {
+    }, {
         "img": "../img/b_trondheim_umbrellas.png",
         "date": "25.05.2022",
         "text": {
@@ -2679,7 +2579,7 @@ var img_db = [
             "sp": "benson está listo para la lluvia",
             "de": "Benson ist bereit für den Regen",
             "jp": "ベンソンは雨の準備ができています",
-            "pi": "benson is ready for rain",
+            "pi": "benson is ready for rain"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2692,8 +2592,7 @@ var img_db = [
             "pi": "Trondheim, cold land"
         },
         "ltlo": [63.432919, 10.397503]
-    },
-    {
+    }, {
         "img": "../img/b_busstop.png",
         "date": "26.05.2022",
         "text": {
@@ -2704,7 +2603,7 @@ var img_db = [
             "sp": "benson esperando pacientemente en una parada de autobús",
             "de": "benson wartet geduldig an einer bushaltestelle",
             "jp": "バス停で辛抱強く待っているベンソン",
-            "pi": "benson waiting patiently at a bus stop",
+            "pi": "benson waiting patiently at a bus stop"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2717,8 +2616,7 @@ var img_db = [
             "pi": "Trondheim, Norway"
         },
         "ltlo": [63.430000, 10.373769]
-    },
-    {
+    }, {
         "img": "../img/b_lion.png",
         "date": "26.05.2022",
         "text": {
@@ -2729,7 +2627,7 @@ var img_db = [
             "sp": "benson es un león para ti",
             "de": "Benson ist Löwe für Sie",
             "jp": "ベンソンはあなたにとってライオンです",
-            "pi": "benson is lion to you",
+            "pi": "benson is lion to you"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2742,8 +2640,7 @@ var img_db = [
             "pi": "Trondheim, Norway"
         },
         "ltlo": [63.421658, 10.358128]
-    },
-    {
+    }, {
         "img": "../img/b_nightman.png",
         "date": "26.05.2022",
         "text": {
@@ -2754,7 +2651,7 @@ var img_db = [
             "sp": "benson en la casa",
             "de": "benson im haus",
             "jp": "家の中のベンソン",
-            "pi": "benson in the house",
+            "pi": "benson in the house"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2767,8 +2664,7 @@ var img_db = [
             "pi": "Trondheim, Norway"
         },
         "ltlo": [63.421997, 10.359536]
-    },
-    {
+    }, {
         "img": "../img/b_stage.png",
         "date": "26.05.2022",
         "text": {
@@ -2779,7 +2675,7 @@ var img_db = [
             "sp": "benson está en el escenario",
             "de": "Benson ist auf der Bühne",
             "jp": "ベンソンが舞台に立つ",
-            "pi": "benson is on the stage",
+            "pi": "benson is on the stage"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2792,8 +2688,7 @@ var img_db = [
             "pi": "Trondheim, Norway"
         },
         "ltlo": [63.417828, 10.356236]
-    },
-    {
+    }, {
         "img": "../img/b_grasses.png",
         "date": "26.05.2022",
         "text": {
@@ -2804,7 +2699,7 @@ var img_db = [
             "sp": "benson esta en mas pasto",
             "de": "Benson ist in mehr Gras",
             "jp": "ベンソンはもっと草の中にいます",
-            "pi": "benson is in more grass",
+            "pi": "benson is in more grass"
         },
         "location": {
             "en": "Trondheim, Norway",
@@ -2817,8 +2712,7 @@ var img_db = [
             "pi": "Trondheim, Norway"
         },
         "ltlo": [63.420581, 10.358253]
-    },
-    {
+    }, {
         "img": "../img/b_restaurant_hell.png",
         "date": "26.05.2022",
         "text": {
@@ -2829,7 +2723,7 @@ var img_db = [
             "sp": "benson esta comiendo en el restaurante",
             "de": "Benson isst im Restaurant",
             "jp": "ベンソンはレストランで食べています",
-            "pi": "benson is eating at the restaurant",
+            "pi": "benson is eating at the restaurant"
         },
         "location": {
             "en": "Hell, Norway",
@@ -2842,8 +2736,7 @@ var img_db = [
             "pi": "Hell, Norway"
         },
         "ltlo": [63.448422, 10.911614]
-    },
-    {
+    }, {
         "img": "../img/b_airport_hell.png",
         "date": "26.05.2022",
         "text": {
@@ -2854,7 +2747,7 @@ var img_db = [
             "sp": "benson con vistas al aeropuerto",
             "de": "Benson mit Blick auf den Flughafen",
             "jp": "空港を見下ろすベンソン",
-            "pi": "benson overlooking the airport",
+            "pi": "benson overlooking the airport"
         },
         "location": {
             "en": "Hell, Norway",
@@ -2867,8 +2760,7 @@ var img_db = [
             "pi": "Hell, Norway"
         },
         "ltlo": [63.448917, 10.912750]
-    },
-    {
+    }, {
         "img": "../img/b_hotel_hell.png",
         "date": "27.05.2022",
         "text": {
@@ -2879,7 +2771,7 @@ var img_db = [
             "sp": "benson en el vestíbulo del hotel",
             "de": "Benson in der Hotellobby",
             "jp": "ホテルロビーのベンソン",
-            "pi": "benson in the hotel lobby",
+            "pi": "benson in the hotel lobby"
         },
         "location": {
             "en": "Hell, Norway",
@@ -2892,8 +2784,7 @@ var img_db = [
             "pi": "Hell, Norway"
         },
         "ltlo": [63.448886, 10.912614]
-    },
-    {
+    }, {
         "img": "../img/b_hell_station.png",
         "date": "27.05.2022",
         "text": {
@@ -2904,7 +2795,7 @@ var img_db = [
             "sp": "benson está en la estación de tren",
             "de": "Benson ist am Bahnhof",
             "jp": "ベンソンは駅にいます",
-            "pi": "benson is at the train station",
+            "pi": "benson is at the train station"
         },
         "location": {
             "en": "Hell, Norway",
@@ -2917,8 +2808,7 @@ var img_db = [
             "pi": "Hell, Norway"
         },
         "ltlo": [63.445897, 10.899400]
-    },
-    {
+    }, {
         "img": "../img/b_car_again.png",
         "date": "27.05.2022",
         "text": {
@@ -2929,7 +2819,7 @@ var img_db = [
             "sp": "benson está en el auto otra vez",
             "de": "Benson ist wieder im Auto",
             "jp": "ベンソンは再び車の中にいます",
-            "pi": "benson is in the car again",
+            "pi": "benson is in the car again"
         },
         "location": {
             "en": "Hamar, Norway",
@@ -2942,8 +2832,7 @@ var img_db = [
             "pi": "Hamar, Norway"
         },
         "ltlo": [60.790036, 11.092022]
-    },
-    {
+    }, {
         "img": "../img/b_viking_ship.png",
         "date": "28.05.2022",
         "text": {
@@ -2954,7 +2843,7 @@ var img_db = [
             "sp": "benson frente a un barco vikingo",
             "de": "Benson vor einem Wikingerschiff",
             "jp": "バイキング船の前のベンソン",
-            "pi": "benson in front of a viking ship",
+            "pi": "benson in front of a viking ship"
         },
         "location": {
             "en": "Tønsburg, Norway",
@@ -2967,8 +2856,7 @@ var img_db = [
             "pi": "Tønsburg, Norway"
         },
         "ltlo": [59.265228, 10.406469]
-    },
-    {
+    }, {
         "img": "../img/b_candle.png",
         "date": "28.05.2022",
         "text": {
@@ -2979,7 +2867,7 @@ var img_db = [
             "sp": "a benson le gusta el fuego",
             "de": "Benson mag Feuer",
             "jp": "ベンソンは火が好き",
-            "pi": "benson likes fire",
+            "pi": "benson likes fire"
         },
         "location": {
             "en": "Borre, Norway",
@@ -2992,8 +2880,7 @@ var img_db = [
             "pi": "Borre, Norway"
         },
         "ltlo": [59.387383, 10.469953]
-    },
-    {
+    }, {
         "img": "../img/b_godray.png",
         "date": "28.05.2022",
         "text": {
@@ -3004,7 +2891,7 @@ var img_db = [
             "sp": "benson es el dios de la luz",
             "de": "Benson ist der Gott des Lichts",
             "jp": "ベンソンは光の神です",
-            "pi": "benson is the god of light",
+            "pi": "benson is the god of light"
         },
         "location": {
             "en": "Borre, Norway",
@@ -3017,8 +2904,7 @@ var img_db = [
             "pi": "Borre, Norway"
         },
         "ltlo": [59.387419, 10.470053]
-    },
-    {
+    }, {
         "img": "../img/b_gravesite.png",
         "date": "28.05.2022",
         "text": {
@@ -3029,7 +2915,7 @@ var img_db = [
             "sp": "benson en un antiguo lugar de enterramiento",
             "de": "Benson an einer alten Grabstätte",
             "jp": "古代の埋葬地でのベンソン",
-            "pi": "benson at an ancient burial site",
+            "pi": "benson at an ancient burial site"
         },
         "location": {
             "en": "Norway",
@@ -3042,8 +2928,7 @@ var img_db = [
             "pi": "Norway"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_petrol.png",
         "date": "28.05.2022",
         "text": {
@@ -3054,7 +2939,7 @@ var img_db = [
             "sp": "llenando el carro de puro, licuado, benson",
             "de": "Füllen Sie das Auto mit reinem, verflüssigtem Benson",
             "jp": "車を純粋な液化ベンソンで満たす",
-            "pi": "filling the car with pure, liquefied, benson",
+            "pi": "filling the car with pure, liquefied, benson"
         },
         "location": {
             "en": "Oslo Airport, Norway",
@@ -3067,8 +2952,7 @@ var img_db = [
             "pi": "Oslo Airport, Norway"
         },
         "ltlo": [60.179375, 11.081778]
-    },
-    {
+    }, {
         "img": "../img/b_bensons.png",
         "date": "02.07.2022",
         "text": {
@@ -3079,7 +2963,7 @@ var img_db = [
             "sp": "benson ha encontrado el mejor restaurante",
             "de": "Benson hat das beste Restaurant gefunden",
             "jp": "ベンソンは最高のレストランを見つけました",
-            "pi": "benson has found the best restaurant",
+            "pi": "benson has found the best restaurant"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3091,9 +2975,8 @@ var img_db = [
             "jp": "ワシントン州ロングビーチ",
             "pi": "Long Beach, WA"
         },
-        "ltlo": [, ]
-    },
-    {
+        "ltlo": []
+    }, {
         "img": "../img/b_grass_marshs.png",
         "date": "03.07.2022",
         "text": {
@@ -3104,7 +2987,7 @@ var img_db = [
             "sp": "benson está en algo más de hierba",
             "de": "Benson ist in etwas mehr Gras",
             "jp": "ベンソンはもう少し草の中にいます",
-            "pi": "benson is in some more grass",
+            "pi": "benson is in some more grass"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3117,8 +3000,7 @@ var img_db = [
             "pi": "Long Beach, WA"
         },
         "ltlo": [46.34882359822199, -124.05479728416039]
-    },
-    {
+    }, {
         "img": "../img/b_fryingpan.png",
         "date": "03.07.2022",
         "text": {
@@ -3129,7 +3011,7 @@ var img_db = [
             "sp": "benson no será frito",
             "de": "Benson wird nicht gebraten",
             "jp": "ベンソンは揚げられません",
-            "pi": "benson will not be fried",
+            "pi": "benson will not be fried"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3142,8 +3024,7 @@ var img_db = [
             "pi": "Long Beach, WA"
         },
         "ltlo": [46.34903823271921, -124.05450549631858]
-    },
-    {
+    }, {
         "img": "../img/b_fisherman.png",
         "date": "03.07.2022",
         "text": {
@@ -3154,7 +3035,7 @@ var img_db = [
             "sp": "benson irá a pescar con estatua pescador",
             "de": "Benson wird mit dem Statuenfischer fischen gehen",
             "jp": "ベンソンは彫像漁師と釣りに行きます",
-            "pi": "benson will go fishing with statue fisherman",
+            "pi": "benson will go fishing with statue fisherman"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3167,8 +3048,7 @@ var img_db = [
             "pi": "Long Beach, WA"
         },
         "ltlo": [46.34906582402745, -124.05452765004587]
-    },
-    {
+    }, {
         "img": "../img/b_grass_swapmeet.png",
         "date": "03.07.2022",
         "text": {
@@ -3179,7 +3059,7 @@ var img_db = [
             "sp": "benson esta en su habitat natural",
             "de": "Benson ist in seinem natürlichen Lebensraum",
             "jp": "ベンソンは彼の自然の生息地にいます",
-            "pi": "benson is in his natural habitat",
+            "pi": "benson is in his natural habitat"
         },
         "location": {
             "en": "Ocean Park, WA",
@@ -3192,8 +3072,7 @@ var img_db = [
             "pi": "Ocean Park, WA"
         },
         "ltlo": [46.54672148706268, -124.02944267029513]
-    },
-    {
+    }, {
         "img": "../img/b_grass_swapmeet2.png",
         "date": "03.07.2022",
         "text": {
@@ -3204,7 +3083,7 @@ var img_db = [
             "sp": "benson es muy cómodo en la hierba",
             "de": "Benson fühlt sich im Gras sehr wohl",
             "jp": "ベンソンは芝生でとても快適です",
-            "pi": "benson is very comfy in the grass",
+            "pi": "benson is very comfy in the grass"
         },
         "location": {
             "en": "Ocean Park, WA",
@@ -3217,8 +3096,7 @@ var img_db = [
             "pi": "Ocean Park, WA"
         },
         "ltlo": [46.54673275819134, -124.0295396708313]
-    },
-    {
+    }, {
         "img": "../img/b_grass_swapmeet3.png",
         "date": "03.07.2022",
         "text": {
@@ -3229,7 +3107,7 @@ var img_db = [
             "sp": "benson todavía está cómodo en la hierba",
             "de": "Benson fühlt sich immer noch wohl im Gras",
             "jp": "ベンソンはまだ草の中で快適です",
-            "pi": "benson is still comfy in the grass",
+            "pi": "benson is still comfy in the grass"
         },
         "location": {
             "en": "Ocean Park, WA",
@@ -3242,8 +3120,7 @@ var img_db = [
             "pi": "Ocean Park, WA"
         },
         "ltlo": [46.54670726781045, -124.02957673635937]
-    },
-    {
+    }, {
         "img": "../img/b_bench.png",
         "date": "04.07.2022",
         "text": {
@@ -3254,7 +3131,7 @@ var img_db = [
             "sp": "benson está mirando a la playa",
             "de": "Benson überblickt den Strand",
             "jp": "ベンソンはビーチを見下ろしています",
-            "pi": "benson is overlooking the beach",
+            "pi": "benson is overlooking the beach"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3266,9 +3143,8 @@ var img_db = [
             "jp": "ワシントン州ロングビーチ",
             "pi": "Long Beach, WA"
         },
-        "ltlo": [, ]
-    },
-    {
+        "ltlo": []
+    }, {
         "img": "../img/b_log.png",
         "date": "04.07.2022",
         "text": {
@@ -3279,7 +3155,7 @@ var img_db = [
             "sp": "benson está en el registro",
             "de": "Benson ist im Protokoll",
             "jp": "ベンソンはログにあります",
-            "pi": "benson is on the log",
+            "pi": "benson is on the log"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3291,9 +3167,8 @@ var img_db = [
             "jp": "ワシントン州ロングビーチ",
             "pi": "Long Beach, WA"
         },
-        "ltlo": [, ]
-    },
-    {
+        "ltlo": []
+    }, {
         "img": "../img/b_sunset_bench.png",
         "date": "04.07.2022",
         "text": {
@@ -3304,7 +3179,7 @@ var img_db = [
             "sp": "benson ama la puesta de sol",
             "de": "Benson liebt den Sonnenuntergang",
             "jp": "ベンソンは夕日が大好き",
-            "pi": "benson loves the sunset",
+            "pi": "benson loves the sunset"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3316,9 +3191,8 @@ var img_db = [
             "jp": "ワシントン州ロングビーチ",
             "pi": "Long Beach, WA"
         },
-        "ltlo": [, ]
-    },
-    {
+        "ltlo": []
+    }, {
         "img": "../img/b_sea.png",
         "date": "04.07.2022",
         "text": {
@@ -3329,7 +3203,7 @@ var img_db = [
             "sp": "benson vive y ama su vida junto al mar",
             "de": "Benson lebt und liebt sein Leben am Meer",
             "jp": "ベンソンは海のそばで彼の人生を生き、愛しています",
-            "pi": "benson is living and loving his life by the sea",
+            "pi": "benson is living and loving his life by the sea"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3341,9 +3215,8 @@ var img_db = [
             "jp": "ワシントン州ロングビーチ",
             "pi": "Long Beach, WA"
         },
-        "ltlo": [, ]
-    },
-    {
+        "ltlo": []
+    }, {
         "img": "../img/b_firework.png",
         "date": "04.07.2022",
         "text": {
@@ -3354,7 +3227,7 @@ var img_db = [
             "sp": "benson con los fuegos artificiales",
             "de": "Benson mit dem Feuerwerk",
             "jp": "花火でベンソン",
-            "pi": "benson with the fireworks",
+            "pi": "benson with the fireworks"
         },
         "location": {
             "en": "Long Beach, WA",
@@ -3366,9 +3239,8 @@ var img_db = [
             "jp": "ワシントン州ロングビーチ",
             "pi": "Long Beach, WA"
         },
-        "ltlo": [, ]
-    },
-    {
+        "ltlo": []
+    }, {
         "img": "../img/b_bridge_seattle.png",
         "date": "21.08.2022",
         "text": {
@@ -3379,7 +3251,7 @@ var img_db = [
             "sp": "benson esta debajo del puente",
             "de": "Benson ist unter der Brücke",
             "jp": "ベンソンは橋の下にいます",
-            "pi": "benson is under the bridge",
+            "pi": "benson is under the bridge"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3392,8 +3264,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.65095619071674, -122.3473418125129]
-    },
-    {
+    }, {
         "img": "../img/b_centerplant.png",
         "date": "20.08.2022",
         "text": {
@@ -3404,7 +3275,7 @@ var img_db = [
             "sp": "benson esta con las plantas",
             "de": "Benson ist bei den Pflanzen",
             "jp": "ベンソンは植物と一緒です",
-            "pi": "benson is with the plants",
+            "pi": "benson is with the plants"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3417,8 +3288,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.61149031006518, -122.33068704563222]
-    },
-    {
+    }, {
         "img": "../img/b_spaceneedle_cer.png",
         "date": "21.08.2022",
         "text": {
@@ -3429,7 +3299,7 @@ var img_db = [
             "sp": "benson esta con la aguja espacial",
             "de": "Benson ist mit der Raumnadel",
             "jp": "ベンソンはスペースニードルを持っています",
-            "pi": "benson is with the space needle",
+            "pi": "benson is with the space needle"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3442,8 +3312,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.61741456169409, -122.34332977984141]
-    },
-    {
+    }, {
         "img": "../img/b_camp_sea.png",
         "date": "16.08.2022",
         "text": {
@@ -3454,7 +3323,7 @@ var img_db = [
             "sp": "benson ama el mar",
             "de": "Benson liebt das Meer",
             "jp": "ベンソンは海が大好き",
-            "pi": "benson loves the sea",
+            "pi": "benson loves the sea"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3467,8 +3336,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_sunset_bench2.png",
         "date": "16.08.2022",
         "text": {
@@ -3479,7 +3347,7 @@ var img_db = [
             "sp": "benson esta en el banquillo",
             "de": "Benson sitzt auf der Bank",
             "jp": "ベンソンはベンチにいる",
-            "pi": "benson is on the bench",
+            "pi": "benson is on the bench"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3492,8 +3360,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_i5.png",
         "date": "20.08.2022",
         "text": {
@@ -3504,7 +3371,7 @@ var img_db = [
             "sp": "benson está viendo a todos viajar",
             "de": "Benson sieht allen beim Pendeln zu",
             "jp": "ベンソンはみんなの通勤を見守っています",
-            "pi": "benson is watching everyone commute",
+            "pi": "benson is watching everyone commute"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3517,8 +3384,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.610893773881934, -122.33156380536994]
-    },
-    {
+    }, {
         "img": "../img/b_pikest.png",
         "date": "20.08.2022",
         "text": {
@@ -3529,7 +3395,7 @@ var img_db = [
             "sp": "benson ama la calle pike",
             "de": "Benson liebt Pike Street",
             "jp": "ベンソンはパイクストリートが大好き",
-            "pi": "benson loves pike street",
+            "pi": "benson loves pike street"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3542,8 +3408,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.61168034168815, -122.33292214259319]
-    },
-    {
+    }, {
         "img": "../img/b_center.png",
         "date": "20.08.2022",
         "text": {
@@ -3554,7 +3419,7 @@ var img_db = [
             "sp": "benson está en el centro de convenciones",
             "de": "Benson ist im Kongresszentrum",
             "jp": "ベンソンはコンベンションセンターにいます",
-            "pi": "benson is at the convention center",
+            "pi": "benson is at the convention center"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3567,8 +3432,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.61091909047631, -122.33156883679197]
-    },
-    {
+    }, {
         "img": "../img/b_escalator_center.png",
         "date": "20.08.2022",
         "text": {
@@ -3579,7 +3443,7 @@ var img_db = [
             "sp": "benson ve el edificio",
             "de": "Benson sieht das Gebäude",
             "jp": "ベンソンは建物を見る",
-            "pi": "benson sees the building",
+            "pi": "benson sees the building"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3592,8 +3456,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.611335964948005, -122.3311005070969]
-    },
-    {
+    }, {
         "img": "../img/b_troll.png",
         "date": "21.08.2022",
         "text": {
@@ -3604,7 +3467,7 @@ var img_db = [
             "sp": "benson hace un poco de trolleo",
             "de": "Benson trollt ein wenig",
             "jp": "ベンソンは少しトローリングをします",
-            "pi": "benson does a little trolling",
+            "pi": "benson does a little trolling"
         },
         "location": {
             "en": "Seattle, WA",
@@ -3617,8 +3480,7 @@ var img_db = [
             "pi": "Seattle, WA"
         },
         "ltlo": [47.65099006928717, -122.34734918858734]
-    },
-    {
+    }, {
         "img": "../img/b_sunset_platforms.png",
         "date": "16.08.2022",
         "text": {
@@ -3629,7 +3491,7 @@ var img_db = [
             "sp": "benson es la puesta de sol",
             "de": "Benson ist der Sonnenuntergang",
             "jp": "ベンソンは夕日",
-            "pi": "benson is the sunset",
+            "pi": "benson is the sunset"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3642,8 +3504,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_wall_plants.png",
         "date": "27.08.2022",
         "text": {
@@ -3654,7 +3515,7 @@ var img_db = [
             "sp": "benson esta con las flores",
             "de": "Benson ist bei den Blumen",
             "jp": "ベンソンは花と一緒です",
-            "pi": "benson is with the flowers",
+            "pi": "benson is with the flowers"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3667,8 +3528,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_thames_lmao.png",
         "date": "27.08.2022",
         "text": {
@@ -3679,7 +3539,7 @@ var img_db = [
             "sp": "benson esta en un puente",
             "de": "Benson ist auf einer Brücke",
             "jp": "ベンソンは橋の上にいます",
-            "pi": "benson is on a bridge",
+            "pi": "benson is on a bridge"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3692,8 +3552,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_tophat_statue.png",
         "date": "27.08.2022",
         "text": {
@@ -3704,7 +3563,7 @@ var img_db = [
             "sp": "benson ha encontrado al hombre del sombrero de copa",
             "de": "Benson hat den Zylindermann gefunden",
             "jp": "ベンソンはシルクハットの男を見つけた",
-            "pi": "benson has found the top hat man",
+            "pi": "benson has found the top hat man"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3717,8 +3576,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_thames_lamppost.png",
         "date": "27.08.2022",
         "text": {
@@ -3729,7 +3587,7 @@ var img_db = [
             "sp": "benson está con la lámpara del puente",
             "de": "Benson ist mit der Brückenlampe",
             "jp": "ベンソンはブリッジランプを持っています",
-            "pi": "benson is with the bridge lamp",
+            "pi": "benson is with the bridge lamp"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3742,8 +3600,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_blackbench.png",
         "date": "03.09.2022",
         "text": {
@@ -3754,7 +3611,7 @@ var img_db = [
             "sp": "un pequeño banco para un pequeño pato",
             "de": "eine kleine Bank für eine kleine Ente",
             "jp": "小さなアヒルのための小さなベンチ",
-            "pi": "a lil bench for a lil duck",
+            "pi": "a lil bench for a lil duck"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3767,8 +3624,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_boatropes.png",
         "date": "03.09.2022",
         "text": {
@@ -3779,7 +3635,7 @@ var img_db = [
             "sp": "benson izará el ancla",
             "de": "Benson lichtet den Anker",
             "jp": "ベンソンはアンカーを持ち上げます",
-            "pi": "benson will hoist the anchor",
+            "pi": "benson will hoist the anchor"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3792,8 +3648,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_rocks_oly.png",
         "date": "03.09.2022",
         "text": {
@@ -3804,7 +3659,7 @@ var img_db = [
             "sp": "rocas benson",
             "de": "Benson-Felsen",
             "jp": "ベンソン・ロックス",
-            "pi": "benson rocks",
+            "pi": "benson rocks"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3817,8 +3672,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_woodbench_oly.png",
         "date": "03.09.2022",
         "text": {
@@ -3829,7 +3683,7 @@ var img_db = [
             "sp": "benson encontró un banco elegante",
             "de": "Benson fand eine schicke Bank",
             "jp": "ベンソンは派手なベンチを見つけた",
-            "pi": "benson found a fancy bench",
+            "pi": "benson found a fancy bench"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3842,8 +3696,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_boatside2.png",
         "date": "03.09.2022",
         "text": {
@@ -3854,7 +3707,7 @@ var img_db = [
             "sp": "benson es parte del equipo de capa y espada",
             "de": "Benson ist ein Teil der verwegenen Crew",
             "jp": "ベンソンはスワッシュバックリングクルーの一員です",
-            "pi": "benson is a part of the swashbuckling crew",
+            "pi": "benson is a part of the swashbuckling crew"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3867,8 +3720,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_boatside.png",
         "date": "03.09.2022",
         "text": {
@@ -3879,7 +3731,7 @@ var img_db = [
             "sp": "benson esta sosteniendo la cuerda",
             "de": "Benson hält das Seil",
             "jp": "ベンソンはロープを持っています",
-            "pi": "benson is holding the rope",
+            "pi": "benson is holding the rope"
         },
         "location": {
             "en": "Washington State, USA",
@@ -3892,8 +3744,7 @@ var img_db = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_bench_lynd.png",
         "date": "09.09.2022",
         "text": {
@@ -3904,7 +3755,7 @@ var img_db = [
             "sp": "benson ama la puesta de sol",
             "de": "Benson liebt den Sonnenuntergang",
             "jp": "ベンソンは夕日が大好き",
-            "pi": "benson loves the sunset",
+            "pi": "benson loves the sunset"
         },
         "location": {
             "en": "Lynden, WA",
@@ -3917,8 +3768,7 @@ var img_db = [
             "pi": "Lyden, WA"
         },
         "ltlo": [48.938676900026664, -122.47546551811004]
-    },
-    {
+    }, {
         "img": "../img/b_field_camping.png",
         "date": "10.09.2022",
         "text": {
@@ -3929,7 +3779,7 @@ var img_db = [
             "sp": "benson esta en el campo",
             "de": "Benson ist im Feld",
             "jp": "ベンソンはフィールドにいます",
-            "pi": "benson is in the field",
+            "pi": "benson is in the field"
         },
         "location": {
             "en": "Lynden, WA",
@@ -3942,8 +3792,7 @@ var img_db = [
             "pi": "Lyden, WA"
         },
         "ltlo": [48.93886982255647, -122.47554598438006]
-    },
-    {
+    }, {
         "img": "../img/b_donkey_everson.png",
         "date": "10.09.2022",
         "text": {
@@ -3954,7 +3803,7 @@ var img_db = [
             "sp": "benson es shrek",
             "de": "Benson ist Shrek",
             "jp": "ベンソンはシュレック",
-            "pi": "benson is shrek",
+            "pi": "benson is shrek"
         },
         "location": {
             "en": "Lynden, WA",
@@ -3967,8 +3816,7 @@ var img_db = [
             "pi": "Lyden, WA"
         },
         "ltlo": [48.94418811075219, -122.44037851997217]
-    },
-    {
+    }, {
         "img": "../img/b_lynd_gasstation.png",
         "date": "11.09.2022",
         "text": {
@@ -3979,7 +3827,7 @@ var img_db = [
             "sp": "benson ama el árbol",
             "de": "Benson liebt den Baum",
             "jp": "ベンソンは木が大好き",
-            "pi": "benson loves the tree",
+            "pi": "benson loves the tree"
         },
         "location": {
             "en": "Lynden, WA",
@@ -3992,8 +3840,7 @@ var img_db = [
             "pi": "Lyden, WA"
         },
         "ltlo": [48.89176134190182, -122.48595167223161]
-    },
-    {
+    }, {
         "img": "../img/b_street_everson.png",
         "date": "10.09.2022",
         "text": {
@@ -4004,7 +3851,7 @@ var img_db = [
             "sp": "benson está cansado del humo en el cielo",
             "de": "Benson hat den Rauch am Himmel satt",
             "jp": "ベンソンは空の煙にうんざりしている",
-            "pi": "benson is tired of the smoke in the sky",
+            "pi": "benson is tired of the smoke in the sky"
         },
         "location": {
             "en": "Everson, WA",
@@ -4017,8 +3864,7 @@ var img_db = [
             "pi": "picture quality loss, WA"
         },
         "ltlo": [48.92008759168548, -122.343227544754]
-    },
-    {
+    }, {
         "img": "../img/b_lynd_field.png",
         "date": "11.09.2022",
         "text": {
@@ -4029,7 +3875,7 @@ var img_db = [
             "sp": "benson está disfrutando del campo",
             "de": "Benson genießt das Feld",
             "jp": "ベンソンはフィールドを楽しんでいます",
-            "pi": "benson is enjoying the field",
+            "pi": "benson is enjoying the field"
         },
         "location": {
             "en": "Lynden, WA",
@@ -4042,8 +3888,7 @@ var img_db = [
             "pi": "Lyden, WA"
         },
         "ltlo": [48.89184814393752, -122.48663527148507]
-    },
-    {
+    }, {
         "img": "../img/b_glassbeach_moon.png",
         "date": "10.09.2022",
         "text": {
@@ -4054,7 +3899,7 @@ var img_db = [
             "sp": "benson ha conocido a glass beach la banda (real)",
             "de": "Benson hat Glass Beach kennengelernt, die Band (echt)",
             "jp": "ベンソンはグラス・ビーチのバンドに出会った (本物)",
-            "pi": "benson has met glass beach the band (real)",
+            "pi": "benson has met glass beach the band (real)"
         },
         "location": {
             "en": "Lynden, WA",
@@ -4067,8 +3912,7 @@ var img_db = [
             "pi": "Lyden, WA"
         },
         "ltlo": [48.93872402957301, -122.47530659722887]
-    },
-    {
+    }, {
         "img": "../img/b_jetty_perspective.png",
         "date": "24.09.2022",
         "text": {
@@ -4079,7 +3923,7 @@ var img_db = [
             "sp": "benson ve todo el embarcadero",
             "de": "Benson sieht den gesamten Steg",
             "jp": "ベンソンは桟橋全体を見る",
-            "pi": "benson sees the entire jetty",
+            "pi": "benson sees the entire jetty"
         },
         "location": {
             "en": "Ocean Shores, WA",
@@ -4092,8 +3936,7 @@ var img_db = [
             "pi": "Ocean Shores, WA"
         },
         "ltlo": [46.92730064393652, -124.1755141960058]
-    },    
-    {
+    }, {
         "img": "../img/b_jetty.png",
         "date": "24.09.2022",
         "text": {
@@ -4104,7 +3947,7 @@ var img_db = [
             "sp": "benson ha encontrado un embarcadero",
             "de": "Benson hat einen Steg gefunden",
             "jp": "ベンソンは桟橋を見つけました",
-            "pi": "benson has found a jetty",
+            "pi": "benson has found a jetty"
         },
         "location": {
             "en": "Ocean Shores, WA",
@@ -4117,8 +3960,7 @@ var img_db = [
             "pi": "Ocean Shores, WA"
         },
         "ltlo": [46.92726446686749, -124.17566171750313]
-    },
-    {
+    }, {
         "img": "../img/b_jetty_splash.png",
         "date": "24.09.2022",
         "text": {
@@ -4129,7 +3971,7 @@ var img_db = [
             "sp": "benson está disfrutando de su tiempo en las rocas de la playa",
             "de": "Benson genießt seine Zeit auf den Strandfelsen",
             "jp": "ベンソンはビーチの岩の上で時間を楽しんでいます",
-            "pi": "benson is enjoying his time on the beach rocks",
+            "pi": "benson is enjoying his time on the beach rocks"
         },
         "location": {
             "en": "Ocean Shores, WA",
@@ -4142,8 +3984,7 @@ var img_db = [
             "pi": "Ocean Shores, WA"
         },
         "ltlo": [46.94667490679449, -124.13154940343502]
-    },
-    {
+    }, {
         "img": "../img/b_aberdeen_mill.png",
         "date": "24.09.2022",
         "text": {
@@ -4154,7 +3995,7 @@ var img_db = [
             "sp": "benson esta frente a un molino",
             "de": "Benson steht vor einer Mühle",
             "jp": "ベンソンは工場の前にいます",
-            "pi": "benson is in front of a mill",
+            "pi": "benson is in front of a mill"
         },
         "location": {
             "en": "Aberdeen, WA",
@@ -4167,8 +4008,7 @@ var img_db = [
             "pi": "Aberdeen, wa"
         },
         "ltlo": [46.977026058403254, -123.7985059733946]
-    },
-    {
+    }, {
         "img": "../img/b_anchor.png",
         "date": "24.09.2022",
         "text": {
@@ -4179,7 +4019,7 @@ var img_db = [
             "sp": "benson ha encontrado el ancla",
             "de": "Benson hat den Anker gefunden",
             "jp": "ベンソンは錨を見つけた",
-            "pi": "benson has found the anchor",
+            "pi": "benson has found the anchor"
         },
         "location": {
             "en": "Aberdeen, WA",
@@ -4192,8 +4032,7 @@ var img_db = [
             "pi": "Aberdeen, wa"
         },
         "ltlo": [46.97738061698552, -123.79641205217258]
-    },
-    {
+    }, {
         "img": "../img/b_back_at_beach.png",
         "date": "24.09.2022",
         "text": {
@@ -4204,7 +4043,7 @@ var img_db = [
             "sp": "benson está de vuelta en la playa",
             "de": "Benson ist wieder am Strand",
             "jp": "ベンソンがビーチに戻ってきた",
-            "pi": "benson is back at the beach",
+            "pi": "benson is back at the beach"
         },
         "location": {
             "en": "Ocean Shores, WA",
@@ -4217,9 +4056,7 @@ var img_db = [
             "pi": "Ocean Shores, WA"
         },
         "ltlo": [47.0124929026314, -124.1735868200228]
-    },
-    
-    {
+    }, {
         "img": "../img/b_recordplayer.png",
         "date": "28.11.2022",
         "text": {
@@ -4230,7 +4067,7 @@ var img_db = [
             "sp": "benson está disfrutando de la música",
             "de": "Benson genießt die Musik",
             "jp": "ベンソンは音楽を楽しんでいます",
-            "pi": "benson is enjoying the music",
+            "pi": "benson is enjoying the music"
         },
         "location": {
             "en": "USA",
@@ -4243,8 +4080,7 @@ var img_db = [
             "pi": "USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_arcade.png",
         "date": "05.12.2022",
         "text": {
@@ -4255,7 +4091,7 @@ var img_db = [
             "sp": "benson está jugando en la sala de juegos",
             "de": "benson spielt spiele in der spielhalle",
             "jp": "ベンソンはアーケードでゲームをしている",
-            "pi": "benson is playing games at the arcade",
+            "pi": "benson is playing games at the arcade"
         },
         "location": {
             "en": "USA",
@@ -4268,8 +4104,7 @@ var img_db = [
             "pi": "USA"
         },
         "ltlo": [0, 0]
-    },
-    {
+    }, {
         "img": "../img/b_conventioncenter_bench.png",
         "date": "10.12.2022",
         "text": {
@@ -4280,7 +4115,7 @@ var img_db = [
             "sp": "benson está esperando en el banco",
             "de": "Benson wartet auf der Bank",
             "jp": "ベンソンはベンチで待っている",
-            "pi": "benson is waiting on the bench",
+            "pi": "benson is waiting on the bench"
         },
         "location": {
             "en": "Oregon Convention Center, Oregon, USA",
@@ -4293,8 +4128,7 @@ var img_db = [
             "pi": "Oregon Convention Center, Oregon, USA"
         },
         "ltlo": [45.52891817155556, -122.66281692773376]
-    },
-    {
+    }, {
         "img": "../img/b_portland_road.png",
         "date": "10.12.2022",
         "text": {
@@ -4305,7 +4139,7 @@ var img_db = [
             "sp": "benson ve la calle",
             "de": "Benson sieht die Straße",
             "jp": "ベンソンは通りを見る",
-            "pi": "benson sees the street",
+            "pi": "benson sees the street"
         },
         "location": {
             "en": "Portland, Oregon, USA",
@@ -4318,8 +4152,7 @@ var img_db = [
             "pi": "Portland, Oregon, USA"
         },
         "ltlo": [45.530238912294024, -122.66393235710889]
-    },
-    {
+    }, {
         "img": "../img/b_franks_noodlehouse.png",
         "date": "10.12.2022",
         "text": {
@@ -4330,7 +4163,7 @@ var img_db = [
             "sp": "benson ama los fideos",
             "de": "Benson liebt die Nudeln",
             "jp": "ベンソンは麺が大好き",
-            "pi": "benson loves the noodles",
+            "pi": "benson loves the noodles"
         },
         "location": {
             "en": "Frank's Noodle House, Portland, Oregon, USA",
@@ -4343,8 +4176,7 @@ var img_db = [
             "pi": "Frank's Noodle House, Portland, Oregon, USA"
         },
         "ltlo": [45.534941328537464, -122.65702761941323]
-    },
-    {
+    }, {
         "img": "../img/b_sombrero.png",
         "date": "23.12.2022",
         "text": {
@@ -4355,7 +4187,7 @@ var img_db = [
             "sp": "benson ama su sombrero",
             "de": "Benson liebt seinen Hut",
             "jp": "ベンソンは帽子が大好き",
-            "pi": "benson loves his hat",
+            "pi": "benson loves his hat"
         },
         "location": {
             "en": "Oregon, USA",
@@ -4368,8 +4200,7 @@ var img_db = [
             "pi": "Oregon, USA"
         },
         "ltlo": []
-    },
-    {
+    }, {
         "img": "../img/b_carousel.png",
         "date": "24.12.2022",
         "text": {
@@ -4380,7 +4211,7 @@ var img_db = [
             "sp": "benson ama el carrusel",
             "de": "Benson liebt das Karussell",
             "jp": "ベンソンはカルーセルが大好き",
-            "pi": "benson loves the carousel",
+            "pi": "benson loves the carousel"
         },
         "location": {
             "en": "Seaside, Oregon, USA",
@@ -4393,8 +4224,7 @@ var img_db = [
             "pi": "Seaside, Oregon, USA"
         },
         "ltlo": [45.99350823751071, -123.92655510141412]
-    },
-    {
+    }, {
         "img": "../img/b_seaside_promenade.png",
         "date": "24.12.2022",
         "text": {
@@ -4405,7 +4235,7 @@ var img_db = [
             "sp": "benson está en el paseo marítimo",
             "de": "Benson ist an der Promenade",
             "jp": "ベンソンは遊歩道にいます",
-            "pi": "benson is at the promenade",
+            "pi": "benson is at the promenade"
         },
         "location": {
             "en": "Seaside, Oregon, USA",
@@ -4418,13 +4248,443 @@ var img_db = [
             "pi": "Seaside, Oregon, USA"
         },
         "ltlo": [45.99308477765846, -123.93023384157117]
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_mt_guardrail1.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.893141606457924, -121.48355191484839
+        ],
+        "text": {
+            "de": "Benson blickt von der Straße aus auf den Berg",
+            "en": "benson is overlooking the mountain from the road",
+            "fr": "benson surplombe la montagne depuis la route",
+            "it": "benson sta guardando la montagna dalla strada",
+            "jp": "ベンソンは道路から山を見下ろしている",
+            "no": "benson har utsikt over fjellet fra veien",
+            "pi": "benson is overlooking the mountain from the road",
+            "sp": "benson tiene vistas a la montaña desde la carretera"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_mt_guardrail2.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.89314700813259, -121.48350599548279
+        ],
+        "text": {
+            "de": "Benson liebt die Straßenbäume",
+            "en": "benson loves the road trees",
+            "fr": "benson aime les arbres de la route",
+            "it": "benson ama gli alberi della strada",
+            "jp": "ベンソンは街路樹が大好き",
+            "no": "benson elsker veitrærne",
+            "pi": "benson loves the road trees",
+            "sp": "benson ama los árboles de la carretera"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_stone_sign_1.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.87242384283215, -121.51583405778143
+        ],
+        "text": {
+            "de": "Benson hat es geschafft, den Mount regnerischer zu machen",
+            "en": "benson has made it to mount rainier",
+            "fr": "benson a réussi à monter plus pluvieux",
+            "it": "benson ce l'ha fatta a montare Rainier",
+            "jp": "ベンソンはレーニア山に到着しました",
+            "no": "benson har gjort det til mount rainier",
+            "pi": "benson has made it to mount rainier",
+            "sp": "benson ha llegado al monte más lluvioso"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_stone_wall_1.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.87263663608403, -121.51556357032237
+        ],
+        "text": {
+            "de": "Benson liebt es, auf der Steinmauer am Tal zu sitzen",
+            "en": "benson loves sitting on the stone wall by the valley",
+            "fr": "benson aime s'asseoir sur le mur de pierre près de la vallée",
+            "it": "Benson ama sedersi sul muro di pietra vicino alla valle",
+            "jp": "ベンソンは谷のそばの石の壁に座るのが大好き",
+            "no": "benson elsker å sitte på steinveggen ved dalen",
+            "pi": "benson loves sitting on the stone wall by the valley",
+            "sp": "a benson le encanta sentarse en el muro de piedra junto al valle"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_stone_wall_2.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.872628763341154, -121.51552678089523
+        ],
+        "text": {
+            "de": "Benson blickt von der Steinmauer aus auf die Straße",
+            "en": "benson is looking at the road from the stone wall",
+            "fr": "benson regarde la route depuis le mur de pierre",
+            "it": "benson sta guardando la strada dal muro di pietra",
+            "jp": "ベンソンは石垣の上から道路を見ている",
+            "no": "benson ser på veien fra steinmuren",
+            "pi": "benson is looking at the road from the stone wall",
+            "sp": "benson mira la carretera desde el muro de piedra"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_rainier_snow.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.87244314939217, -121.51559360341203
+        ],
+        "text": {
+            "de": "Benson hat im Sommer zum ersten Mal Schnee gesehen",
+            "en": "benson has seen snow for the first time during summer",
+            "fr": "benson a vu la neige pour la première fois en été",
+            "it": "benson ha visto la neve per la prima volta durante l'estate",
+            "jp": "ベンソンは夏に初めて雪を見た",
+            "no": "benson har sett snø for første gang om sommeren",
+            "pi": "benson has seen snow for the first time during summer",
+            "sp": "benson ha visto nieve por primera vez durante el verano"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_rainier_rocks.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.872544200681034, -121.51545408739896
+        ],
+        "text": {
+            "de": "Benson liebt die Bergfelsen",
+            "en": "benson loves the mountain rocks",
+            "fr": "benson aime les rochers de la montagne",
+            "it": "benson ama le rocce di montagna",
+            "jp": "ベンソンは山の岩が大好きです",
+            "no": "benson elsker fjellsteinene",
+            "pi": "benson loves the mountain rocks",
+            "sp": "benson ama las rocas de la montaña"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_stone_sign_2.png",
+        "location": {
+            "de": "Mt. Rainier Washington, USA",
+            "en": "Mt. Rainier Washington, USA",
+            "fr": "Mont Rainier Washington, États-Unis",
+            "it": "Mt. Rainier Washington, USA",
+            "jp": "レーニア山、米国ワシントン州",
+            "no": "Mount Rainier Washington, USA",
+            "pi": "Mt. Rainier Washington, USA",
+            "sp": "Monte Rainier Washington, EE. UU."
+        },
+        "ltlo": [
+            46.87208047828755, -121.51580595077665
+        ],
+        "text": {
+            "de": "Benson sitzt oben auf dem Schild",
+            "en": "benson is sitting on top of the sign",
+            "fr": "benson est assis au-dessus du panneau",
+            "it": "benson è seduto in cima al cartello",
+            "jp": "ベンソンは看板の上に座っている",
+            "no": "Benson sitter på toppen av skiltet",
+            "pi": "benson is sitting on top of the sign",
+            "sp": "benson está sentado encima del letrero"
+        }
+    }, {
+        "date": "25.06.2023",
+        "img": "../img/b_river_wenatchee.png",
+        "location": {
+            "de": "Wenatchee Forest, Washington, USA",
+            "en": "Wenatchee Forest, Washington, USA",
+            "fr": "Forêt de Wenatchee, Washington, États-Unis",
+            "it": "Wenatchee foresta, Washington, Stati Uniti d'America",
+            "jp": "ウェナチー フォレスト、ワシントン州、米国",
+            "no": "Wenatchee Forest, Washington, USA",
+            "pi": "Wenatchee Forest, Washington, USA",
+            "sp": "Bosque de Wenatchee, Washington, EE. UU."
+        },
+        "ltlo": [
+            46.94187731009618, -121.06418634801005
+        ],
+        "text": {
+            "de": "Benson liebt diesen Fluss",
+            "en": "benson loves this river",
+            "fr": "benson aime cette rivière",
+            "it": "benson adora questo fiume",
+            "jp": "ベンソンはこの川が大好きです",
+            "no": "benson elsker denne elven",
+            "pi": "benson loves this river",
+            "sp": "benson ama este río"
+        }
     },
+    {
+        "date": "04.08.2023",
+        "img": "../img/b_fencepost_prctr.png",
+        "location": {
+        "de": "Bundesstaat Washington, USA",
+        "en": "Washington State, USA",
+        "fr": "État de Washington, États-Unis",
+        "it": "Stato di Washington, USA",
+        "jp": "米国ワシントン州",
+        "no": "Washington State, USA",
+        "pi": "Washington State, USA",
+        "sp": "Estado de Washington, EE. UU."
+        },
+        "ltlo": [
+        0,
+        0
+        ],
+        "text": {
+        "de": "Benson sitzt auf dem Zaunpfosten",
+        "en": "benson sits on the fencepost",
+        "fr": "Benson est assis sur le poteau de clôture",
+        "it": "benson si siede sulla staccionata",
+        "jp": "ベンソンはフェンスの支柱に座っています",
+        "no": "benson sitter på gjerdestolpen",
+        "pi": "benson sits on the fencepost",
+        "sp": "benson se sienta en el poste de la cerca"
+        }
+    },
+    {
+        "date": "04.08.2023",
+        "img": "../img/b_bridge_prctr.png",
+        "location": {
+        "de": "Bundesstaat Washington, USA",
+        "en": "Washington State, USA",
+        "fr": "État de Washington, États-Unis",
+        "it": "Stato di Washington, USA",
+        "jp": "米国ワシントン州",
+        "no": "Washington State, USA",
+        "pi": "Washington State, USA",
+        "sp": "Estado de Washington, EE. UU."
+        },
+        "ltlo": [
+        0,
+        0
+        ],
+        "text": {
+        "de": "Benson sitzt auf der Brücke",
+        "en": "benson sits on the bridge",
+        "fr": "benson est assis sur le pont",
+        "it": "benson si siede sul ponte",
+        "jp": "ベンソンは橋の上に座ります",
+        "no": "benson sitter på broen",
+        "pi": "benson sits on the bridge",
+        "sp": "benson se sienta en el puente"
+        }
+    },
+    {
+        "date": "05.08.2023",
+        "img": "../img/b_puff.png",
+        "location": {
+        "de": "Bundesstaat Washington, USA",
+        "en": "Washington State, USA",
+        "fr": "État de Washington, États-Unis",
+        "it": "Stato di Washington, USA",
+        "jp": "米国ワシントン州",
+        "no": "Washington State, USA",
+        "pi": "Washington State, USA",
+        "sp": "Estado de Washington, EE. UU."
+        },
+        "ltlo": [
+        0,
+        0
+        ],
+        "text": {
+        "de": "Benson trifft Puff (und Lama)",
+        "en": "benson meets puff (and llama)",
+        "fr": "benson rencontre puff (et lama)",
+        "it": "benson incontra puff (e lama)",
+        "jp": "ベンソンとパフ（そしてラマ）の出会い",
+        "no": "benson møter puff (og lama)",
+        "pi": "benson meets puff (and llama)",
+        "sp": "benson conoce a puff (y llama)"
+        }
+    },
+    {
+        "date": "05.08.2023",
+        "img": "../img/b_snakelake_trail.png",
+        "location": {
+        "de": "Tacoma, wow",
+        "en": "Tacoma, WA",
+        "fr": "Tacoma, wow",
+        "it": "Tacoma, wow",
+        "jp": "タコマ、 わ",
+        "no": "Tacoma, wow",
+        "pi": "Tacoma, wow",
+        "sp": "Tacoma, guau"
+        },
+        "ltlo": [
+        47.23736649904865,
+        -122.49016028850852
+        ],
+        "text": {
+        "de": "Benson liebt den Trail",
+        "en": "benson loves the trail",
+        "fr": "benson aime la piste",
+        "it": "benson ama il sentiero",
+        "jp": "ベンソンはトレイルが大好き",
+        "no": "benson elsker stien",
+        "pi": "benson loves the trail",
+        "sp": "benson ama el camino"
+        }
+    },     
     
-    
+    {
+        "date": "15.09.2023",
+        "img": "../img/b_gas_pump_marina.png",
+        "location": {
+            "de": "Washington State, USA",
+            "en": "Washinton State, USA",
+            "fr": "Washington State, États-Unis",
+            "it": "Washington State, Stati Uniti",
+            "jp": "ワシントン Ｓたて、 うさ",
+            "no": "Washington State, USA",
+            "pi": "Washington State, Usa",
+            "sp": "Washington State, Estados Unidos"
+        },
+        "ltlo": [
+            0,
+            0
+        ],
+        "text": {
+            "de": "Benson ist von den Benzinpreisen enttäuscht",
+            "en": "benson is disappointed  by the gas prices",
+            "fr": "benson est déçu par les prix de l'essence",
+            "it": "Benson è deluso dai prezzi del gas",
+            "jp": "ベンソンはガソリン価格にがっかりしている",
+            "no": "benson er skuffet over gassprisene",
+            "pi": "benson is disappointed  by the gas prices",
+            "sp": "Benson está decepcionado por los precios de la gasolina."
+        }
+    },
+    {
+        "date": "15.09.2023",
+        "img": "../img/b_sam_dark.png",
+        "location": {
+            "de": "Washington State, USA",
+            "en": "Washinton State, USA",
+            "fr": "Washington State, États-Unis",
+            "it": "Washington State, Stati Uniti",
+            "jp": "ワシントン Ｓたて、 うさ",
+            "no": "Washington State, USA",
+            "pi": "Washington State, Usa",
+            "sp": "Washington State, Estados Unidos"
+        },
+        "ltlo": [
+            0,
+            0
+        ],
+        "text": {
+            "de": "Benson wird von Sam festgehalten",
+            "en": "benson is being held by sam",
+            "fr": "Benson est détenu par Sam",
+            "it": "Benson è trattenuto da Sam",
+            "jp": "ベンソンはサムに抱かれている",
+            "no": "benson holdes av sam",
+            "pi": "benson is being held by sam",
+            "sp": "Benson está retenido por Sam."
+        }
+    },
+    {
+        "date": "16.09.2023",
+        "img": "../img/b_sunrise_sound.png",
+        "location": {
+            "de": "Washington State, USA",
+            "en": "Washinton State, USA",
+            "fr": "Washington State, États-Unis",
+            "it": "Washington State, Stati Uniti",
+            "jp": "ワシントン Ｓたて、 うさ",
+            "no": "Washington State, USA",
+            "pi": "Washington State, Usa",
+            "sp": "Washington State, Estados Unidos"
+        },
+        "ltlo": [
+            0,
+            0
+        ],
+            "text": {
+            "de": "Benson liebt den Sonnenaufgang",
+            "en": "benson loves the sunrise",
+            "fr": "Benson adore le lever du soleil",
+            "it": "Benson adora l'alba",
+            "jp": "ベンソンは日の出が大好きです",
+            "no": "benson elsker soloppgangen",
+            "pi": "benson loves the sunrise",
+            "sp": "Benson ama el amanecer"
+        }
+    }
+
+
 ]
 
-var db_glamour = [
-    {
+var db_glamour = [{
         "img": "../img/b_boatside.png",
         "date": "03.09.2022",
         "text": {
@@ -4435,7 +4695,7 @@ var db_glamour = [
             "sp": "benson esta sosteniendo la cuerda",
             "de": "Benson hält das Seil",
             "jp": "ベンソンはロープを持っています",
-            "pi": "benson is holding the rope",
+            "pi": "benson is holding the rope"
         },
         "location": {
             "en": "Washington State, USA",
@@ -4448,15 +4708,16 @@ var db_glamour = [
             "pi": "Washington State, USA"
         },
         "ltlo": [0, 0]
-    },
-    
-    
-]
+    },]
 
 
 var pre_coords = {
-    "unknown": [0, 0],
-    "usa": [39.933562, -101.598240],
+    "unknown": [
+        0, 0
+    ],
+    "usa": [
+        39.933562, -101.598240
+    ],
     "norway": [61.903060, 9.401304]
 }
 
@@ -4514,35 +4775,27 @@ var ratings = [
         "text": "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
         "person": "Chell",
         "rating": 5
-    },
-    {
+    }, {
         "text": "im gonna voiceover all of this site in every language available",
         "person": "doe's world",
         "rating": 5
-    },
-    {
+    }, {
         "text": "BENSON IS MY LIFE. I WOULD NOT TRADE HIM FOR ANYTHING.",
         "person": "SVENSON",
         "rating": 6.5
-    },
-    {
+    }, {
         "text": "my brother looks fabulous",
         "person": "finn the duck",
         "rating": 5
-    },
-    {
+    }, {
         "text": "yippee!",
         "person": "anonymous friend",
         "rating": 3
-    },
-    {
+    }, {
         "text": "i love benson so much. benson is our lord and savior, our sweet baby boy. i love this website and i also love its creator.",
         "person": "dakota",
         "rating": 6
     }
-
-
-
 
 
 ]
