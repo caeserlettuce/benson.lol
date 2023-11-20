@@ -4763,7 +4763,386 @@ var img_db = [
         "pi": "[translation error] Olympia, WA",
         "sp": "[translation error] benson found a big waterfall"
       }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_rock1.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.576667043085415,
+        -122.54452630250063
+      ],
+      "text": {
+        "de": "[translation error] benson hides in the rock",
+        "en": "benson hides in the rock",
+        "fr": "[translation error] benson hides in the rock",
+        "it": "[translation error] benson hides in the rock",
+        "jp": "[translation error] benson hides in the rock",
+        "no": "[translation error] benson hides in the rock",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson hides in the rock"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_controlroom.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57798816573799,
+        -122.54940825107747
+      ],
+      "text": {
+        "de": "[translation error] benson is in the windowsill",
+        "en": "benson is in the windowsill",
+        "fr": "[translation error] benson is in the windowsill",
+        "it": "[translation error] benson is in the windowsill",
+        "jp": "[translation error] benson is in the windowsill",
+        "no": "[translation error] benson is in the windowsill",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is in the windowsill"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_bombshell.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57783804466572,
+        -122.55002614377877
+      ],
+      "text": {
+        "de": "[translation error] benson has a bomb",
+        "en": "benson has a bomb",
+        "fr": "[translation error] benson has a bomb",
+        "it": "[translation error] benson has a bomb",
+        "jp": "[translation error] benson has a bomb",
+        "no": "[translation error] benson has a bomb",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson has a bomb"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_rock2.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57802058294359,
+        -122.54477426090045
+      ],
+      "text": {
+        "de": "[translation error] benson loves the beach rock",
+        "en": "benson loves the beach rock",
+        "fr": "[translation error] benson loves the beach rock",
+        "it": "[translation error] benson loves the beach rock",
+        "jp": "[translation error] benson loves the beach rock",
+        "no": "[translation error] benson loves the beach rock",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson loves the beach rock"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_fort1.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57788182100888,
+        -122.54521213131612
+      ],
+      "text": {
+        "de": "[translation error] benson is exploring the fort",
+        "en": "benson is exploring the fort",
+        "fr": "[translation error] benson is exploring the fort",
+        "it": "[translation error] benson is exploring the fort",
+        "jp": "[translation error] benson is exploring the fort",
+        "no": "[translation error] benson is exploring the fort",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is exploring the fort"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_fort2.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57786372716128,
+        -122.5451229478685
+      ],
+      "text": {
+        "de": "[translation error] benson is behind the fence",
+        "en": "benson is behind the fence",
+        "fr": "[translation error] benson is behind the fence",
+        "it": "[translation error] benson is behind the fence",
+        "jp": "[translation error] benson is behind the fence",
+        "no": "[translation error] benson is behind the fence",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is behind the fence"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_brick.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.577754711598416,
+        -122.54996232346623
+      ],
+      "text": {
+        "de": "[translation error] benson found the bricks",
+        "en": "benson found the bricks",
+        "fr": "[translation error] benson found the bricks",
+        "it": "[translation error] benson found the bricks",
+        "jp": "[translation error] benson found the bricks",
+        "no": "[translation error] benson found the bricks",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson found the bricks"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_fireplace.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.577563820730205,
+        -122.55005083636144
+      ],
+      "text": {
+        "de": "[translation error] benson is on top of the fireplace",
+        "en": "benson is on top of the fireplace",
+        "fr": "[translation error] benson is on top of the fireplace",
+        "it": "[translation error] benson is on top of the fireplace",
+        "jp": "[translation error] benson is on top of the fireplace",
+        "no": "[translation error] benson is on top of the fireplace",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is on top of the fireplace"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_fungus.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57802476218417,
+        -122.55033984436578
+      ],
+      "text": {
+        "de": "[translation error] benson is a pretty fun-gi",
+        "en": "benson is a pretty fun-gi",
+        "fr": "[translation error] benson is a pretty fun-gi",
+        "it": "[translation error] benson is a pretty fun-gi",
+        "jp": "[translation error] benson is a pretty fun-gi",
+        "no": "[translation error] benson is a pretty fun-gi",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is a pretty fun-gi"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_concrete.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57824555461317,
+        -122.5477577738354
+      ],
+      "text": {
+        "de": "[translation error] benson likes the concrete slab",
+        "en": "benson likes the concrete slab",
+        "fr": "[translation error] benson likes the concrete slab",
+        "it": "[translation error] benson likes the concrete slab",
+        "jp": "[translation error] benson likes the concrete slab",
+        "no": "[translation error] benson likes the concrete slab",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson likes the concrete slab"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_olalla_wood.png",
+      "location": {
+        "en": "Olalla, WA"
+      },
+      "ltlo": [
+        47.42194944454048,
+        -122.54258784305658
+      ],
+      "text": {
+        "de": "[translation error] benson is enjoying the water",
+        "en": "benson is enjoying the water",
+        "fr": "[translation error] benson is enjoying the water",
+        "it": "[translation error] benson is enjoying the water",
+        "jp": "[translation error] benson is enjoying the water",
+        "no": "[translation error] benson is enjoying the water",
+        "pi": "[translation error] Olalla, WA",
+        "sp": "[translation error] benson is enjoying the water"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_beach.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57658284048594,
+        -122.54463216016424
+      ],
+      "text": {
+        "de": "[translation error] benson is at the tree",
+        "en": "benson is at the tree",
+        "fr": "[translation error] benson is at the tree",
+        "it": "[translation error] benson is at the tree",
+        "jp": "[translation error] benson is at the tree",
+        "no": "[translation error] benson is at the tree",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is at the tree"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_rock3.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57813578247973,
+        -122.54640187991512
+      ],
+      "text": {
+        "de": "[translation error] benson has climbed the moss",
+        "en": "benson has climbed the moss",
+        "fr": "[translation error] benson has climbed the moss",
+        "it": "[translation error] benson has climbed the moss",
+        "jp": "[translation error] benson has climbed the moss",
+        "no": "[translation error] benson has climbed the moss",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson has climbed the moss"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_fort3.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57787970830263,
+        -122.54511158813234
+      ],
+      "text": {
+        "de": "[translation error] benson is exploring more of the fort",
+        "en": "benson is exploring more of the fort",
+        "fr": "[translation error] benson is exploring more of the fort",
+        "it": "[translation error] benson is exploring more of the fort",
+        "jp": "[translation error] benson is exploring more of the fort",
+        "no": "[translation error] benson is exploring more of the fort",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is exploring more of the fort"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_olalla_post.png",
+      "location": {
+        "en": "Olalla, WA"
+      },
+      "ltlo": [
+        47.421938555941345,
+        -122.54257040869865
+      ],
+      "text": {
+        "de": "[translation error] benson is on the signpost",
+        "en": "benson is on the signpost",
+        "fr": "[translation error] benson is on the signpost",
+        "it": "[translation error] benson is on the signpost",
+        "jp": "[translation error] benson is on the signpost",
+        "no": "[translation error] benson is on the signpost",
+        "pi": "[translation error] Olalla, WA",
+        "sp": "[translation error] benson is on the signpost"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_tree.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57801707649462,
+        -122.5502922764808
+      ],
+      "text": {
+        "de": "[translation error] benson is comfortable between the trees",
+        "en": "benson is comfortable between the trees",
+        "fr": "[translation error] benson is comfortable between the trees",
+        "it": "[translation error] benson is comfortable between the trees",
+        "jp": "[translation error] benson is comfortable between the trees",
+        "no": "[translation error] benson is comfortable between the trees",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is comfortable between the trees"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_brick2.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        0,
+        0
+      ],
+      "text": {
+        "de": "[translation error] benson is balancing on the building",
+        "en": "benson is balancing on the building",
+        "fr": "[translation error] benson is balancing on the building",
+        "it": "[translation error] benson is balancing on the building",
+        "jp": "[translation error] benson is balancing on the building",
+        "no": "[translation error] benson is balancing on the building",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is balancing on the building"
+      }
+    },
+    {
+      "date": "19.11.2023",
+      "img": "../img/b_manchester_chain.png",
+      "location": {
+        "en": "Manchester, WA"
+      },
+      "ltlo": [
+        47.57798991992598,
+        -122.54483347781292
+      ],
+      "text": {
+        "de": "[translation error] benson is on the chain",
+        "en": "benson is on the chain",
+        "fr": "[translation error] benson is on the chain",
+        "it": "[translation error] benson is on the chain",
+        "jp": "[translation error] benson is on the chain",
+        "no": "[translation error] benson is on the chain",
+        "pi": "[translation error] Manchester, WA",
+        "sp": "[translation error] benson is on the chain"
+      }
     }
+  
   
 
 
