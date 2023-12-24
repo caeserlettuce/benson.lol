@@ -5141,7 +5141,113 @@ var img_db = [
         "pi": "[translation error] Manchester, WA",
         "sp": "[translation error] benson is on the chain"
       }
+    },
+    {
+      "date": "22.12.2023",
+      "img": "../img/b_port_redbuilding1.png",
+      "location": {
+        "en": "Port of Tacoma, WA"
+      },
+      "ltlo": [
+        47.25496892701486,
+        -122.43055586926587
+      ],
+      "text": {
+        "de": "[translation error] benson likes the red building",
+        "en": "benson likes the red building",
+        "fr": "[translation error] benson likes the red building",
+        "it": "[translation error] benson likes the red building",
+        "jp": "[translation error] benson likes the red building",
+        "no": "[translation error] benson likes the red building",
+        "pi": "[translation error] Port of Tacoma, WA",
+        "sp": "[translation error] benson likes the red building"
+      }
+    },
+    {
+      "date": "22.12.2023",
+      "img": "../img/b_port_tracks1.png",
+      "location": {
+        "en": "Port of Tacoma, WA"
+      },
+      "ltlo": [
+        47.25554465217747,
+        -122.4315308232144
+      ],
+      "text": {
+        "de": "[translation error] benson is watching for trains",
+        "en": "benson is watching for trains",
+        "fr": "[translation error] benson is watching for trains",
+        "it": "[translation error] benson is watching for trains",
+        "jp": "[translation error] benson is watching for trains",
+        "no": "[translation error] benson is watching for trains",
+        "pi": "[translation error] Port of Tacoma, WA",
+        "sp": "[translation error] benson is watching for trains"
+      }
+    },
+    {
+      "date": "22.12.2023",
+      "img": "../img/b_port_tracks2.png",
+      "location": {
+        "en": "Port of Tacoma, WA"
+      },
+      "ltlo": [
+        47.25549549879421,
+        -122.43150198946859
+      ],
+      "text": {
+        "de": "[translation error] benson doesn't see any trains",
+        "en": "benson doesn't see any trains",
+        "fr": "[translation error] benson doesn't see any trains",
+        "it": "[translation error] benson doesn't see any trains",
+        "jp": "[translation error] benson doesn't see any trains",
+        "no": "[translation error] benson doesn't see any trains",
+        "pi": "[translation error] Port of Tacoma, WA",
+        "sp": "[translation error] benson doesn't see any trains"
+      }
+    },
+    {
+      "date": "22.12.2023",
+      "img": "../img/b_zoolights.png",
+      "location": {
+        "en": "Point Defiance Zoo, WA"
+      },
+      "ltlo": [
+        47.305173092079585,
+        -122.52114648137767
+      ],
+      "text": {
+        "de": "[translation error] benson loves zoolights",
+        "en": "benson loves zoolights",
+        "fr": "[translation error] benson loves zoolights",
+        "it": "[translation error] benson loves zoolights",
+        "jp": "[translation error] benson loves zoolights",
+        "no": "[translation error] benson loves zoolights",
+        "pi": "[translation error] Point Defiance Zoo, WA",
+        "sp": "[translation error] benson loves zoolights"
+      }
+    },
+    {
+      "date": "22.12.2023",
+      "img": "../img/b_port_redbuilding2.png",
+      "location": {
+        "en": "Port of Tacoma, WA"
+      },
+      "ltlo": [
+        47.25494571544848,
+        -122.43077782205808
+      ],
+      "text": {
+        "de": "[translation error] benson is annoyed because someone broke a window",
+        "en": "benson is annoyed because someone broke a window",
+        "fr": "[translation error] benson is annoyed because someone broke a window",
+        "it": "[translation error] benson is annoyed because someone broke a window",
+        "jp": "[translation error] benson is annoyed because someone broke a window",
+        "no": "[translation error] benson is annoyed because someone broke a window",
+        "pi": "[translation error] Port of Tacoma, WA",
+        "sp": "[translation error] benson is annoyed because someone broke a window"
+      }
     }
+  
   
   
 
