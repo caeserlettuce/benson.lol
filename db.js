@@ -5246,7 +5246,92 @@ var img_db = [
         "pi": "[translation error] Port of Tacoma, WA",
         "sp": "[translation error] benson is annoyed because someone broke a window"
       }
+    },    
+    {
+        "date": "10.02.2024",
+        "img": "../img/b_brewerypark_concrete.png",
+        "location": {
+        "de": "Olympia, WA",
+        "en": "Olympia, WA",
+        "fr": "Olympie, Washington",
+        "it": "Olimpia, WA",
+        "jp": "ワシントン州オリンピア",
+        "no": "Olympia, WA",
+        "pi": "Olympia, WA",
+        "sp": "Olimpia, Washington"
+        },
+        "ltlo": [
+            47.01512849471066,
+            -122.9048971569098
+        ],
+        "text": {
+        "de": "Benson ist auf dem Beton",
+        "en": "benson is on the concrete",
+        "fr": "Benson est sur le béton",
+        "it": "Benson è sul cemento",
+        "jp": "ベンソンはコンクリートの上にいる",
+        "no": "benson er på betongen",
+        "pi": "benson is on the concrete",
+        "sp": "Benson está en el concreto"
+        }
+    },
+    {
+        "date": "10.02.2024",
+        "img": "../img/b_old_brewery_trail.png",
+        "location": {
+        "de": "Olympia, WA",
+        "en": "Olympia, WA",
+        "fr": "Olympie, Washington",
+        "it": "Olimpia, WA",
+        "jp": "ワシントン州オリンピア",
+        "no": "Olympia, WA",
+        "pi": "Olympia, WA",
+        "sp": "Olimpia, Washington"
+        },
+        "ltlo": [
+            47.01926672504118,
+            -122.90355795902836
+        ],
+        "text": {
+        "de": "Benson mag die alte Brauerei",
+        "en": "benson likes the old brewery",
+        "fr": "Benson aime la vieille brasserie",
+        "it": "A Benson piace il vecchio birrificio",
+        "jp": "ベンソンは古い醸造所が好き",
+        "no": "benson liker det gamle bryggeriet",
+        "pi": "benson likes the old brewery",
+        "sp": "A Benson le gusta la vieja cervecería."
+        }
+    },
+    {
+        "date": "10.02.2024",
+        "img": "../img/b_brewerypark_yellowduck.png",
+        "location": {
+        "de": "Olympia, WA",
+        "en": "Olympia, WA",
+        "fr": "Olympie, Washington",
+        "it": "Olimpia, WA",
+        "jp": "ワシントン州オリンピア",
+        "no": "Olympia, WA",
+        "pi": "Olympia, WA",
+        "sp": "Olimpia, Washington"
+        },
+        "ltlo": [
+            47.019228340508946,
+            -122.90365536864188
+        ],
+        "text": {
+        "de": "Benson hat einen Freund gefunden",
+        "en": "benson found a friend",
+        "fr": "Benson a trouvé un ami",
+        "it": "Benson ha trovato un amico",
+        "jp": "ベンソンは友達を見つけました",
+        "no": "benson fant en venn",
+        "pi": "benson found a friend",
+        "sp": "Benson encontró un amigo"
+        }
     }
+
   
   
   
