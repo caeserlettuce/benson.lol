@@ -30,11 +30,21 @@ var disable_rightclick = [  // same as previous but for disabling right click (n
 ]
 
 for (i in disable_dragging) {
-    document.getElementById(disable_dragging[i]).onmousedown = function() { return false; };
+    try {
+        document.getElementById(disable_dragging[i]).onmousedown = function() { return false; };
+    } catch (err) {
+        console.log("oopy doopy an error");
+        console.error(err);
+    }
 }
 
 for (i in disable_rightclick) {
-    document.getElementById(disable_rightclick[i]).addEventListener('contextmenu', event => event.preventDefault());
+    try {
+        document.getElementById(disable_rightclick[i]).addEventListener('contextmenu', event => event.preventDefault());
+    } catch (err) {
+        console.log("oopy doopy an error");
+        console.error(err);
+    }
 }
 
 var popa;
@@ -100,7 +110,13 @@ function toggle_sc() {
     }
 }
 
-document.getElementById("langdisc").style.display = "none";
+try {
+    document.getElementById("langdisc").style.display = "none";
+} catch (err) {
+    console.log("oopy doopy an error");
+    console.error(err);
+}
+
 
 
 cheese();
